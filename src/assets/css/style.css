@@ -31,6 +31,77 @@ body {
         color: #EAE3D2;
     }
 
+
+    /*********** HEADING *************/
+
+    .heading-wraper{
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .heading-container{
+        width: 80%;
+        margin: 40% auto 15%;
+        text-align: left;
+        font-family: 'Sarabun', sans-serif;
+        font-weight: 300;
+    }
+
+    .heading-container > p{
+        font-size: 2.3rem;
+        margin: 3px;
+    }
+    
+    .line2-heading{
+        padding-left: 15%;
+    }
+
+    .profesion{
+        font-family: 'Sarabun', sans-serif;
+        font-weight: 600;
+        font-size: 1.1rem;
+        margin-bottom: 3px;
+        margin-left:7%;
+
+    }
+
+    .subject{
+        font-family: 'Sarabun', sans-serif;
+        font-size: 0.700rem;
+        text-align: center;
+        margin-top: 0px;
+        margin-left: 33%;
+    }
+
+    .separator{
+     position: relative;
+     left:100px;
+      height: 1px;
+      width: 50%;
+      background-color: #EAE3D2;
+    }
+
+    /******** QUOTE SECTION **********/
+
+    .quote-wraper{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .quote-container{
+        margin: 0 auto;
+        width: 60%;
+        font-size: 0.750rem;
+        text-align: center;
+        color: #EAE3D2;
+    }
+
+    .quote-container > h2{
+        font-family: 'Fasthand', cursive;
+        font-weight: 300;
+
+    }
 }
 
 @media (min-width: 600px) {
