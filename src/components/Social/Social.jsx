@@ -6,8 +6,8 @@ import FacebookIcon from "./FacebookIcon";
 
 function Social(){
     return(
-        <div className="social-wraper">
-            <div className="social-container">
+        <div className="container-fluid social-wraper">
+            <div className="container-fluid social-container">
                 <LinkedlinIcon />
                 <GithubIcon />
                 <FacebookIcon />
