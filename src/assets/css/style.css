@@ -210,6 +210,35 @@ body {
         background-color: #EAE3D2;
     }
 
+    .me-section > .section-content-container{
+        letter-spacing: 1px;
+        text-align: left;
+        font-family: 'Sarabun', sans-serif;
+        font-weight: 600;
+        color: #1C3879;
+    }
+
+    .me-section > .section-content-container p{
+        letter-spacing: 1px;
+        font-family: 'Sarabun', sans-serif;
+        font-weight: 600;
+        color: #1C3879;
+    }
+    .me-section > .section-content-container h6{
+        font-style: italic;
+        margin: auto 1.8rem 2rem;
+        letter-spacing: 1px;
+        font-family: 'Sarabun', sans-serif;
+        font-weight: 800;
+        color: #1C3879;
+    }
+    
+    .me-section .section-content-container .quote2-container{
+        font-weight: 800;
+        margin: 2rem auto;
+        text-align: center;
+    }
+
 }
 
 @media (min-width: 600px) {
