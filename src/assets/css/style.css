@@ -1,7 +1,16 @@
+
+/* BLUE:    #1C3879
+CANELA: #EAE3D2; */
+
 body {
     margin: 0;
     padding: 0;
     background-color: #1C3879;
+}
+
+.section-content-container{
+    width: 100%;
+    padding: 10% 8%;
 }
 
 @media (min-width: 320px) {
@@ -120,7 +129,8 @@ body {
         bottom: 0;
         left: 0;
     } */
-    .nav-bar-wraper{
+
+    .main-navbar-wraper{
         width: 100%;
         padding: 0;
         margin: 100% auto 0;
@@ -129,7 +139,7 @@ body {
         bottom: 0;
     }
 
-    .nav-bar-container{
+    .navbar-container{
         display: flex;
         flex-direction: row;
         padding: 3px 3px 0;
@@ -153,10 +163,36 @@ body {
         color: #EAE3D2;
     }
 
+    
+    /********** NAVBAR SECTIONS *******/
+    .secondary-navbar-wraper{
+        position: relative;
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+    }
+    
+    .secondary-navbar-wraper .navbar-item-box{
+        width: 32%;
+        height: 1.7rem;
+        text-align: center;
+        border-bottom: solid 1px #1C3879;
+        border-right: solid 1px #1C3879;
+        border-left: solid 1px #1C3879;
+     }
+
+     .secondary-navbar-wraper .navbar-container{
+        padding-top: 0;
+        padding-bottom: 3px;
+     }
+
+     .secondary-navbar-wraper .navbar-item-box > p{
+        padding: 4px;
+        font-size: 0.750em;
+        color: #1C3879;
+    }
 
     /*********** ME SECTION ***********/
-
-
     
     .section-wraper{
         position: relative;
@@ -166,12 +202,14 @@ body {
     }
 
     .me-section{
+        padding: 0;
         position: absolute;
         top: 0;
         left: 0;
         min-height: 100vh;
         background-color: #EAE3D2;
     }
+
 }
 
 @media (min-width: 600px) {
