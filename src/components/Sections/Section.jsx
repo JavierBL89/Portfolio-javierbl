@@ -1,4 +1,5 @@
 import React from "react";
+import Background from "../Background/Background";
 import NavBarItem from "../NavigationBar/NavBarItem";
 import Projects from "../Projects/Projects";
 import Me from "./Me";
@@ -18,6 +19,7 @@ function Section(){
                     </div>
                 <Me/>
                 <Projects/>
+                <Background/>
                 </div>
             </div>
     );

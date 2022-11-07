@@ -3,7 +3,7 @@ import React from "react";
 
 function Hobbies(){
     return (
-        <div className="container fluid hobbies-wraper" id="hobbies-wraper">
+        <div className="container-fluid hobbies-wraper" id="hobbies-wraper">
             <div className="container-fluid hobbies-container text-center" id="hobbies-container">
                 <div className="row">
                     <h4 className="hobbies-title text-start">I enjoy...</h4>
