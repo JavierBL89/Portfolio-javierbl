@@ -1,6 +1,6 @@
 import React from "react";
 import NavBarItem from "./NavBarItem";
-import Section from "./Section";
+import Section from "../Sections/Section";
 
 function NavigationBar(){
     return(
