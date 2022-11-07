@@ -275,6 +275,23 @@ body {
 }
 
 
+/************ PROJECTS SECTION */
+
+.project-card{
+    max-width: 410px;
+    margin-bottom: 2rem;
+}
+
+.project-img{
+    height: 150px;
+    max-width: 215px;
+    background-color: blueviolet;
+}
+
+.project-tech{
+   max-width: 108px;
+    background-color: brown;
+}
 
 }
 

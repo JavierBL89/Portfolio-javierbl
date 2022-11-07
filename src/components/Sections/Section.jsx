@@ -17,6 +17,7 @@ function Section(){
                         </div>
                     </div>
                 <Me/>
+                <Projects/>
                 </div>
             </div>
     );
