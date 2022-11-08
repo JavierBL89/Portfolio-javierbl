@@ -11,7 +11,13 @@ function Background(){
                     <Heading className="background-heading" text="IT"/>
                     <Course />
                     <Course />
-                    <div className="separator"></div>
+
+                    <div className="dots mt- mb-5 d-flex text-start">
+                       <div className="dot"></div>
+                       <div className="dot"></div>
+                       <div className="dot"></div>
+                    </div>
+                    
                     <Heading className="background-heading mb-4" text="Hospitality Industry"/>
                     <p>
                         I got my very first job in a Restaurant at the age of 16,
