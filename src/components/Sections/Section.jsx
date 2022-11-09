@@ -1,5 +1,6 @@
 import React from "react";
 import Background from "../Background/Background";
+import Contact from "../Contact/Contact";
 import NavBarItem from "../NavigationBar/NavBarItem";
 import Projects from "../Projects/Projects";
 import Me from "./Me";
@@ -9,7 +10,7 @@ function Section(){
 
     return(
             <div className="container-fluid section-wraper" >
-                <div className="container-fluid section-container">
+                <div className=" d-none container-fluid section-container">
                     <div className="container-fluid secondary-navbar-wraper" id="secondary-navbar">
                         <div className="container-fluid navbar-container">
                             <NavBarItem className="nav-item me-link" id="me-link" text="ME"/>
@@ -21,6 +22,8 @@ function Section(){
                 <Projects/>
                 <Background/>
                 </div>
+                <Contact />
+
             </div>
     );
 };
