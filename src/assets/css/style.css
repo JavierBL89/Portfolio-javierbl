@@ -410,6 +410,185 @@ min-height: 100vh;
 
 @media (min-width: 600px) {
 
+    
+    .main-wrapper{
+        width: 100%;
+        margin: 0 auto;
+        min-height: 100%;
+    }
+
+    .social-wraper{
+        width: 100%;
+        margin: 7% auto auto;
+        min-height: 100%;
+    }
+
+    .social-container{
+        display: flex;
+        margin: 0 auto;
+        flex-direction: row;
+        width: 52%;
+        min-width: 10rem;
+        max-width: 16rem;
+        justify-content: space-evenly;
+    }
+
+    .social-container > i, .heading-wraper *{
+        color: #EAE3D2;
+    }
+
+
+    /*********** HEADING *************/
+
+    .heading-wraper{
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .heading-container{
+        max-width: 16em;
+        margin: 5em auto 2em;
+        text-align: left;
+        font-family: 'Sarabun', sans-serif;
+        font-weight: 300;
+    }
+
+    .heading-container > p{
+        font-size: 2.5rem;
+        margin: 3px;
+    }
+    
+    .line2-heading{
+        padding-left: 1.8rem;
+        margin-bottom: 0px;
+    }
+    
+    .profesion{
+        font-family: 'Sarabun', sans-serif;
+        font-weight: 600;
+        font-size: 1rem;
+        margin-top: 5px;
+        margin-bottom: 3px;
+        margin-left: 1.7rem;
+    }
+    
+    .junior{
+        font-weight: 300;
+    }
+
+    .subject{
+        font-family: 'Sarabun', sans-serif;
+        font-size: 0.725rem;
+        margin-top: 0px;
+        margin-left: 8.2rem;
+    }
+
+    .separator{
+     position: relative;
+     margin-top: 0;
+     left:80px;
+      height: 1px;
+      width: 8.1rem;
+      background-color: #EAE3D2;
+    }
+
+    /******** QUOTE SECTION **********/
+
+    .quote-wraper{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .quote-container{
+        margin: 0 auto 2rem;
+        max-width: 16em;
+        max-height: 100px;
+        text-align: center;
+        color: #EAE3D2;
+    }
+
+    .quote-container > h2{
+        font-family: 'Fasthand', cursive;
+        font-size: 1.1rem;
+        font-weight: 300;
+    }
+
+    /********** NAVIATION BAR **********/
+
+    /* .sections-wraper{
+        width: 100%;
+        margin: 100% auto 0;
+
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    } */
+
+    .main-navbar-wraper{
+        width: 100%;
+        padding: 0;
+        margin: 100% auto 0;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    .navbar-container{
+        display: flex;
+        flex-direction: row;
+        padding: 3px 3px 0;
+        width: 100%;
+        max-width: 750px;
+        margin: 0 auto;
+        justify-content: space-evenly;
+    }
+    
+    .navbar-item-box{
+       width: 32%;
+       height: 1.8rem;
+       text-align: center;
+       border-top: solid 1px #EAE3D2;
+       border-right: solid 1px #EAE3D2;
+       border-left: solid 1px #EAE3D2;
+    }
+
+    .navbar-item-box > p{
+        padding: 5px;
+        font-size: 0.800em;
+        color: #EAE3D2;
+    }
+
+    
+    /********** NAVBAR SECTIONS *******/
+    .secondary-navbar-wraper{
+        position: relative;
+        width: 100%;
+        padding: 0;
+        margin: 0 auto 3rem;
+    }
+    
+    .secondary-navbar-wraper .navbar-item-box{
+        width: 32%;
+        height: 1.8rem;
+        text-align: center;
+        border-bottom: solid 1px #1C3879;
+        border-right: solid 1px #1C3879;
+        border-left: solid 1px #1C3879;
+     }
+
+     .secondary-navbar-wraper .navbar-container{
+        padding-top: 0;
+        padding-bottom: 3px;
+     }
+
+     .secondary-navbar-wraper .navbar-item-box > p{
+        padding: 5px;
+        font-size: 0.800em;
+        color: #1C3879;
+    }
+
+    
 }
 
 @media (min-width: 900px) {
