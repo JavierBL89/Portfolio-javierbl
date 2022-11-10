@@ -10,7 +10,7 @@ body {
 
 .section-content-container{
     width: 100%;
-    padding: 10% 8%;
+    padding: 2rem 1.7rem;
 }
 
 @media (min-width: 320px) {
@@ -220,11 +220,14 @@ body {
     } */
 
     .me-container > .section-content-container{
+        margin: 0 auto;
         letter-spacing: 1px;
         text-align: left;
         font-family: 'Sarabun', sans-serif;
         font-weight: 600;
         color: #1C3879;
+        max-width: 470px;
+
     }
 
     .me-container > .section-content-container p{
@@ -251,10 +254,15 @@ body {
 
     /********* HOBBIES ****/
 
+    .hobbies-title-container{
+        max-width: 470px;
+        margin: 3rem auto auto;
+        padding-left: 1.4rem;
+    }
+
     .hobbies-title{
         color: #1C3879;  
         margin-bottom: 3rem;
-    
     }
  
     .hobbies-container {
@@ -263,6 +271,10 @@ body {
 
  .hobbies-container .row {
     margin-bottom: 2rem;
+ }
+
+ #new-hobbie{
+    font-size: 0.700rem;
  }
 
  .hobbies-container .row .personality-quote{
@@ -322,6 +334,7 @@ ul{
 }
 
 .dots{}
+
 .dot{
     width: 3px;
     height: 3px;
@@ -404,7 +417,6 @@ min-height: 100vh;
     color: #001253;
     font-weight: 600;
 }
-
 
 }
 
@@ -588,7 +600,102 @@ min-height: 100vh;
         color: #1C3879;
     }
 
+    /*********** ME SECTION ***********/
+
+    .section-wraper{
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+        background-color: #a3a3a3;
+    }
     
+    .section-container{
+        padding: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-height: 100vh;
+        background-color: #EAE3D2;
+    }
+
+    /* .me-container{
+        padding: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-height: 100vh;
+        background-color: #EAE3D2;
+    } */
+
+    .me-container, .hobbies-container{
+        max-width: 630px;
+
+    }
+
+    .me-container > .section-content-container{
+        letter-spacing: 1px;
+        text-align: left;
+        font-family: 'Sarabun', sans-serif;
+        font-weight: 600;
+        color: #1C3879;
+        max-width: 470px;
+
+    }
+
+    .me-container > .section-content-container p{
+        font-size: 1.050rem;
+        letter-spacing: 1px;
+        font-family: 'Sarabun', sans-serif;
+        font-weight: 600;
+        color: #1C3879;
+    }
+
+    .me-container > .section-content-container h6{
+        font-size: 1.050rem;
+        font-style: italic;
+        margin: auto 1.8rem 2rem;
+        letter-spacing: 1px;
+        font-family: 'Sarabun', sans-serif;
+        font-weight: 800;
+        color: #1C3879;
+    }
+    
+    .me-container .section-content-container .quote2-container{
+        font-weight: 800;
+        margin: 2rem auto;
+        text-align: center;
+    }
+
+    /********* HOBBIES ****/
+
+    .hobbies-title-container{
+        max-width: 470px;
+        margin: 3rem auto auto;
+        padding-left: 1.7rem;
+    }
+
+    .hobbies-title{
+        color: #1C3879;  
+        margin-bottom: 3rem;
+        font-size: 1.6rem;
+    }
+
+ .hobbies-container .row {
+    margin-bottom: 2rem;
+ }
+
+ .hobbies-container .row .personality-quote{
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 800;
+    color: #1C3879;
+    font-size: 1.1rem;
+}
+
+
+
 }
 
 @media (min-width: 900px) {
