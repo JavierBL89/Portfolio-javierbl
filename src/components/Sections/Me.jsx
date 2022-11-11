@@ -6,7 +6,7 @@ import NavBarItem from "../NavigationBar/NavBarItem";
 function Me(){
     return (
             <section id="me-section">
-                <div className="container-fluid me-container">
+                <div className="d-none container-fluid me-container">
                 {/* <div className="container-fluid secondary-navbar-wraper" id="secondary-navbar">
                     <div className="container-fluid navbar-container">
                         <NavBarItem className="nav-item me-link" id="me-link" text="ME"/>

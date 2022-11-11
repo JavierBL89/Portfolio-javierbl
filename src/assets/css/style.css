@@ -695,6 +695,37 @@ min-height: 100vh;
 }
 
 
+/************ PROJECTS SECTION */
+
+.project-card{
+    max-width: 410px;
+    margin-bottom: 2rem;
+}
+
+.project-img{
+    height: 165px;
+    max-width: 230px;
+    background-color: blueviolet;
+}
+
+.project-tech{
+   max-width: 108px;
+    background-color: brown;
+}
+
+.project-card h6{
+    margin-bottom: 1rem;
+    font-size:1.1rem;
+}
+
+.project-description{
+    letter-spacing: 1px;
+    margin-top: 1rem;
+}
+small{
+    font-size: 1rem;
+}
+
 
 }
 
