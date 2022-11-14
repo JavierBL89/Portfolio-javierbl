@@ -10,7 +10,7 @@ function Section(){
 
     return(
             <div className="container-fluid section-wraper" >
-                <div className="d-none container-fluid section-container">
+                <div className="container-fluid section-container">
                     <div className="container-fluid secondary-navbar-wraper" id="secondary-navbar">
                         <div className="container-fluid navbar-container">
                             <NavBarItem className="nav-item me-link" id="me-link" text="ME"/>

@@ -671,7 +671,6 @@ min-height: 100vh;
         font-weight: 600;
         color: #1C3879;
         max-width: 470px;
-
     }
 
     .me-container > .section-content-container p{
@@ -754,6 +753,7 @@ min-height: 100vh;
     letter-spacing: 1px;
     margin-top: 1rem;
 }
+
 small{
     font-size: 1rem;
 }
@@ -813,8 +813,6 @@ min-height: 100vh;
 
 .contact-container h3{
     text-align: center;
-    /* color: #fefefe; */
-    /* color: rgb(255, 255, 255); */
     color: #f1f1f1;
     font-family: 'Sarabun', sans-serif;
     font-size: 1.6rem;
@@ -846,9 +844,7 @@ min-height: 100vh;
     font-size: 0.950rem;
     letter-spacing: 2px;
     font-style: italic;
-    /* color:#c6c6c6; */
     color: rgb(254, 234, 234);
-
 }
 
 #contact-form button{
@@ -866,6 +862,7 @@ min-height: 100vh;
     color: #001253;
     font-weight: 600;
 }
+
 }
 
 @media (min-width: 900px) {
@@ -997,6 +994,61 @@ min-height: 100vh;
         font-weight: 300;
     }
 
+/******************* MAIN NAVBAR*/
+    .navbar-container{
+        display: flex;
+        flex-direction: row;
+        padding: 5px 3px 0;
+        width: 100%;
+        max-width: 880px;
+        margin: 0 auto;
+        justify-content: space-evenly;
+    }
+    
+    .navbar-item-box{
+       width: 32%;
+       height: 2.5rem;
+       text-align: center;
+       border-top: solid 1px #EAE3D2;
+       border-right: solid 1px #EAE3D2;
+       border-left: solid 1px #EAE3D2;
+    }
+
+    .navbar-item-box > p{
+        padding: 8px;
+        font-size: 1em;
+        font-weight: 400;
+        color: #EAE3D2;
+    }
+
+    
+    /********** SECONDARY NAVBAR *******/
+    .secondary-navbar-wraper{
+        position: relative;
+        width: 100%;
+        padding: 0;
+        margin: 0 auto 3rem;
+    }
+    
+    .secondary-navbar-wraper .navbar-item-box{
+        width: 32%;
+        height: 2.5rem;
+        text-align: center;
+        border-bottom: solid 1px #1C3879;
+        border-right: solid 1px #1C3879;
+        border-left: solid 1px #1C3879;
+     }
+
+     .secondary-navbar-wraper .navbar-container{
+        padding-top: 0;
+        padding-bottom: 3px;
+     }
+
+     .secondary-navbar-wraper .navbar-item-box > p{
+        padding: 8px;
+        font-size: 1em;
+        color: #1C3879;
+    }
 
 }
 
