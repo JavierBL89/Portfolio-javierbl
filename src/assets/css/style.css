@@ -36,7 +36,6 @@ ul li{
      line-height: 1.3rem;
  }
  
- 
 
 @media (min-width: 320px) {
 
@@ -309,15 +308,20 @@ ul li{
 
 /************ PROJECTS SECTION */
 
+.projects-container .row{
+    margin: 0 auto ;
+
+}
 .project-card{
     max-width: 410px;
-    margin-bottom: 2rem;
+    margin-bottom: 2rem;    
 }
 
 .project-img{
     height: 150px;
     max-width: 215px;
     background-color: blueviolet;
+
 }
 
 .project-tech{
@@ -716,7 +720,6 @@ min-height: 100vh;
     font-size: 1.1rem;
 }
 
-
 /************ PROJECTS SECTION */
 
 .project-card{
@@ -1059,15 +1062,6 @@ min-height: 100vh;
         background-color: #EAE3D2;
     }
 
-    /* .me-container{
-        padding: 0;
-        position: absolute;
-        top: 0;
-        left: 0;
-        min-height: 100vh;
-        background-color: #EAE3D2;
-    } */
-
     .me-container, .hobbies-container{
         max-width: 730px;
 
@@ -1133,6 +1127,63 @@ min-height: 100vh;
     font-weight: 800;
     color: #1C3879;
     font-size: 1.1rem;
+}
+
+/************ PROJECTS SECTION */
+
+
+.projects-wraper{
+    margin-top: 6rem;
+}
+
+.project-card{
+    max-width: 900px;
+    margin-bottom: 6rem;
+    color:#1C3879;
+
+}
+
+.project-img{
+    height: 200px;
+    max-width: 370px;
+    background-color: blueviolet;
+}
+
+.project-tech{
+   max-width: 370px; 
+   background-color: brown;
+}
+
+.project-tech-column{
+    display: flex;
+   justify-content: space-evenly;
+ }
+
+
+.project-tech img{
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+ }
+
+.project-card h6{
+    margin-bottom: 1.5rem;
+    font-size:1.7rem;
+    /* color: #1C3879; */
+    color: rgb(252, 252, 252);
+    font-weight: 800;
+}
+
+
+.project-description{
+    letter-spacing: 1px;
+    margin-top: 4rem;
+    font-weight: 600;
+    color: #1C3879;
+}
+
+small{
+    font-size: 1rem;
 }
 }
 
