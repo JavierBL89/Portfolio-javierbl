@@ -36,13 +36,13 @@ function Hobbies(){
                     </div>
                     <div className="col-sm-12 col-lg-4">
                         <div className="row">
-                            <div className="col-6 col-lg-4">
+                            <div className="col-6 col-lg-12">
                             <img src="https://img.icons8.com/external-avoca-kerismaker/52/null/external-Coding-Laptop-software-development-avoca-kerismaker.png" alt="programming"/>
                             <p>
                             <i id="new-hobbie">(new hobbie)</i>
                             </p>
                             </div>
-                            <div className="col-6 col-lg-4">
+                            <div className="col-6 col-lg-12">
                             <img src="https://img.icons8.com/external-stickers-smashing-stocks/60/null/external-Learning-creativity-stickers-pack-stickers-smashing-stocks.png" alt="learning"/>
                             </div>
                         </div>
