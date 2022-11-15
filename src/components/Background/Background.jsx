@@ -7,18 +7,16 @@ import Contact from "../Contact/Contact";
 function Background(){
     return (
         <section id="background-section">
-            <div className="container-fluid background-wraper" id="background-wraper">
+            <div className="d-none container-fluid background-wraper" id="background-wraper">
                 <div className="container-fluid background-container" id="background-container">
                     <Heading className="background-heading" text="IT"/>
                     <Course />
                     <Course />
-
                     <div className="dots mt- mb-5 d-flex text-start">
                        <div className="dot"></div>
                        <div className="dot"></div>
                        <div className="dot"></div>
                     </div>
-                    
                     <Heading className="background-heading mb-4" text="Hospitality Industry"/>
                     
                     <div className="hospitality-container-wraper">
