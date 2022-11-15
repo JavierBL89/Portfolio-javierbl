@@ -1451,7 +1451,6 @@ ul{
 
     .me-container, .hobbies-container{
         max-width: 730px;
-
     }
 
     .me-container > .section-content-container{
@@ -1514,6 +1513,60 @@ ul{
     color: #1C3879;
     font-size: 1.1rem;
 }
+
+/************ PROJECTS SECTION */
+
+.projects-wraper{
+    margin-top: 6rem;
+}
+
+.project-card{
+    max-width: 1000px;
+    margin-bottom: 7rem;
+    color:#1C3879;
+
+}
+
+.project-img{
+    /* height: 230px; */
+    height:11rem;
+    max-width: 17rem;
+    background-color: blueviolet;
+}
+
+.project-tech{
+    max-width: 17rem;
+    background-color: brown;
+}
+
+.project-tech-column{
+    display: flex;
+   justify-content: space-evenly;
+ }
+
+.project-tech img{
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+ }
+
+.project-card h6{
+    margin-bottom: 1.5rem;
+    /* color: #1C3879; */
+    color: rgb(252, 252, 252);
+    font-weight: 800;
+}
+
+
+.project-description{
+    letter-spacing: 1px;
+    margin-top: 4rem;
+    font-weight: 600;
+    color: #1C3879;
+}
+
+
+
 
 }
 
