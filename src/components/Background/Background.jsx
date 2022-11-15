@@ -7,7 +7,7 @@ import Contact from "../Contact/Contact";
 function Background(){
     return (
         <section id="background-section">
-            <div className="d-none container-fluid background-wraper" id="background-wraper">
+            <div className="container-fluid background-wraper" id="background-wraper">
                 <div className="container-fluid background-container" id="background-container">
                     <Heading className="background-heading" text="IT"/>
                     <Course />
@@ -32,8 +32,8 @@ function Background(){
                         in <a href="https://www.onepico.com/" target="blank" id="one-pico">One Pico Restaurant</a>
                         , Dublin.
                         </p>
-                        <p>I am changing career as i always wanted to do, and bringing software solutions
-                        to people is want to do.</p>
+                        <p className="me-5 fs-5">I am now changing career as i always wanted, and <em>building software solutions </em>
+                          is want to do.</p>
                     </div>
                 </div>
             </div>
