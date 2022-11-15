@@ -1408,7 +1408,7 @@ ul{
         position: relative;
         width: 100%;
         padding: 0;
-        margin: 0 auto 3rem;
+        margin: 0 auto 4rem;
     }
     
     .secondary-navbar-wraper .navbar-item-box{
@@ -1431,7 +1431,89 @@ ul{
         color: #1C3879;
     }
 
+    /************ ME SECTION */
 
+    .section-wraper{
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+        background-color: #a3a3a3;
+    }
+    
+    .section-container{
+        padding: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-height: 100vh;
+        background-color: #EAE3D2;
+    }
+
+    .me-container, .hobbies-container{
+        max-width: 730px;
+
+    }
+
+    .me-container > .section-content-container{
+        letter-spacing: 1px;
+        text-align: left;
+        font-family: 'Sarabun', sans-serif;
+        font-weight: 600;
+        color: #1C3879;
+        max-width: inherit
+    }
+
+    .me-container > .section-content-container p{
+        font-size: 1.1rem;
+        line-height: 2rem;
+        letter-spacing: 1px;
+        font-family: 'Sarabun', sans-serif;
+        font-weight: 600;
+        color: #1C3879;
+    }
+
+    .me-container > .section-content-container h6{
+        line-height: 2rem;
+        font-size: 1.1rem;
+        font-style: italic;
+        margin: 3.5rem 1.8rem 2rem;
+        letter-spacing: 1px;
+        font-family: 'Sarabun', sans-serif;
+        font-weight: 800;
+        color: #1C3879;
+    }
+    
+
+    /********* HOBBIES ****/
+
+    .hobbies-title-container{
+        max-width: inherit;
+        margin: 2.5rem auto;
+        padding-left: 0;
+    }
+
+    .hobbies-title{
+        color: #1C3879;  
+    }
+
+ .hobbies-container .row {
+    margin-bottom: 2.8rem;
+ }
+
+ .hobbies-container img{
+    width: 3rem;
+    height: 3rem;
+ }
+
+ .hobbies-container .row .personality-quote{
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 800;
+    color: #1C3879;
+    font-size: 1.1rem;
+}
 
 }
 

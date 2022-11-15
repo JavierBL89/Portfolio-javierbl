@@ -6,7 +6,7 @@ import NavBarItem from "../NavigationBar/NavBarItem";
 function Me(){
     return (
             <section id="me-section">
-                <div className="d-none container-fluid me-container">
+                <div className="container-fluid me-container">
                 <div className="section-content-container">
                     <p>Left my country 4 years ago in search of a better future.</p>
                     <p>During this time i have self tought the language of english, how to play guitar,
