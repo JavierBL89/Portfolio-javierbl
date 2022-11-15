@@ -7,7 +7,7 @@ import Contact from "../Contact/Contact";
 function Background(){
     return (
         <section id="background-section">
-            <div className="d-none container-fluid background-wraper" id="background-wraper">
+            <div className="container-fluid background-wraper" id="background-wraper">
                 <div className="container-fluid background-container" id="background-container">
                     <Heading className="background-heading" text="IT"/>
                     <Course />
