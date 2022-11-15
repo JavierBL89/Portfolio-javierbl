@@ -1274,7 +1274,7 @@ ul{
     }
 
     .social-container > i {
-        /* font-size: 130%; */
+        font-size: 120%;
     }
 
     .social-container > i, .heading-wraper *{
@@ -1302,14 +1302,13 @@ ul{
     }
 
     .heading-container > p{
-        /* font-size: 3.6rem; */
         margin: 3px;
     }
     
    
     .img-container{
-        width: 230px;
-        height: 160px;
+        width: 240px;
+        height: 170px;
         border-radius: 50%;
         background-image: url("https://res.cloudinary.com/dthlibbj7/image/upload/v1668343688/FORTALEZA_HOHENSALZBURG_20_iiqcmp.jpg");
         background-size: cover;
@@ -1378,6 +1377,62 @@ ul{
         font-size: 1.5rem;
         font-weight: 300;
     }
+
+    /******************* MAIN NAVBAR*/
+    .navbar-container{
+        display: flex;
+        flex-direction: row;
+        padding: 5px 3px 0;
+        width: 100%;
+        max-width: 44rem;
+        margin: 0 auto;
+        justify-content: space-evenly;
+    }
+    
+    .navbar-item-box{
+       width: 32%;
+       height: 2.5rem;
+       text-align: center;
+       border-top: solid 1px #EAE3D2;
+       border-right: solid 1px #EAE3D2;
+       border-left: solid 1px #EAE3D2;
+    }
+
+    .navbar-item-box > p{
+        padding: 0.5rem;
+    }
+
+    
+    /********** SECONDARY NAVBAR *******/
+    .secondary-navbar-wraper{
+        position: relative;
+        width: 100%;
+        padding: 0;
+        margin: 0 auto 3rem;
+    }
+    
+    .secondary-navbar-wraper .navbar-item-box{
+        width: 32%;
+        height: 2.5rem;
+        text-align: center;
+        border-bottom: solid 1px #1C3879;
+        border-right: solid 1px #1C3879;
+        border-left: solid 1px #1C3879;
+     }
+
+     .secondary-navbar-wraper .navbar-container{
+        padding-top: 0;
+        padding-bottom: 3px;
+     }
+
+     .secondary-navbar-wraper .navbar-item-box > p{
+        padding: 0.4rem;
+        font-size: 1em;
+        color: #1C3879;
+    }
+
+
+
 }
 
 
