@@ -9,6 +9,12 @@ body {
 }
 
 
+.feedback-container p{
+    margin: 0;
+    color: #1C3879;
+    font-weight: 600;
+
+}
 
 .section-content-container{
     width: 100%;
@@ -37,6 +43,8 @@ ul li{
  .course-container ul li{
      line-height: 1.3rem;
  }
+
+
  
 
 @media (min-width: 320px) {
@@ -441,7 +449,9 @@ min-height: 100vh;
     /* background-color: #1C3879; */
     border-color: #001253;
     /* color: rgb(255, 255, 255); */
-    color: #f1f1f1;;
+    color: #f1f1f1;
+    width: 100%;
+
 }
 
 #contact-form button:hover{
@@ -848,7 +858,8 @@ min-height: 100vh;
     /* background-color: #1C3879; */
     border-color: #001253;
     /* color: rgb(255, 255, 255); */
-    color: #f1f1f1;;
+    color: #f1f1f1;
+    width: 100%;
 }
 
 #contact-form button:hover{
@@ -1311,6 +1322,8 @@ min-height: 100vh;
     /* color: rgb(255, 255, 255); */
     color: #f1f1f1;
     height: 2.5rem;
+    width: 100%;
+
 }
 
 #contact-form button:hover{
@@ -1320,6 +1333,7 @@ min-height: 100vh;
     color: #001253;
     font-weight: 600;
 }
+
 
 }
 
@@ -1774,6 +1788,7 @@ min-height: 100vh;
     /* color: rgb(255, 255, 255); */
     color: #f1f1f1;
     height: 2.5rem;
+    width: 100%;
 }
 
 #contact-form button:hover{
@@ -1782,5 +1797,9 @@ min-height: 100vh;
     /* background-color: #1C3879; */
     color: #001253;
     font-weight: 600;
+}
+
+.feedback-box{
+    padding-top: 1rem;
 }
 }
