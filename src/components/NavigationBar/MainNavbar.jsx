@@ -1,37 +1,46 @@
 import React, { useState } from "react";
 import NavBarItem from "./NavBarItem";
-import Section from "./SecondNavbar";
 import Me from "../Me/Me";
 import Projects from "../Projects/Projects";
 import Background from "../Background/Background";
 
 function MainNavbar(){
 
-    const [me, setMe] = useState(false);
+    const [me, setMe] = useState();
     const [projects, setProjects] = useState(false);
-    const [background, setackground] = useState(false);
+    const [background, setbackground] = useState(false);
     
 
-    function showSection(section) {
-        if(section === "me-link"){
-            setMe(true)
-        }else if(section === "projects-link"){
+    function showSection(event) {
+        const section = event.target.id;
 
+        console.log(section);
+        if(section === "me-link"){
+            console.log("puta");
+            setMe(true)
+            setProjects(false)
+            setbackground(false)
+        }else if(section === "projects-link"){
+            setMe(false)
+            setProjects(true)
+            setbackground(false)
         }else if(section === "background-link"){
-            
+            setMe(false)
+            setProjects(false)
+            setbackground(true)
         }
     };
 
     return(
             <div className="container-fluid main-navbar-wraper" id="main-navbar">
                 <div className="container-fluid navbar-container">
-                    <NavBarItem showSection={showSection} href="#me-section" className="nav-item me-link" id="me-link" text="ME"/>
-                    <NavBarItem showSection={showSection} href="#projects-section" className="nav-item projects-link" id="projects-link" text="PROJECTS"/>
-                    <NavBarItem showSection={showSection} href="#background-section" className="nav-item background-link" id="background-link" text="BACKGROUND"/>
+                    <NavBarItem showSection={showSection} link="#me-section" className="nav-item me-link" id="me-link" text="ME"/>
+                    <NavBarItem showSection={showSection} link="#projects-section" className="nav-item projects-link" id="projects-link" text="PROJECTS"/>
+                    <NavBarItem showSection={showSection} link="#background-section" className="nav-item background-link" id="background-link" text="BACKGROUND"/>
                 </div>
-                <Me />
-                <Projects />
-                <Background />
+                {me ? <Me /> : null}
+                {projects ? <Projects /> : null}
+                {background ? <Background /> : null}
             </div>
     );
 };

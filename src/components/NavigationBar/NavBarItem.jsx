@@ -4,13 +4,12 @@ function NavBarItem(props){
 
     
     function handleClick(e) {
-        const section = props.id
-        console.log(props.showSection(section));
+        props.showSection(e);
     };
 
     return(
             <div onClick={handleClick} className="navbar-item-box">
-                <p className={props.className} id={props.id}>{props.text}</p>
+                <a href={props.link}><p className={props.className} id={props.id}>{props.text}</p></a>
             </div>
         
     );

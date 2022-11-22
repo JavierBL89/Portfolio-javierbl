@@ -11,7 +11,7 @@ function Background(){
             <div className="container-fluid section-wraper" >
                 <div className="container-fluid section-container">
                     <SecondNavbar />
-                    <div className="d-none container-fluid background-wraper" id="background-wraper">
+                    <div className="container-fluid background-wraper" id="background-wraper">
                         <div className="container-fluid background-container" id="background-container">
                             <Heading className="background-heading" text="IT"/>
                             <Course />

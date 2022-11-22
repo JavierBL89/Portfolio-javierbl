@@ -8,7 +8,7 @@ function Projects(){
             <div className="container-fluid section-wraper" >
                 <div className="container-fluid section-container">
                     <SecondNavbar />
-                    <div className="d-none container fluid projects-wraper" id="projects-wraper">
+                    <div className="container fluid projects-wraper" id="projects-wraper">
                         <div className="container-fluid projects-container" id="projects-container">
         
                             <div className="container-fluid project-card">
