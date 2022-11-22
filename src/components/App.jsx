@@ -2,8 +2,8 @@ import React from "react";
 import Heading from "./Heading";
 import Quote from "./Quote";
 import Social from "./Social/Social";
-import NavigationBar from "./NavigationBar/NavigationBar";
 import Contact from "./Contact/Contact";
+import MainNavbar from "./NavigationBar/MainNavbar";
 
 function App(){
     return (
@@ -12,7 +12,7 @@ function App(){
            <Social />
            <Heading />
            <Quote/>
-           <NavigationBar />
+           <MainNavbar />
         </div>
         {/* <div ><Contact /></div> */}
         </>

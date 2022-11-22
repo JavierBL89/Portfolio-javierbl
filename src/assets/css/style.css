@@ -9,6 +9,10 @@ body {
 }
 
 
+.navbar-item-box{
+    cursor: pointer;
+}
+
 .feedback-container p{
     margin: 0;
     color: #1C3879;
@@ -239,7 +243,6 @@ ul li{
         position: absolute;
         top: 0;
         left: 0;
-        min-height: 100vh;
         background-color: #EAE3D2;
     }
 
@@ -658,7 +661,6 @@ min-height: 100vh;
         position: absolute;
         top: 0;
         left: 0;
-        min-height: 100vh;
         background-color: #EAE3D2;
     }
 
@@ -1071,7 +1073,6 @@ min-height: 100vh;
         position: absolute;
         top: 0;
         left: 0;
-        min-height: 100vh;
         background-color: #EAE3D2;
     }
 
@@ -1541,7 +1542,6 @@ min-height: 100vh;
         position: absolute;
         top: 0;
         left: 0;
-        min-height: 100vh;
         background-color: #EAE3D2;
     }
 
