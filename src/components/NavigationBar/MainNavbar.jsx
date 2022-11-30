@@ -9,14 +9,11 @@ function MainNavbar(){
     const [me, setMe] = useState();
     const [projects, setProjects] = useState(false);
     const [background, setbackground] = useState(false);
-    
 
     function showSection(event) {
         const section = event.target.id;
 
-        console.log(section);
         if(section === "me-link"){
-            console.log("puta");
             setMe(true)
             setProjects(false)
             setbackground(false)
@@ -30,10 +27,11 @@ function MainNavbar(){
             setbackground(true)
         }
     };
-
+    
+    
     return(
             <div className="container-fluid main-navbar-wraper" id="main-navbar">
-                <div className="container-fluid navbar-container">
+                <div className="container-fluid main-navbar-container" id="main-navbar-container">
                     <NavBarItem showSection={showSection} link="#me-section" className="nav-item me-link" id="me-link" text="ME"/>
                     <NavBarItem showSection={showSection} link="#projects-section" className="nav-item projects-link" id="projects-link" text="PROJECTS"/>
                     <NavBarItem showSection={showSection} link="#background-section" className="nav-item background-link" id="background-link" text="BACKGROUND"/>

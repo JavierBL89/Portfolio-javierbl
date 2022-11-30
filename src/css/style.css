@@ -2,11 +2,38 @@
 /* BLUE:    #1C3879
 CANELA: #EAE3D2; */
 
+.nav-hide{
+  visibility:hidden;
+}
+
+.puta{
+    font-weight: 800;
+}
+
+.nav-show{
+    visibility: visible;
+}
+
+.navbar-container{
+    visibility: hidden;
+}
+
+.hide-border{
+    border: none;
+    font-weight: bold;
+}
+
+.show-border{
+    border-bottom: grid;
+}
+
+
 body {
     margin: 0;
     padding: 0;
     background-color: #1C3879;
 }
+
 
 
 .navbar-item-box{
@@ -182,7 +209,7 @@ ul li{
         bottom: 0;
     }
 
-    .navbar-container{
+    .navbar-container, .main-navbar-container{
         display: flex;
         flex-direction: row;
         padding: 3px 3px 0;
@@ -599,7 +626,7 @@ min-height: 100vh;
         bottom: 0;
     }
 
-    .navbar-container{
+    .navbar-container, .main-navbar-container{
         display: flex;
         flex-direction: row;
         padding: 3px 3px 0;
@@ -1010,7 +1037,7 @@ min-height: 100vh;
     }
 
 /******************* MAIN NAVBAR*/
-    .navbar-container{
+    .navbar-container, .main-navbar-container{
         display: flex;
         flex-direction: row;
         padding: 5px 3px 0;
@@ -1482,7 +1509,7 @@ min-height: 100vh;
     }
 
     /******************* MAIN NAVBAR*/
-    .navbar-container{
+    .navbar-container, .main-navbar-container{
         display: flex;
         flex-direction: row;
         padding: 5px 3px 0;
@@ -1808,4 +1835,7 @@ min-height: 100vh;
 .feedback-box{
     padding-top: 1rem;
 }
+
+
+
 }

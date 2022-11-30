@@ -4,6 +4,7 @@ import Quote from "./Quote";
 import Social from "./Social/Social";
 import Contact from "./Contact/Contact";
 import MainNavbar from "./NavigationBar/MainNavbar";
+import SecondNavbar from "./NavigationBar/SecondNavbar";
 
 function App(){
     return (
