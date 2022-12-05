@@ -1,0 +1,38 @@
+[33m9a51903[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m HEAD@{0}: reset: moving to HEAD^
+[33ma6cc81c[m[33m ([m[1;31morigin/main[m[33m)[m HEAD@{1}: commit: Updated some variables name on animate.js file
+[33m9a51903[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m HEAD@{2}: commit: Linked navbar links to sections
+[33mb35a515[m HEAD@{3}: commit: Modified components on sections. Added a section wraper and container. Created component for secondNavBar an added into every section container. Sections components are now children of the the MainNavbar wraper
+[33m7d42a00[m HEAD@{4}: commit: Added send contact email, fucntionality complete using emailjs
+[33mb1b7cdf[m HEAD@{5}: commit: Adjusted Contact section for LARGE SCREEN SIZE
+[33m45d8855[m HEAD@{6}: commit: Adjusted Contact section for LAPTOP SCREEN SIZE
+[33m56adba1[m HEAD@{7}: commit: Adjusted Bacground section for LARGE SCREEN SIZE
+[33m977b67b[m HEAD@{8}: commit: Adjusted Projects section for LARGE SCREEN SIZE
+[33m435e976[m HEAD@{9}: commit: Adjusted Me section for LARGE SCREEN SIZE
+[33mc4ed74f[m HEAD@{10}: commit: Adjusted Navigation bar for LARGE SCREEN SIZE
+[33m863be35[m HEAD@{11}: commit: Adjusted Hero section to LARGER SCREEN SIZE, and html font size
+[33m44115fa[m HEAD@{12}: commit: Adjusted Projects section design layout for LAPTOP and LARGE SCREENS
+[33m720044e[m HEAD@{13}: commit: Adjusted ME section for LAPTOP SCREEN SIZE
+[33m30206d7[m HEAD@{14}: commit: Adjusted Navbar for LAPTOP SCREEN SIZE
+[33m603c97e[m HEAD@{15}: commit: Adjusted Hero section tp LAPTOP SCREEN SIZE
+[33m7a2da07[m HEAD@{16}: commit: Adjusted Contact section to TABLET SCREEN
+[33m0aa385d[m HEAD@{17}: commit: Adjusted Background section to TABLET SCREEN
+[33m6b2e35c[m HEAD@{18}: commit: Adjusted Projects section to TABLET SCREEN
+[33m803ecf6[m HEAD@{19}: commit: Adjusted Me section for for TABLET SCREEN
+[33m09f5726[m HEAD@{20}: commit: Adjusted Hero section and Navidation bar for TABLET SCREEN
+[33m4f96764[m HEAD@{21}: commit: Added contact form into contact section
+[33md3d5b80[m HEAD@{22}: commit: Created contact component folder, input, textarea and submit button components
+[33meae106c[m HEAD@{23}: commit: Added Background section, and IT and Hospitality fields filled with content
+[33me17ff09[m HEAD@{24}: commit: Created Background component folder
+[33mfdc9837[m HEAD@{25}: reset: moving to HEAD^
+[33ma8049d2[m HEAD@{26}: commit: Added Background component
+[33mfdc9837[m HEAD@{27}: commit: Added Projects section, created layout for projects showcase
+[33m44f3650[m HEAD@{28}: commit: Added hobbies into ME section, and created Projects component folder
+[33mc5d4081[m HEAD@{29}: commit: Added layout text content into ME section
+[33m81cb899[m HEAD@{30}: commit: Added secondary bar navigation into the top of the sections
+[33m720b8f9[m HEAD@{31}: commit: Added Section component to NavbarNavigation component
+[33m095d5db[m HEAD@{32}: commit: Added navbar navigation, and social icons layout udjusted on small screens
+[33mc85805b[m HEAD@{33}: commit: Adjusted layout heading, divs now have a static width instead of percentages
+[33mf2c6991[m HEAD@{34}: commit: Added heading to hero section
+[33m25097ec[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{35}: checkout: moving from master to main
+[33m25097ec[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{36}: checkout: moving from master to master
+[33m25097ec[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{37}: commit (initial): Social icons added to header

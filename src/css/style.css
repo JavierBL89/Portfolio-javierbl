@@ -11,12 +11,17 @@ CANELA: #EAE3D2; */
 }
 
 .nav-show{
-    visibility: visible;
+    display: grid;
 }
 
 .navbar-container{
-    visibility: hidden;
+    display: none;
 }
+
+.hiden{
+    display: none;
+}
+
 
 .hide-border{
     border: none;

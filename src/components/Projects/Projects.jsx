@@ -5,11 +5,11 @@ import SecondNavbar from "../NavigationBar/SecondNavbar";
 function Projects(){
     return (
         <section id="projects-section">
-            <div className="container-fluid section-wraper" >
-                <div className="container-fluid section-container">
-                    <SecondNavbar />
+            {/* <div className="container-fluid section-wraper" >
+                <div className="container-fluid section-container"> */}
+                    {/* <SecondNavbar /> */}
                     <div className="container fluid projects-wraper" id="projects-wraper">
-                        <div className="container-fluid projects-container" id="projects-container">
+                        <div className="container-fluid projects-container hiden" id="projects-container">
         
                             <div className="container-fluid project-card">
                         <div className="row g-0">
@@ -135,8 +135,8 @@ function Projects(){
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
+                {/* </div>
+            </div> */}
         </section>
     
     );

@@ -1,9 +1,8 @@
 
-
 jQuery(function($){
 
   setTimeout(function () {
-    
+
     /**
      * Function to hide and show MAIN NAVBAR on scroll
      */
@@ -37,11 +36,13 @@ jQuery(function($){
       const handleSecondNavbar = function() {
         const sections2 = $("#secundary-navbar-container").children();
         var y = window.scrollY;
+        var location = window.location.toString();
+        var url = location.split("/")[3];
+
 
       // Show second navbar on scrolldown
        for(let section of sections2){
           if (y >= 400) {
-            $(section).addClass("nav-show")
             $(section).slideDown("slow")
             activeSection();
           } else {
@@ -72,13 +73,11 @@ jQuery(function($){
             if(url === "#me-section"){
                 $(sections2[0]).addClass("puta")
                 $(sections2[0]).css("border", "none");
-                console.log(sections2[0]);
+
             }else if(url === "#projects-section"){
                 $(sections2[1]).css("border", "none");
-                console.log(sections2[0]);
             }else if(url === "#background-section"){
                 $(sections2[2]).css("border", "none");
-                console.log(sections2[0]);
             }
 
 

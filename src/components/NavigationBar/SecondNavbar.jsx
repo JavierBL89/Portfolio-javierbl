@@ -4,14 +4,25 @@ import Contact from "../Contact/Contact";
 import NavBarItem from "./NavBarItem";
 import Projects from "../Projects/Projects";
 import Me from "../Me/Me";
+import show from "../../showSection";
 
 function SecondNavbar(){
 
     const [me, setMe] = useState();
-    const [projects, setProjects] = useState(false);
-    const [background, setbackground] = useState(false);
+        const [projects, setProjects] = useState(false);
+        const [background, setbackground] = useState(false);
 
     function showSection(event) {
+        // const section = event.target.id;
+        // if(section === "me-link"){
+        //     console.log("yy");
+        //     show();
+        // }else if(section === "projects-link"){
+        //     show();
+        // }else if(section === "background-link"){
+        //     show();
+        // }
+
         const section = event.target.id;
 
         if(section === "me-link"){

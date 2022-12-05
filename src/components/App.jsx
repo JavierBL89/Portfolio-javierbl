@@ -5,6 +5,9 @@ import Social from "./Social/Social";
 import Contact from "./Contact/Contact";
 import MainNavbar from "./NavigationBar/MainNavbar";
 import SecondNavbar from "./NavigationBar/SecondNavbar";
+import Me from "./Me/Me";
+import Projects from "./Projects/Projects";
+import Background from "./Background/Background";
 
 function App(){
     return (
@@ -14,6 +17,9 @@ function App(){
            <Heading />
            <Quote/>
            <MainNavbar />
+           {/* <Me />
+           <Projects />
+           <Background /> */}
         </div>
         {/* <div ><Contact /></div> */}
         </>
