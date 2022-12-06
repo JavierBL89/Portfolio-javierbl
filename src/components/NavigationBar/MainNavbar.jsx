@@ -4,12 +4,11 @@ import Me from "../Me/Me";
 import Projects from "../Projects/Projects";
 import Background from "../Background/Background";
 import Section from "../Section";
-import show from "../../showSection";
+import show from "../../scripts/showSection";
 
 function MainNavbar(){
 
     const [section, setSection] = useState(false);
-    const [puta, setkk] = useState();
 
     function showSection(event) {
         show(event.target);

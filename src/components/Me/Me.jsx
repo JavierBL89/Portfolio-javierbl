@@ -6,11 +6,7 @@ import SecondNavbar from "../NavigationBar/SecondNavbar";
 function Me(){
     return (
             <section id="me-section" >
-                {/* <div className="container-fluid section-wraper">
-                    <div className="container-fluid section-container"> */}
-                    {/* <SecondNavbar /> */}
-
-                    <div className="container-fluid me-container hiden" id="me-container">
+                    <div className="container-fluid me-container" id="me-container">
                         <div className="section-content-container">
                             <p>Left my country 4 years ago in search of a better future.</p>
                             <p>During this time i have self tought the language of english, how to play guitar,
@@ -23,8 +19,6 @@ function Me(){
                         </div>
                         <Hobbies/>
                     </div>
-                {/* </div>
-                </div> */}
             </section>
     );
 };

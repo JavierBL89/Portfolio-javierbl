@@ -4,7 +4,7 @@ import SubmitButton from "./SubmitButton";
 import TextArea from "./TextArea";
 
 import emailjs from '@emailjs/browser';
-import {contactSucceeded, contactFailed} from "../../email";
+import {contactSucceeded, contactFailed} from "../../scripts/email";
 
 function Form(props){
 

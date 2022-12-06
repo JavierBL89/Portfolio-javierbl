@@ -1,19 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './css/style.css';
-import App from './components//App';
+import App from './components/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
   <App />
-    {/* <div className='main-wraper'>
-        <div className='section'>
-          <div className='custom'>
-             puta
-          </div>
-        </div>
-    </div> */}
   </React.StrictMode>
 );
 

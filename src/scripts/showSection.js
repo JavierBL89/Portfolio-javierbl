@@ -1,7 +1,14 @@
 import $ from "jquery"
 
+import active from "./active";
 
+
+/**
+ * Function to active the section title selected by the user
+ */
 function show(section){
+    console.log(section);
+  // setTimeout to get hold of the html elements when a section is selected
   setTimeout( () => {
 
   const meSection = $("#me-section .me-container");
@@ -15,6 +22,7 @@ function show(section){
        // show and scroll to selected section
         meSection.removeClass("hiden");
         document.getElementById('me-section').scrollIntoView();
+        active(section);
 
     }else if(section.id === "projects-link"){
         // hide sections
@@ -23,6 +31,7 @@ function show(section){
        // show and scroll to selected section
         projectsSection.removeClass("hiden");
         document.getElementById('projects-section').scrollIntoView();
+        active(section);
 
     }else if(section.id === "background-link"){
         // hide sections
@@ -31,8 +40,10 @@ function show(section){
        // show and scroll to selected section
         backgroundSection.removeClass("hiden");
         document.getElementById('background-section').scrollIntoView();
+        active(section);
+
     };
-    },50);
+    },40);
 
     };
 

@@ -6,9 +6,6 @@ CANELA: #EAE3D2; */
   visibility:hidden;
 }
 
-.puta{
-    font-weight: 800;
-}
 
 .nav-show{
     display: grid;
@@ -20,6 +17,22 @@ CANELA: #EAE3D2; */
 
 .hiden{
     display: none;
+}
+
+.show{
+    animation-name: animateSection;
+    transition: ease-in-out;
+    animation-duration: 2s;
+}
+
+@keyframes animateSection {
+    from{
+        display: block;
+    }
+    to {
+        display: block;
+
+    }
 }
 
 

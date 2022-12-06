@@ -8,9 +8,7 @@ import SecondNavbar from "../NavigationBar/SecondNavbar";
 function Background(){
     return (
         <section id="background-section">
-            {/* <div className="container-fluid section-wraper" >
-                <div className="container-fluid section-container"> */}
-                    {/* <SecondNavbar /> */}
+
                     <div className="container-fluid background-wraper " id="background-wraper">
                         <div className="container-fluid background-container hiden" id="background-container">
                             <Heading className="background-heading" text="IT"/>
@@ -39,11 +37,7 @@ function Background(){
                             </div>
                         </div>
                     </div>
-                {/* </div>
-            </div> */}
         </section>
-
-    
     );
 };
 
