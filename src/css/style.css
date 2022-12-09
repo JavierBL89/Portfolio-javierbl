@@ -142,7 +142,7 @@ ul li{
     }
 
     .heading-container {
-        max-width: 15em;
+        max-width: 17em;
         margin: 6em auto 3em;
         text-align: left;
         font-family: 'Sarabun', sans-serif;
@@ -150,7 +150,7 @@ ul li{
     }
 
     .heading-container > p{
-        font-size: 2.7rem;
+        font-size: 3rem;
         margin: 3px;
     }
     
