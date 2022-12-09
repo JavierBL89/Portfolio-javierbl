@@ -118,9 +118,9 @@ ul li{
         display: flex;
         margin: 0 auto;
         flex-direction: row;
-        width: 60%;
+        width: 70%;
         min-width: 11rem;
-        max-width: 14rem;
+        max-width: 15rem;
         justify-content: space-evenly;
     }
 
@@ -129,7 +129,7 @@ ul li{
     }
 
     .social-container > i{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 
 
@@ -142,7 +142,7 @@ ul li{
     }
 
     .heading-container {
-        max-width: 17em;
+        max-width: 18em;
         margin: 6em auto 3em;
         text-align: left;
         font-family: 'Sarabun', sans-serif;
@@ -150,7 +150,7 @@ ul li{
     }
 
     .heading-container > p{
-        font-size: 3rem;
+        font-size: 3.5rem;
         margin: 3px;
     }
     
@@ -162,7 +162,7 @@ ul li{
     .profesion{
         font-family: 'Sarabun', sans-serif;
         font-weight: 600;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         margin-top: 5px;
         margin-bottom: 3px;
         margin-left: 1rem;
@@ -197,7 +197,7 @@ ul li{
     
     .quote-container{
         margin: 0 auto 2rem;
-        max-width: 16em;
+        max-width: 18em;
         max-height: 100px;
         text-align: center;
         color: #EAE3D2;
@@ -205,7 +205,7 @@ ul li{
 
     .quote-container > h2{
         font-family: 'Fasthand', cursive;
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         font-weight: 300;
     }
 
