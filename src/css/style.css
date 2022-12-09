@@ -121,8 +121,8 @@ ul li{
         margin: 0 auto;
         flex-direction: row;
         width: 50%;
-        min-width: 10rem;
-        max-width: 13rem;
+        min-width: 11rem;
+        max-width: 14rem;
         justify-content: space-evenly;
     }
 
@@ -148,19 +148,19 @@ ul li{
     }
 
     .heading-container > p{
-        font-size: 2.3rem;
+        font-size: 2.5rem;
         margin: 3px;
     }
     
     .line2-heading{
-        padding-left: 1.7rem;
+        padding-left: 1.9rem;
         margin-bottom: 0px;
     }
     
     .profesion{
         font-family: 'Sarabun', sans-serif;
         font-weight: 600;
-        font-size: 1rem;
+        font-size: 1.1rem;
         margin-top: 5px;
         margin-bottom: 3px;
         margin-left: 1.6rem;
@@ -172,7 +172,7 @@ ul li{
 
     .subject{
         font-family: 'Sarabun', sans-serif;
-        font-size: 0.700rem;
+        font-size: 0.800rem;
         margin-top: 0px;
         margin-left: 8.2rem;
     }
@@ -182,7 +182,7 @@ ul li{
      margin-top: 0;
      left:80px;
       height: 1px;
-      width: 8rem;
+      width: 9rem;
       background-color: #EAE3D2;
     }
 
@@ -203,7 +203,7 @@ ul li{
 
     .quote-container > h2{
         font-family: 'Fasthand', cursive;
-        font-size: 1rem;
+        font-size: 1.1rem;
         font-weight: 300;
     }
 
@@ -238,7 +238,7 @@ ul li{
     
     .navbar-item-box{
        width: 32%;
-       height: 1.7rem;
+       height: 1.9rem;
        text-align: center;
        border-top: solid 1px #EAE3D2;
        border-right: solid 1px #EAE3D2;
@@ -247,7 +247,7 @@ ul li{
 
     .navbar-item-box p{
         padding: 4px;
-        font-size: 0.750em;
+        font-size: 0.800em;
         color: #EAE3D2;
     }
 
