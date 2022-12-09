@@ -52,8 +52,6 @@ body {
     background-color: #1C3879;
 }
 
-
-
 .navbar-item-box{
     cursor: pointer;
 }
@@ -112,7 +110,7 @@ ul li{
 
     .social-wraper{
         width: 100%;
-        margin: 7% auto auto;
+        margin: 12% auto auto;
         min-height: 100%;
     }
 
@@ -120,7 +118,7 @@ ul li{
         display: flex;
         margin: 0 auto;
         flex-direction: row;
-        width: 50%;
+        width: 60%;
         min-width: 11rem;
         max-width: 14rem;
         justify-content: space-evenly;
@@ -128,6 +126,10 @@ ul li{
 
     .social-container > i, .heading-wraper *{
         color: #EAE3D2;
+    }
+
+    .social-container > i{
+        font-size: 1.2rem;
     }
 
 
@@ -141,14 +143,14 @@ ul li{
 
     .heading-container {
         max-width: 15em;
-        margin: 5em auto 2em;
+        margin: 6em auto 3em;
         text-align: left;
         font-family: 'Sarabun', sans-serif;
         font-weight: 300;
     }
 
     .heading-container > p{
-        font-size: 2.5rem;
+        font-size: 2.7rem;
         margin: 3px;
     }
     
@@ -160,10 +162,10 @@ ul li{
     .profesion{
         font-family: 'Sarabun', sans-serif;
         font-weight: 600;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         margin-top: 5px;
         margin-bottom: 3px;
-        margin-left: 1.6rem;
+        margin-left: 1rem;
     }
     
     .junior{
@@ -172,9 +174,9 @@ ul li{
 
     .subject{
         font-family: 'Sarabun', sans-serif;
-        font-size: 0.800rem;
+        font-size: 0.900rem;
         margin-top: 0px;
-        margin-left: 8.2rem;
+        margin-left: 8.7rem;
     }
 
     .separator{
@@ -195,7 +197,7 @@ ul li{
     
     .quote-container{
         margin: 0 auto 2rem;
-        max-width: 15em;
+        max-width: 16em;
         max-height: 100px;
         text-align: center;
         color: #EAE3D2;
@@ -203,7 +205,7 @@ ul li{
 
     .quote-container > h2{
         font-family: 'Fasthand', cursive;
-        font-size: 1.1rem;
+        font-size: 1.3rem;
         font-weight: 300;
     }
 
@@ -238,7 +240,7 @@ ul li{
     
     .navbar-item-box{
        width: 32%;
-       height: 1.9rem;
+       height: 2.1rem;
        text-align: center;
        border-top: solid 1px #EAE3D2;
        border-right: solid 1px #EAE3D2;
@@ -247,7 +249,7 @@ ul li{
 
     .navbar-item-box p{
         padding: 4px;
-        font-size: 0.800em;
+        font-size: 1em;
         color: #EAE3D2;
     }
 
