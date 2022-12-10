@@ -376,19 +376,31 @@ ul li{
 }
 .project-card{
     max-width: 410px;
-    margin-bottom: 2rem;    
+    margin-bottom: 3rem;    
 }
 
 .project-img{
+    border-radius: 10px;
     height: 150px;
     max-width: 215px;
-    background-color: blueviolet;
-
+    background-color: #8a2be2;
+    background-image: url("../../src/images/Captura_de_pantalla_(665).png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
 
 .project-tech{
    max-width: 108px;
-    background-color: brown;
+}
+
+.project-card-head h6{
+    font-size: 1.1em;
+}
+
+.project-description small{
+    font-size: 1.1em;
 }
 
 /******  BACKGROUND SECTION */
