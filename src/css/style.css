@@ -386,7 +386,6 @@ ul li{
     border-radius: 10px;
     height: 200px;
     /* max-width: 215px; */
-    background-color: #8a2be2;
     background-image: url("../../src/images/Captura_de_pantalla_(665).png");
     background-position: center;
     background-size: cover;
@@ -571,14 +570,18 @@ min-height: 100vh;
         display: flex;
         margin: 0 auto;
         flex-direction: row;
-        width: 52%;
-        min-width: 10rem;
+        width: 75%;
+        min-width: 12rem;
         max-width: 16rem;
         justify-content: space-evenly;
     }
 
     .social-container > i, .heading-wraper *{
         color: #EAE3D2;
+    }
+
+    .social-container > i{
+        font-size: 1.4em;
     }
 
 
@@ -591,7 +594,7 @@ min-height: 100vh;
     }
 
     .heading-container{
-        max-width: 16em;
+        max-width: 20em;
         margin: 5em auto 2em;
         text-align: left;
         font-family: 'Sarabun', sans-serif;
@@ -599,7 +602,7 @@ min-height: 100vh;
     }
 
     .heading-container > p{
-        font-size: 2.5rem;
+        font-size: 4rem;
         margin: 3px;
     }
     
@@ -611,10 +614,10 @@ min-height: 100vh;
     .profesion{
         font-family: 'Sarabun', sans-serif;
         font-weight: 600;
-        font-size: 1rem;
+        font-size: 1.4rem;
         margin-top: 5px;
         margin-bottom: 3px;
-        margin-left: 1.7rem;
+        margin-left: 2.8rem;
     }
     
     .junior{
@@ -623,17 +626,17 @@ min-height: 100vh;
 
     .subject{
         font-family: 'Sarabun', sans-serif;
-        font-size: 0.725rem;
+        font-size: 0.900rem;
         margin-top: 0px;
-        margin-left: 8.2rem;
+        margin-left: 12.5rem;
     }
 
     .separator{
      position: relative;
      margin-top: 0;
-     left:80px;
+     left: 7rem;
       height: 1px;
-      width: 8.1rem;
+      width: 10.3rem;
       background-color: #EAE3D2;
     }
 
@@ -645,8 +648,8 @@ min-height: 100vh;
     }
     
     .quote-container{
-        margin: 0 auto 2rem;
-        max-width: 16em;
+        margin: 2rem auto 2rem;
+        max-width: 18rem;
         max-height: 100px;
         text-align: center;
         color: #EAE3D2;
@@ -654,20 +657,11 @@ min-height: 100vh;
 
     .quote-container > h2{
         font-family: 'Fasthand', cursive;
-        font-size: 1.1rem;
+        font-size: 1.5em;
         font-weight: 300;
     }
 
     /********** NAVIATION BAR **********/
-
-    /* .sections-wraper{
-        width: 100%;
-        margin: 100% auto 0;
-
-        position: absolute;
-        bottom: 0;
-        left: 0;
-    } */
 
     .main-navbar-wraper{
         width: 100%;
@@ -690,7 +684,7 @@ min-height: 100vh;
     
     .navbar-item-box{
        width: 32%;
-       height: 1.8rem;
+       height: 2.4rem;
        text-align: center;
        border-top: solid 1px #EAE3D2;
        border-right: solid 1px #EAE3D2;
@@ -699,7 +693,7 @@ min-height: 100vh;
 
     .navbar-item-box p{
         padding: 5px;
-        font-size: 0.800em;
+        font-size: 1.050em;
         color: #EAE3D2;
     }
 
@@ -709,12 +703,12 @@ min-height: 100vh;
         position: relative;
         width: 100%;
         padding: 0;
-        margin: 0 auto 3rem;
+        margin: 0 auto 6rem;
     }
     
     .secondary-navbar-wraper .navbar-item-box{
         width: 32%;
-        height: 1.8rem;
+        height: 2.4rem;
         text-align: center;
         border-bottom: solid 1px #1C3879;
         border-right: solid 1px #1C3879;
@@ -728,7 +722,7 @@ min-height: 100vh;
 
      .secondary-navbar-wraper .navbar-item-box p{
         padding: 5px;
-        font-size: 0.800em;
+        font-size: 1.050em;
         color: #1C3879;
     }
 
@@ -749,18 +743,8 @@ min-height: 100vh;
         background-color: #EAE3D2;
     }
 
-    /* .me-container{
-        padding: 0;
-        position: absolute;
-        top: 0;
-        left: 0;
-        min-height: 100vh;
-        background-color: #EAE3D2;
-    } */
-
     .me-container, .hobbies-container{
         max-width: 630px;
-
     }
 
     .me-container > .section-content-container{
@@ -822,23 +806,22 @@ min-height: 100vh;
 /************ PROJECTS SECTION */
 
 .project-card{
-    max-width: 410px;
-    margin-bottom: 2rem;
+    max-width: 27rem;
+    margin-bottom: 6rem;
 }
 
 .project-img{
-    height: 165px;
-    max-width: 230px;
-    background-color: blueviolet;
+    height: 265px;
+    min-width: 22rem;
+    max-width: 530px;
 }
 
 .project-tech{
-   max-width: 108px;
-    background-color: brown;
+   max-width: 100%;
 }
 
 .project-card h6{
-    margin-bottom: 1rem;
+    margin-bottom: 1.1rem;
     font-size:1.1rem;
 }
 
@@ -847,8 +830,8 @@ min-height: 100vh;
     margin-top: 1rem;
 }
 
-small{
-    font-size: 1rem;
+.project-description small{
+    font-size: 1.2em;
 }
 
 /******  BACKGROUND SECTION */
