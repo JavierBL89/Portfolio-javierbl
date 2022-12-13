@@ -814,6 +814,10 @@ min-height: 100vh;
     height: 265px;
     min-width: 22rem;
     max-width: 530px;
+    background-image: url("../../src/images/Captura_de_pantalla_(665).png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .project-tech{
@@ -822,7 +826,7 @@ min-height: 100vh;
 
 .project-card h6{
     margin-bottom: 1.1rem;
-    font-size:1.1rem;
+    font-size:1.2rem;
 }
 
 .project-description{
@@ -1215,7 +1219,7 @@ min-height: 100vh;
 
 
 .projects-wraper{
-    margin-top: 6rem;
+    margin-top: 8rem;
 }
 
 .project-card{
@@ -1226,14 +1230,26 @@ min-height: 100vh;
 }
 
 .project-img{
-    height: 200px;
-    max-width: 370px;
-    background-color: blueviolet;
+    height: 300px;
+    min-width: 15rem;
+    max-width: 530px;
+    background-image: url("../../src/images/Captura_de_pantalla_(665).png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.project-tech{
-   max-width: 370px; 
-   background-color: brown;
+.project-tech-large{
+    margin: 1rem auto 0;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 30rem;
+ }
+
+.project-tech-large img{
+   opacity: 0.3; 
+   width: 32px;
+    height: 32px;
 }
 
 .project-tech-column{
@@ -1250,16 +1266,16 @@ min-height: 100vh;
 
 .project-card h6{
     margin-bottom: 1.5rem;
-    font-size:1.7rem;
-    /* color: #1C3879; */
-    color: rgb(252, 252, 252);
-    font-weight: 800;
+    font-size:1.4rem;
+    color: #1C3879;
+    /* color: rgb(252, 252, 252); */
+    font-weight: 600;
 }
 
 
 .project-description{
     letter-spacing: 1px;
-    margin-top: 4rem;
+    margin-top: 1.5rem;
     font-weight: 600;
     color: #1C3879;
 }

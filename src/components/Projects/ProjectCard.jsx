@@ -5,8 +5,7 @@ import {projects} from "../../dataProjects";
 function ProjectCard(props){
 
     return (
-        // projects.map((project, index) => {
-            // return (
+
                 <div className="container-fluid project-card">
                     <div className="row">
                         <div className="col-sm-12 col-lg-6">
@@ -24,18 +23,26 @@ function ProjectCard(props){
                                      <small>{props.description}
                                          </small> 
                                       </div>
-                                      <div className="col-12 project-tech">
+                                      <div className="col-12 d-lg-none project-tech">
                                           {props.technology?.map((tech, index) => {
                                             return (<img key={index} src={tech.icon} alt={tech.name}/>)
                                           })}
                                       </div>
                                  </div>
+                                 <div className="row w-100">
+                                 
+                                 </div>
                             </div>
                         </div>
+                        
+                    </div>
+                    <div className="col-12 d-none d-lg-flex project-tech-large">
+                        {props.technology?.map((tech, index) => {
+                            return (<img key={index} src={tech.icon} alt={tech.name}/>)
+                            })}
                     </div>
             </div>
-            // )
-        //  })
+
     );
 };
 
