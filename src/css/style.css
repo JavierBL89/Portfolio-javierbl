@@ -1700,11 +1700,17 @@ min-height: 100vh;
 /************ PROJECTS SECTION */
 
 .projects-wraper{
-    margin-top: 6rem;
+    margin-top: 6rem;    
+    max-width: 52rem;
+
+}
+
+.projects-wraper-container{
+    max-width: 90rem;
 }
 
 .project-card{
-    max-width: 1000px;
+    max-width: 59rem;
     margin-bottom: 7rem;
     color:#1C3879;
 
@@ -1712,8 +1718,8 @@ min-height: 100vh;
 
 .project-img{
     /* height: 230px; */
-    height:11rem;
-    max-width: 17rem;
+    height:15rem;
+    max-width: 22rem;
     background-color: blueviolet;
 }
 
@@ -1723,27 +1729,32 @@ min-height: 100vh;
 }
 
 .project-tech-column{
+    margin-top: 3rem;
     display: flex;
    justify-content: space-evenly;
  }
 
-.project-tech img{
-    width: 32px;
-    height: 32px;
+ .project-tech-large {
+    margin: 4rem auto 0;
+
+}
+.project-tech-large img{
+    width: 40px;
+    height: 40px;
     margin: 0 auto;
  }
 
 .project-card h6{
     margin-bottom: 1.5rem;
-    /* color: #1C3879; */
-    color: rgb(252, 252, 252);
+    color: #1C3879;
+    /* color: rgb(252, 252, 252); */
     font-weight: 800;
 }
 
 
 .project-description{
     letter-spacing: 1px;
-    margin-top: 4rem;
+    margin-top: 3rem;
     font-weight: 600;
     color: #1C3879;
 }
