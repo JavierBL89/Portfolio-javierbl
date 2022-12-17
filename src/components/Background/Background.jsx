@@ -19,7 +19,7 @@ function Background(){
                                <div className="dot"></div>
                                <div className="dot"></div>
                             </div>
-                            <Heading className="background-heading mb-4" text="Hospitality Industry"/>
+                            <Heading className="background-heading" text="Hospitality Industry"/>
                             
                             <div className="hospitality-container-wraper">
                                 <p>
@@ -32,7 +32,7 @@ function Background(){
                                 in <a href="https://www.onepico.com/" target="blank" id="one-pico">One Pico Restaurant</a>
                                 , Dublin.
                                 </p>
-                                <p className="me-5 fs-5">I am now changing career as i always wanted, and <em>building software solutions </em>
+                                <p className="me-5">I am now changing career as i always wanted, and <em>building software solutions </em>
                                   is want to do.</p>
                             </div>
                         </div>
