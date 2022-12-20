@@ -5,6 +5,7 @@ import Projects from "../Projects/Projects";
 import Background from "../Background/Background";
 import Section from "../Section";
 import show from "../../scripts/showSection";
+import Contact from "../Contact/Contact";
 
 function MainNavbar(){
 
@@ -25,6 +26,7 @@ function MainNavbar(){
                     <NavBarItem showSection={showSection} link="#background-section" className="nav-item background-link" id="background-link" text="BACKGROUND"/>
                 </div>
                 {section ? <Section /> : null}
+
             </div>
     );
 };

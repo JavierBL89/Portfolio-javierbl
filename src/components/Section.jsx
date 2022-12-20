@@ -3,6 +3,7 @@ import SecondNavbar from "./NavigationBar/SecondNavbar";
 import Me from "./Me/Me";
 import Background from "./Background/Background";
 import Projects from "./Projects/Projects";
+import Contact from "./Contact/Contact";
 
 function Section (){
 

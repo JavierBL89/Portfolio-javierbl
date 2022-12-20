@@ -11,7 +11,7 @@ jQuery(function($){
       var y = window.scrollY;
     // Show main navbar on scrollup
      for(let section of sections1){
-        if (y >= 400) {
+        if (y > 400) {
           $(section).slideUp("slow")
         } else {
         //   myID.className = "cta hide"
@@ -20,7 +20,7 @@ jQuery(function($){
 
     // Hide main navbar on scrollup
       for(let section of sections1){
-        if (y <= 400) {
+        if (y < 400) {
           $(section).slideDown("slow")
         } else {
         //   myID.className = "cta hide"
@@ -36,14 +36,13 @@ jQuery(function($){
       const handleSecondNavbar = function() {
         const sections2 = $("#secundary-navbar-container").children();
         var y = window.scrollY;
-        var location = window.location.toString();
-        var url = location.split("/")[3];
-
 
       // Show second navbar on scrolldown
        for(let section of sections2){
-          if (y >= 400) {
-            $(section).slideDown("slow")
+          if (y > 400) {
+            $(section).slideDown("slow");
+            $("#contact-icon-2").css("display", "block").attr("class", "animate__animated animate__backInRight");
+            $("#contact-icon-1").fadeOut("slow")
             activeSection();
           } else {
           //   myID.className = "cta hide"
@@ -52,8 +51,10 @@ jQuery(function($){
 
       // Hide second navbar on scrollup
         for(let section of sections2){
-          if (y <= 400) {
-            $(section).slideUp("slow")
+          if (y < 400) {
+            $(section).slideUp("slow");
+            $("#contact-icon-1").slideDown("slow");
+            $("#contact-icon-2").css("display", "none").fadeOut("slow");
           } else {
           //   myID.className = "cta hide"
           }
