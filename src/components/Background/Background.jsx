@@ -14,7 +14,7 @@ function Background(){
                             <Heading className="background-heading" text="IT"/>
                             <Course />
                             <Course />
-                            <div className="dots mt- mb-5 d-flex text-start">
+                            <div className="dots d-flex text-start">
                                <div className="dot"></div>
                                <div className="dot"></div>
                                <div className="dot"></div>

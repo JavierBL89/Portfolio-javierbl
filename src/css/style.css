@@ -99,7 +99,7 @@ body {
 
 .section-content-container{
     width: 100%;
-    padding: 2rem 1.7rem;
+    padding: 0 1.7rem 2rem;
 }
 
 ul li{
@@ -170,7 +170,7 @@ ul li{
 
     .heading-container {
         max-width: 18em;
-        margin: 5em auto 3em;
+        margin: 2.5em auto 3em;
         text-align: left;
         font-family: 'Sarabun', sans-serif;
         font-weight: 300;
@@ -192,7 +192,7 @@ ul li{
         font-size: 1.3rem;
         margin-top: 5px;
         margin-bottom: 3px;
-        margin-left: 1rem;
+        margin-left: 1.5rem;
     }
     
     .junior{
@@ -203,14 +203,14 @@ ul li{
         font-family: 'Sarabun', sans-serif;
         font-size: 0.900rem;
         margin-top: 0px;
-        margin-left: 8.7rem;
+        margin-left: 10.2rem;
     }
 
     .separator{
      position: relative;
      margin-top: 0;
-     left:80px;
-      height: 1px;
+     left: 6.1rem;
+     height: 1px;
       width: 9rem;
       background-color: #EAE3D2;
     }
@@ -267,7 +267,7 @@ ul li{
     
     .navbar-item-box{
        width: 32%;
-       height: 2.1rem;
+       height: 2.6rem;
        text-align: center;
        border-top: solid 1px #EAE3D2;
        border-right: solid 1px #EAE3D2;
@@ -275,7 +275,7 @@ ul li{
     }
 
     .navbar-item-box p{
-        padding: 4px;
+        padding: 0.4rem;
         font-size: 1em;
         color: #EAE3D2;
     }
@@ -286,7 +286,7 @@ ul li{
         position: relative;
         width: 100%;
         padding: 0;
-        margin: 0 auto 3rem;
+        margin: 0 auto 6rem;
     }
     
     .secondary-navbar-wraper .navbar-item-box{
@@ -350,7 +350,7 @@ ul li{
     .me-container > .section-content-container h6{
         text-align: center;
         font-style: italic;
-        margin: 3.2rem 1.6rem 2rem;
+        margin: 3.2rem 1.2rem 2rem;
         letter-spacing: 1px;
         font-family: 'Sarabun', sans-serif;
         font-weight: 800;
@@ -459,6 +459,10 @@ justify-content: space-evenly;
     color: #1C3879;
 }
 
+.background-heading{
+    margin-bottom: 2rem;
+}
+
 .course-container{
     margin: 2.5rem auto 2.5rem;
     padding-right: 0;
@@ -468,7 +472,7 @@ justify-content: space-evenly;
 
 .course-container ul li{
     line-height: 1.3rem;
-    font-size: 0.950rem;
+    font-size: 1.1rem;
 }
 
 .hospitality-container-wraper{
@@ -477,7 +481,7 @@ justify-content: space-evenly;
  }
 
 .hospitality-container-wraper > p{
-    font-size: 0.950rem;
+    font-size: 1.1rem;
     font-family: 'Sarabun', sans-serif;
     font-weight: 600;
     line-height: 1.4rem;
@@ -487,7 +491,11 @@ ul{
     padding-left: 7px;
 }
 
-.dots{}
+.dots{
+
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+}
 
 .dot{
     width: 3px;
@@ -509,8 +517,8 @@ ul{
 
 
 #contact-icon-1 img, #contact-icon-2 img{
-    width: 3rem;
-    height: 3rem;
+    width: 3.3rem;
+    height: 3.3rem;
     animation-name: grow;
    animation-duration: 1s;
    transition-timing-function: ease-in ease-out;
