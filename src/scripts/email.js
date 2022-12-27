@@ -4,6 +4,7 @@
 function contactSucceeded(){
 
     const feedback = document.getElementById("feedback-container");
+    const closeForm = document.getElementById("modal-contact");
     const successMessage = `
             <p className="contact-success">
               Thanks very much!
@@ -16,6 +17,12 @@ function contactSucceeded(){
     setTimeout(function(){
         feedback.innerHTML = successMessage;
     }, 0.700);
+    
+    setTimeout(function(){
+        closeForm.setAttribute("style", "display: none;")
+        // closeForm.setAttribute("class", "fadeOut")
+
+    }, 2500);
 
 };
 

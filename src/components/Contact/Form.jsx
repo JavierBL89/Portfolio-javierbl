@@ -14,6 +14,8 @@ function Form(props){
   const contact = async (e) => {
     e.preventDefault();
     const feedback = document.getElementById("feedback-container");
+    console.log(feedback.innerHTML);
+
     feedback.innerHTML = `<div class="d-flex justify-content-center">
     <div class="spinner-border" role="status">
       <span class="visually-hidden">Loading...</span>

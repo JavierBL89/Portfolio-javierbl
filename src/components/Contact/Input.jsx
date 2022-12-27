@@ -8,6 +8,7 @@ function Input(props){
         id={props.id}
         name={props.name}
         placeholder={props.placeholder}
+        required
         />
     )
 };

@@ -3,14 +3,23 @@ jQuery(($) => {
     // function contact(){
         
         const contactIcon = $(".contact-icon-container img");
+        const contactForm = document.getElementById("contact-form");
+        const feedbackContainer = document.getElementById("feedback-container");
+
 
         for(let icon of contactIcon){
             icon.addEventListener("click", function (){
-                // $("#contact-wraper").fadeIn("slow").addClass("modal");
-                console.log("E");
                 $("#modal-contact").fadeIn("slow").css("display", "block");
-                // $("#contact-icon-2").animate({left: "100px";});
-                // puta();
+                // Reset form initial values and submit button
+                feedbackContainer.innerHTML = `<button 
+                                        type="submit"
+                                        class="btn btn-light"
+                                        id="submit-form"
+                                        name="submit-form">
+                                        Give Shout
+                                        </button>
+                                        `;
+               contactForm.reset();
             });
         }
 
