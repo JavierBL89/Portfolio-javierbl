@@ -1,11 +1,8 @@
 jQuery(($) => {
-
-    // function contact(){
-        
+    
         const contactIcon = $(".contact-icon-container img");
         const contactForm = document.getElementById("contact-form");
         const feedbackContainer = document.getElementById("feedback-container");
-
 
         for(let icon of contactIcon){
             icon.addEventListener("click", function (){
@@ -22,15 +19,11 @@ jQuery(($) => {
                contactForm.reset();
             });
         }
-
-    // function puta (){
+        
+        // Close contact modal on click
         const closeForm = $("#close");
-
         closeForm.on("click", function(){
             $("#modal-contact").fadeOut("slow").css("display", "none");
         })
-    // }
-        
-        
-    // };
+
 });

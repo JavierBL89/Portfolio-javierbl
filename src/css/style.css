@@ -2,7 +2,7 @@
 /* BLUE:    #1C3879
 CANELA: #EAE3D2; */
 
-
+/***  MODAL ***/
 .modal-contact{
     display: none;
     background-color: #001253;
@@ -14,9 +14,8 @@ CANELA: #EAE3D2; */
     z-index: 99;
 }
 
-
 .close-container {
-    color: #001253;
+ color: #001253;
  text-align: end;
  padding-right: 5rem;
  position: relative;
@@ -32,6 +31,37 @@ CANELA: #EAE3D2; */
 
 
 /******* ANIMATION CLASSES */
+
+.line1-heading,
+.line2-heading, 
+.separator,
+.profesion,
+.subject,
+.img-container {
+    visibility: hidden;
+}
+
+.quote-wraper{
+    display: none;
+}
+
+.social-wraper, #main-navbar, #contact-icon-1{
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 .nav-hide{
   visibility:hidden;
 }
@@ -47,7 +77,6 @@ CANELA: #EAE3D2; */
 .hiden{
     display: none;
 }
-
 
 .show{
     animation-name: animateSection;
@@ -318,7 +347,7 @@ ul li{
      }
 
      .secondary-navbar-wraper .navbar-item-box p{
-        padding: 4px;
+        padding: 7px;
         font-size: 1em;
         color: #1C3879;
     }
@@ -534,7 +563,7 @@ ul{
     width: 3.5rem;
     height: 3.5rem;
     animation-name: grow;
-   animation-duration: 1s;
+   animation-duration: 1.2s;
    transition-timing-function: ease-in ease-out;
    animation-iteration-count: infinite;
    }
@@ -545,8 +574,8 @@ ul{
            height: 3rem;
        }
        to{
-           width: 3.2rem;
-           height: 3.2rem;
+           width: 3.5rem;
+           height: 3.5rem;
        }
    }
 
@@ -620,6 +649,9 @@ min-height: 100vh;
     font-weight: 600;
 }
 
+textarea{
+    height: 80px;
+}
 }
 
 @media (min-width: 600px) {

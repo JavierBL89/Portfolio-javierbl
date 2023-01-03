@@ -1,5 +1,4 @@
 import React from "react";
-import ContactIcon from "../ContactIcon";
 
 
 function Heading(){
