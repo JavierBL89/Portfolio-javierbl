@@ -3,7 +3,7 @@ import React from "react";
 
 function CourseDiploma(props){
     return(
-        <a href={props.href} className={props.className} id={props.id}>See diploma</a>
+        <a href={props.href} className={props.className} id={props.id} target="_blank" rel="noreferrer">See diploma</a>
     );
 };
 

@@ -1,6 +1,6 @@
 
 /* BLUE:    #1C3879
-CANELA: rgb(254, 250, 240);; */
+CANELA: #EAE3D2; */
 
 /***  MODAL ***/
 .modal-contact{
@@ -29,7 +29,9 @@ CANELA: rgb(254, 250, 240);; */
     text-align: center;
 }
 
-
+#contact-icon-1, #contact-icon-2{
+    cursor: pointer;
+}
 /******* ANIMATION CLASSES */
 
 .line1-heading,
@@ -156,7 +158,7 @@ ul li{
 
     .contact-wraper{
     /* background-color: #EAE3D2; */
-    background-color:rgb(254, 250, 240);;
+    background-color:rgb(254, 250, 240);
 }
 
  .contact-container h3{
@@ -195,12 +197,12 @@ ul li{
         justify-content: space-evenly;
     }
 
-    .social-container > i, .heading-wraper *{
+    .social-container > a, .heading-wraper *{
         /* color: #EAE3D2; */
         color:rgb(254, 250, 240);
     }
 
-    .social-container > i{
+    .social-container > a{
         font-size: 1.4rem;
     }
 
@@ -684,12 +686,12 @@ textarea{
         justify-content: space-evenly;
     }
 
-    .social-container > i, .heading-wraper *{
+    .social-container > a, .heading-wraper *{
         color: rgb(254, 250, 240);
 
     }
 
-    .social-container > i{
+    .social-container > a{
         font-size: 1.4em;
     }
 
@@ -1107,11 +1109,11 @@ min-height: 100vh;
         justify-content: space-evenly;
     }
 
-    .social-container > i {
+    .social-container > a {
         font-size: 1.3rem;
     }
 
-    .social-container > i, .heading-wraper *{
+    .social-container > a, .heading-wraper *{
         color: rgb(254, 250, 240);
 
     }
@@ -1621,11 +1623,11 @@ padding: 1rem 1.5rem;
         justify-content: space-evenly;
     }
 
-    .social-container > i {
+    .social-container > a {
         font-size: 130%;
     }
 
-    .social-container > i, .heading-wraper *{
+    .social-container > a, .heading-wraper *{
         color: rgb(254, 250, 240);
     }
 
