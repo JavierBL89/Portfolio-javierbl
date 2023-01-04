@@ -329,7 +329,7 @@ ul li{
         position: relative;
         width: 100%;
         padding: 0;
-        margin: 0 auto 6rem;
+        margin: 0 auto 10rem;
     }
     
     .secondary-navbar-wraper .navbar-item-box{
@@ -447,7 +447,7 @@ ul li{
 }
 .project-card{
     max-width: 410px;
-    margin-bottom: 5rem;
+    margin-bottom: 7rem;
     min-height: 500px;    
 }
 
@@ -806,7 +806,7 @@ textarea{
         position: relative;
         width: 100%;
         padding: 0;
-        margin: 0 auto 6rem;
+        margin: 0 auto 10rem;
     }
     
     .secondary-navbar-wraper .navbar-item-box{
@@ -910,7 +910,7 @@ textarea{
 
 .project-card{
     max-width: 27rem;
-    margin-bottom: 6rem;
+    margin-bottom: 8rem;
 }
 
 .project-img{
@@ -1232,7 +1232,7 @@ min-height: 100vh;
         position: relative;
         width: 100%;
         padding: 0;
-        margin: 0 auto 3rem;
+        margin: 0 auto 10rem;
     }
     
     .secondary-navbar-wraper .navbar-item-box{

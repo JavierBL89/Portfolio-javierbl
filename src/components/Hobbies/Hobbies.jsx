@@ -18,43 +18,43 @@ function Hobbies(){
                   <H3 
                   className="hobbies-title text-start"
                   text="I enjoy..."
-                    dataAos="zoom-in-right" dataAosOnce="true"
+                    dataAos="zoom-in-right"
                   />
 
                 </div>
                     <div className="col-6 col-lg-4">
                         <div className="row">
                             <div className="col">
-                            <img data-aos="fade-down-left" data-aos-once="true" src="https://img.icons8.com/external-filled-outline-icons-maxicons/55/null/external-guitar-summer-holiday-filled-outline-filled-outline-icons-maxicons.png" alt="guitar-playing"/>                                                        </div>
+                            <img data-aos="fade-down-left" src="https://img.icons8.com/external-filled-outline-icons-maxicons/55/null/external-guitar-summer-holiday-filled-outline-filled-outline-icons-maxicons.png" alt="guitar-playing"/>                                                        </div>
                         </div>
                         <div className="row">
                             <div className="col">
-                            <img data-aos="fade-up-right" data-aos-once="true" src="https://img.icons8.com/external-smashingstocks-flat-smashing-stocks/55/null/external-Tennis-entertainment-and-hobbies-smashingstocks-flat-smashing-stocks.png" alt="playing-tennis"/>
+                            <img data-aos="fade-up-right" src="https://img.icons8.com/external-smashingstocks-flat-smashing-stocks/55/null/external-Tennis-entertainment-and-hobbies-smashingstocks-flat-smashing-stocks.png" alt="playing-tennis"/>
                             </div>
                         </div>
                     </div>
                     <div className="col-6 col-lg-4">
                         <div className="row">
                             <div className="col">
-                            <img data-aos="fade-down-left" data-aos-once="true" src="https://img.icons8.com/external-flat-lima-studio/60/null/external-gym-hotel-flat-lima-studio.png" alt="working-out"/>
+                            <img data-aos="fade-down-left" src="https://img.icons8.com/external-flat-lima-studio/60/null/external-gym-hotel-flat-lima-studio.png" alt="working-out"/>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col">
-                            <img data-aos="fade-up-right" data-aos-once="true" src="https://img.icons8.com/bubbles/65/null/literature.png" alt="reading-books"/>
+                            <img data-aos="fade-up-right" src="https://img.icons8.com/bubbles/65/null/literature.png" alt="reading-books"/>
                             </div>
                         </div>
                     </div>
                     <div className="col-sm-12 col-lg-4">
                         <div className="row">
                             <div className="col-6 col-lg-12">
-                            <img data-aos="fade-down-left" data-aos-once="true" src="https://img.icons8.com/external-avoca-kerismaker/52/null/external-Coding-Laptop-software-development-avoca-kerismaker.png" alt="programming"/>
+                            <img data-aos="fade-down-left" src="https://img.icons8.com/external-avoca-kerismaker/52/null/external-Coding-Laptop-software-development-avoca-kerismaker.png" alt="programming"/>
                             <p>
-                            <i data-aos="fade-down-left" data-aos-once="true" id="new-hobbie">(new hobbie)</i>
+                            <i data-aos="fade-down-left" id="new-hobbie">(new hobbie)</i>
                             </p>
                             </div>
                             <div className="col-6 col-lg-12">
-                            <img data-aos="fade-up-right" data-aos-once="true" src="https://img.icons8.com/external-stickers-smashing-stocks/60/null/external-Learning-creativity-stickers-pack-stickers-smashing-stocks.png" alt="learning"/>
+                            <img data-aos="fade-up-right" src="https://img.icons8.com/external-stickers-smashing-stocks/60/null/external-Learning-creativity-stickers-pack-stickers-smashing-stocks.png" alt="learning"/>
                             </div>
                         </div>
                     </div>
