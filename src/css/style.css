@@ -1,6 +1,6 @@
 
 /* BLUE:    #1C3879
-CANELA: #EAE3D2; */
+CANELA: rgb(254, 250, 240);; */
 
 /***  MODAL ***/
 .modal-contact{
@@ -155,7 +155,8 @@ ul li{
  }
 
     .contact-wraper{
-    background-color: #EAE3D2;
+    /* background-color: #EAE3D2; */
+    background-color:rgb(254, 250, 240);;
 }
 
  .contact-container h3{
@@ -195,7 +196,8 @@ ul li{
     }
 
     .social-container > i, .heading-wraper *{
-        color: #EAE3D2;
+        /* color: #EAE3D2; */
+        color:rgb(254, 250, 240);
     }
 
     .social-container > i{
@@ -270,7 +272,8 @@ ul li{
         max-width: 18em;
         max-height: 100px;
         text-align: center;
-        color: #EAE3D2;
+        /* color: #EAE3D2; */
+        color:rgb(254, 250, 240);
     }
 
     .quote-container > h2{
@@ -312,15 +315,15 @@ ul li{
        width: 32%;
        height: 2.6rem;
        text-align: center;
-       border-top: solid 1px #EAE3D2;
-       border-right: solid 1px #EAE3D2;
-       border-left: solid 1px #EAE3D2;
+       border-top: solid 1px rgb(254, 250, 240);
+       border-right: solid 1px rgb(254, 250, 240);
+       border-left: solid 1px rgb(254, 250, 240);
     }
 
     .navbar-item-box p{
         padding: 0.4rem;
         font-size: 1em;
-        color: #EAE3D2;
+        color: rgb(254, 250, 240);
     }
 
     
@@ -366,8 +369,8 @@ ul li{
         position: absolute;
         top: 0;
         left: 0;
-        background-color: #EAE3D2;
-    background-color:rgb(255, 247, 228);
+    /* background-color:rgb(255, 247, 228); */
+    background-color:rgb(254, 250, 240);
 
     }
 
@@ -583,7 +586,9 @@ ul{
     position: absolute;
     top: 10%;
     left: 5%;
-    height: 80%;
+    /* height: 80%; */
+    min-height: 35.5rem;
+
     width: 90%;
     border-radius: 2%;
 }
@@ -680,7 +685,8 @@ textarea{
     }
 
     .social-container > i, .heading-wraper *{
-        color: #EAE3D2;
+        color: rgb(254, 250, 240);
+
     }
 
     .social-container > i{
@@ -740,7 +746,8 @@ textarea{
      left: 7rem;
       height: 1px;
       width: 10.3rem;
-      background-color: #EAE3D2;
+      background-color: rgb(254, 250, 240);
+      ;
     }
 
     /******** QUOTE SECTION **********/
@@ -755,7 +762,8 @@ textarea{
         max-width: 18rem;
         max-height: 100px;
         text-align: center;
-        color: #EAE3D2;
+        color: rgb(254, 250, 240);
+
     }
 
     .quote-container > h2{
@@ -789,15 +797,19 @@ textarea{
        width: 32%;
        height: 2.4rem;
        text-align: center;
-       border-top: solid 1px #EAE3D2;
-       border-right: solid 1px #EAE3D2;
-       border-left: solid 1px #EAE3D2;
+       border-top: solid 1px rgb(254, 250, 240);
+
+       border-right: solid 1px rgb(254, 250, 240);
+
+       border-left: solid 1px rgb(254, 250, 240);
+
     }
 
     .navbar-item-box p{
         padding: 5px;
         font-size: 1.050em;
-        color: #EAE3D2;
+        color: rgb(254, 250, 240);
+
     }
 
     
@@ -843,7 +855,9 @@ textarea{
         position: absolute;
         top: 0;
         left: 0;
-        background-color: #EAE3D2;
+        /* background-color: #EAE3D2; */
+    background-color:rgb(254, 250, 240);
+
     }
 
     .me-container, .hobbies-container{
@@ -1098,7 +1112,8 @@ min-height: 100vh;
     }
 
     .social-container > i, .heading-wraper *{
-        color: #EAE3D2;
+        color: rgb(254, 250, 240);
+
     }
 
     /*********** HEADING *************/
@@ -1169,7 +1184,8 @@ min-height: 100vh;
      left:120px;
       height: 1px;
       width: 10rem;
-      background-color: #EAE3D2;
+      background-color: rgb(254, 250, 240);
+
     }
     
 
@@ -1190,7 +1206,8 @@ min-height: 100vh;
         max-width: 20em;
         max-height: 100px;
         text-align: center;
-        color: #EAE3D2;
+        color: rgb(254, 250, 240);
+
     }
 
     .quote-container > h2{
@@ -1214,16 +1231,16 @@ min-height: 100vh;
        width: 32%;
        height: 2.5rem;
        text-align: center;
-       border-top: solid 1px #EAE3D2;
-       border-right: solid 1px #EAE3D2;
-       border-left: solid 1px #EAE3D2;
+       border-top: solid 1px rgb(254, 250, 240);
+       border-right: solid 1px rgb(254, 250, 240);
+       border-left: solid 1px rgb(254, 250, 240);
     }
 
     .navbar-item-box p{
         padding: 8px;
         font-size: 1em;
         font-weight: 400;
-        color: #EAE3D2;
+        color: rgb(254, 250, 240);
     }
 
     
@@ -1269,7 +1286,7 @@ min-height: 100vh;
         position: absolute;
         top: 0;
         left: 0;
-        background-color: #EAE3D2;
+    background-color:rgb(254, 250, 240);
     }
 
     .me-container, .hobbies-container{
@@ -1555,14 +1572,14 @@ padding: 1rem 1.5rem;
     /* background-color: #1C3879; */
     border-color: #001253;
     /* color: rgb(255, 255, 255); */
-    color: #f1f1f1;
+    color: rgb(254, 250, 240);
     height: 2.5rem;
     width: 100%;
 
 }
 
 #contact-form button:hover{
-    background-color: #f1f1f1;
+    background-color: rgb(254, 250, 240);
     border-color: #001253;
     /* background-color: #1C3879; */
     color: #001253;
@@ -1609,7 +1626,7 @@ padding: 1rem 1.5rem;
     }
 
     .social-container > i, .heading-wraper *{
-        color: #EAE3D2;
+        color: rgb(254, 250, 240);
     }
 
     /*********** HEADING *************/
@@ -1682,7 +1699,7 @@ padding: 1rem 1.5rem;
      left:152px;
       height: 1px;
       width: 12rem;
-      background-color: #EAE3D2;
+      background-color: rgb(254, 250, 240);
     }
     
 
@@ -1698,7 +1715,7 @@ padding: 1rem 1.5rem;
         max-width: 21em;
         max-height: 100px;
         text-align: center;
-        color: #EAE3D2;
+        color: rgb(254, 250, 240);
     }
 
     .quote-container > h2{
@@ -1722,9 +1739,9 @@ padding: 1rem 1.5rem;
        width: 32%;
        height: 2.8rem;
        text-align: center;
-       border-top: solid 1px #EAE3D2;
-       border-right: solid 1px #EAE3D2;
-       border-left: solid 1px #EAE3D2;
+       border-top: solid 1px rgb(254, 250, 240);
+       border-right: solid 1px rgb(254, 250, 240);
+       border-left: solid 1px rgb(254, 250, 240);
     }
 
     .navbar-item-box p{
@@ -1775,7 +1792,7 @@ padding: 1rem 1.5rem;
         position: absolute;
         top: 0;
         left: 0;
-        background-color: #EAE3D2;
+        background-color: rgb(254, 250, 240);
     }
 
     .me-container, .hobbies-container{
@@ -1867,12 +1884,10 @@ padding: 1rem 1.5rem;
     /* height: 230px; */
     height:15rem;
     max-width: 22rem;
-    background-color: blueviolet;
 }
 
 .project-tech{
     max-width: 17rem;
-    background-color: brown;
 }
 
 .project-tech-column{
@@ -2041,13 +2056,13 @@ min-height: 100vh;
     /* background-color: #1C3879; */
     border-color: #001253;
     /* color: rgb(255, 255, 255); */
-    color: #f1f1f1;
+    color: rgb(254, 250, 240);
     height: 2.5rem;
     width: 100%;
 }
 
 #contact-form button:hover{
-    background-color: #f1f1f1;
+    background-color: rgb(254, 250, 240);
     border-color: #001253;
     /* background-color: #1C3879; */
     color: #001253;
