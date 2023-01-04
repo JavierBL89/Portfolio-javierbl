@@ -21,7 +21,7 @@ function Background(){
                             </div>
                             <Heading className="background-heading" text="Hospitality Industry"/>
                             
-                            <div className="hospitality-container-wraper">
+                            <div className="hospitality-container-wraper" data-aos="fade-up-right">
                                 <p>
                                     I got my very first job in a Restaurant at the age of 16,
                                     right after graduating in Secundary School.

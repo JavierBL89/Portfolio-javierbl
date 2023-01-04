@@ -362,7 +362,7 @@ ul li{
     }
     
     .section-container{
-        padding: 0;
+        padding: 0 0 4rem;
         position: absolute;
         top: 0;
         left: 0;
@@ -839,7 +839,7 @@ textarea{
     }
     
     .section-container{
-        padding: 0;
+        padding: 0 0 4rem;
         position: absolute;
         top: 0;
         left: 0;
@@ -1265,7 +1265,7 @@ min-height: 100vh;
     }
     
     .section-container{
-        padding: 0;
+        padding: 0 0 6rem;
         position: absolute;
         top: 0;
         left: 0;

@@ -6,7 +6,7 @@ import CourseDiploma from "./CourseDiploma";
 
 function Course(){
     return(
-      <div className="course-container-wraper">
+      <div className="course-container-wraper" data-aos="fade-up-right">
         <div className="container-fluid course-container">
         <div className="row g-0">
           <div className="col-12 col-lg-8">
