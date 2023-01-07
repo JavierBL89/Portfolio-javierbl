@@ -1,8 +1,8 @@
 import React, { useEffect} from "react";
 import {projects} from "../../dataProjects";
-import AOS from "aos"
-
+import AOS from "aos";
 import "aos/dist/aos.css"
+import ReactPlayer from "react-player";
 
 function ProjectCard(props){
 
@@ -18,7 +18,17 @@ function ProjectCard(props){
                        <div className="project-card-head">
                         <div className="row g-0 w-100 project-card-head">
                              <h6 data-aos="fade-down-left" data-aos-once="true">{props.title}</h6>
-                            <div data-aos="fade-down-left" data-aos-once="true" className="col-sm-12 col-lg-12 project-img"></div>
+                            <div data-aos="fade-down-left" data-aos-once="true" className="col-sm-12 col-lg-12 project-img">
+                
+                            <ReactPlayer 
+                                url={props.url}
+                                id="pita"
+                                width='100%'
+                               height='180%'
+                               
+                            />
+                            {/* <iframe width="560" height="315" src={"https://www.youtube.com/embed/JMnhIXeKIXU"} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+                        </div>
                         </div>
                       </div>
                     </div>
