@@ -459,7 +459,7 @@ ul li{
 .project-img{
     /* border-radius: 10px; */
     height: 13rem;
-    max-width: 21rem;
+    max-width: 18rem;
     /* background-image: url("../../src/images/Captura_de_pantalla_(665).png");
     background-position: center;
     background-size: cover;
@@ -468,7 +468,7 @@ ul li{
 
 .project-img img {
     width: 105%;
-    height: 106%;
+    height: 115%;
 }
 .project-tech {
     display: flex;
