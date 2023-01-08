@@ -174,10 +174,7 @@ ul li{
 
 @media (min-width: 320px) {
 
-    #pita{
-        width: 300px;
-    }
-
+   
     .main-wrapper{
         width: 100%;
         margin: 0 auto;
@@ -459,16 +456,20 @@ ul li{
     min-height: 500px;    
 }
 
-/* .project-img{
-    border-radius: 10px;
-    height: 200px;
-    max-width: 215px;
-    background-image: url("../../src/images/Captura_de_pantalla_(665).png");
+.project-img{
+    /* border-radius: 10px; */
+    height: 13rem;
+    max-width: 21rem;
+    /* background-image: url("../../src/images/Captura_de_pantalla_(665).png");
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
-} */
+    background-repeat: no-repeat; */
+}
 
+.project-img img {
+    width: 105%;
+    height: 100%;
+}
 .project-tech {
     display: flex;
 justify-content: space-evenly;
@@ -933,13 +934,19 @@ textarea{
 }
 
 .project-img{
-    /* height: 265px;
-    min-width: 22rem;
+    height: 315px;
+    min-width: 20rem;
     max-width: 530px;
-    background-image: url("../../src/images/Captura_de_pantalla_(665).png");
+    /* background-image: url("../../src/images/image (1).png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; */
+ 
+}
+
+.project-img img{
+    width: 100%;
+    height: 95%;
 }
 
 .project-tech{
@@ -1414,6 +1421,8 @@ min-height: 100vh;
 .project-card h6{
     margin-bottom: 1.5rem;
     font-size:1.4rem;
+    margin-left: 1.2rem;
+
     color: #1C3879;
     /* color: rgb(252, 252, 252); */
     font-weight: 600;

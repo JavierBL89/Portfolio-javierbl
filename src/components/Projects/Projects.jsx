@@ -17,6 +17,7 @@ function Projects(){
                      description={project.description}
                      technology={project.technology}
                      url={project.url}
+                     image={project.image}
                     />
                     )
                   })
