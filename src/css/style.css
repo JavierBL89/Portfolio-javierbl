@@ -178,7 +178,7 @@ ul li{
     .main-wrapper{
         width: 100%;
         margin: 0 auto;
-        min-height: 700px;
+        min-height: 100%;
     }
 
     .social-wraper{
@@ -592,10 +592,7 @@ ul{
     position: absolute;
     top: 10%;
     left: 5%;
-    /* height: 80%; */
-    min-height: 20.5rem;
-    max-height: 34.5rem;
-
+    height: 80%;
     width: 90%;
     border-radius: 2%;
 }
