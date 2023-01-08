@@ -20,7 +20,7 @@ function ProjectCard(props){
                              <h6 data-aos="fade-down-left" data-aos-once="true">{props.title}</h6>
                             <div data-aos="fade-down-left" data-aos-once="true" className="col-sm-12 col-lg-12 project-img">
                             
-                            <img src={props.image} alt={props.title}/>
+                            <a href={props.url} id={"project_" + props.id}><img src={props.image} alt={props.title} /></a>
                             {/* <ReactPlayer 
                                 url={props.url}
                                 id="pita"

@@ -2,7 +2,7 @@ export const projects = [
 
     {
         title: "Ecommerce Store",
-        url: "https://youtu.be/JMnhIXeKIXU",
+        url: "https://bastyshops.onrender.com/",
         image: "https://res.cloudinary.com/dthlibbj7/image/upload/v1673219280/image_1_mzqzou.png",
         description: `oncdjdnjvidnivjnsdjivnsji kdncsocjnsjon dcnodjsncosncon odcnsdocnso
                      oncd jdnjvid niv  jnsdji vnsji kdncsocjnsjon dcn odj sncos ncon odcns do cnso
@@ -50,7 +50,7 @@ export const projects = [
             },
             {
                 title: "Trivia Quizz Game",
-                url: "",
+                url: "https://javierbl89.github.io/QUIZZ-QUIZZ-Trivia-Quizz-Game-Code-Institute-Project-2/",
                 image: "https://res.cloudinary.com/dthlibbj7/image/upload/v1673220291/image_3_wvfxgf.png",
                 description: `oncdjdnjvidnivjnsdjivnsji kdncsocjnsjon dcnodjsncosncon odcnsdocnso
                              oncd jdnjvid niv  jnsdji vnsji kdncsocjnsjon dcn odj sncos ncon odcns do cnso
@@ -66,7 +66,7 @@ export const projects = [
                 },
                 {
                     title: "Mindfullness & Meditation",
-                    url: "",
+                    url: "https://javierbl89.github.io/Mindfulness-Portfolio-Project-Code-Institute/",
                     image: "../../src/images/Captura_de_pantalla_(665).png",
                     description: `oncdjdnjvidnivjnsdjivnsji kdncsocjnsjon dcnodjsncosncon odcnsdocnso
                                  oncd jdnjvid niv  jnsdji vnsji kdncsocjnsjon dcn odj sncos ncon odcns do cnso
