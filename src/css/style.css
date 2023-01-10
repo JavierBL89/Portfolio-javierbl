@@ -317,10 +317,15 @@ ul li{
        width: 32%;
        height: 2.6rem;
        text-align: center;
-       border-top: solid 1px rgb(254, 250, 240);
-       border-right: solid 1px rgb(254, 250, 240);
-       border-left: solid 1px rgb(254, 250, 240);
+       /* border-top: solid 1px rgb(254, 250, 240); */
+       /* border-right: solid 1px rgb(254, 250, 240); */
+       /* border-left: solid 1px rgb(254, 250, 240); */
     }
+
+    /* .projects-link{
+         border-right: solid 1px rgb(254, 250, 240);
+       border-left: solid 1px rgb(254, 250, 240);
+    } */
 
     .navbar-item-box p{
         padding: 0.4rem;
@@ -341,9 +346,9 @@ ul li{
         width: 32%;
         height: 2.6rem;
         text-align: center;
-        border-bottom: solid 1px #1C3879;
-        border-right: solid 1px #1C3879;
-        border-left: solid 1px #1C3879;
+        /* border-bottom: solid 1px #1C3879; */
+        /* border-right: solid 1px #1C3879;
+        border-left: solid 1px #1C3879; */
      }
 
      .secondary-navbar-wraper .navbar-container{
@@ -467,9 +472,25 @@ ul li{
 }
 
 .project-img img {
-    width: 105%;
-    height: 115%;
+    width: 100%;
+    height: 100%;
 }
+
+.screen{
+   width: 350px;
+   height: 250px;
+   border: solid 10px rgb(70, 70, 70);
+   margin: 2rem auto auto;
+}
+
+.screen-base{
+    border-radius: 5px;
+    width: 350px;
+    height: 10px;
+    background-color: rgb(70, 70, 70);
+    margin: 1rem auto;
+}
+
 .project-tech {
     display: flex;
 justify-content: space-evenly;
@@ -480,10 +501,9 @@ justify-content: space-evenly;
 }
 
 .project-card-head h6{
-    font-size: 1.1em;
+    font-size: 1.3em;
     margin-bottom: 1rem;
     color: #1C3879;
-
 }
 
 .project-description{
@@ -493,8 +513,6 @@ justify-content: space-evenly;
     font-weight: 400;
     /* background-color:rgb(255, 247, 228); */
 }
-
-
 
 .project-description-container img{
     opacity: 0.3;
@@ -801,11 +819,9 @@ textarea{
        width: 32%;
        height: 2.4rem;
        text-align: center;
-       border-top: solid 1px rgb(254, 250, 240);
-
-       border-right: solid 1px rgb(254, 250, 240);
-
-       border-left: solid 1px rgb(254, 250, 240);
+       /* border-top: solid 1px rgb(254, 250, 240); */
+       /* border-right: solid 1px rgb(254, 250, 240);
+       border-left: solid 1px rgb(254, 250, 240); */
 
     }
 
@@ -829,9 +845,9 @@ textarea{
         width: 32%;
         height: 2.4rem;
         text-align: center;
-        border-bottom: solid 1px #1C3879;
-        border-right: solid 1px #1C3879;
-        border-left: solid 1px #1C3879;
+        /* border-bottom: solid 1px #1C3879; */
+        /* border-right: solid 1px #1C3879;
+        border-left: solid 1px #1C3879; */
      }
 
      .secondary-navbar-wraper .navbar-container{
@@ -944,7 +960,7 @@ textarea{
 
 .project-img img{
     width: 100%;
-    height: 95%;
+    height: 100%;
 }
 
 .project-tech{
@@ -1241,9 +1257,9 @@ min-height: 100vh;
        width: 32%;
        height: 2.5rem;
        text-align: center;
-       border-top: solid 1px rgb(254, 250, 240);
-       border-right: solid 1px rgb(254, 250, 240);
-       border-left: solid 1px rgb(254, 250, 240);
+       /* border-top: solid 1px rgb(254, 250, 240); */
+       /* border-right: solid 1px rgb(254, 250, 240);
+       border-left: solid 1px rgb(254, 250, 240); */
     }
 
     .navbar-item-box p{
@@ -1266,9 +1282,9 @@ min-height: 100vh;
         width: 32%;
         height: 2.5rem;
         text-align: center;
-        border-bottom: solid 1px #1C3879;
-        border-right: solid 1px #1C3879;
-        border-left: solid 1px #1C3879;
+        /* border-bottom: solid 1px #1C3879; */
+        /* border-right: solid 1px #1C3879;
+        border-left: solid 1px #1C3879; */
      }
 
      .secondary-navbar-wraper .navbar-container{
@@ -1419,8 +1435,6 @@ min-height: 100vh;
 .project-card h6{
     margin-bottom: 1.5rem;
     font-size:1.4rem;
-    margin-left: 1.2rem;
-
     color: #1C3879;
     /* color: rgb(252, 252, 252); */
     font-weight: 600;
@@ -1752,9 +1766,9 @@ padding: 1rem 1.5rem;
        width: 32%;
        height: 2.8rem;
        text-align: center;
-       border-top: solid 1px rgb(254, 250, 240);
-       border-right: solid 1px rgb(254, 250, 240);
-       border-left: solid 1px rgb(254, 250, 240);
+       /* border-top: solid 1px rgb(254, 250, 240); */
+       /* border-right: solid 1px rgb(254, 250, 240);
+       border-left: solid 1px rgb(254, 250, 240); */
     }
 
     .navbar-item-box p{
@@ -1775,9 +1789,9 @@ padding: 1rem 1.5rem;
         width: 32%;
         height: 2.8rem;
         text-align: center;
-        border-bottom: solid 1px #1C3879;
-        border-right: solid 1px #1C3879;
-        border-left: solid 1px #1C3879;
+        /* border-bottom: solid 1px #1C3879; */
+        /* border-right: solid 1px #1C3879;
+        border-left: solid 1px #1C3879; */
      }
 
      .secondary-navbar-wraper .navbar-container{

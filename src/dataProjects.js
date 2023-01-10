@@ -1,12 +1,11 @@
 export const projects = [
 
     {
-        title: "Ecommerce Store",
+        title: "B2C ecommerce store",
         url: "https://bastyshops.onrender.com/",
-        image: "https://res.cloudinary.com/dthlibbj7/image/upload/v1673219280/image_1_mzqzou.png",
-        description: `oncdjdnjvidnivjnsdjivnsji kdncsocjnsjon dcnodjsncosncon odcnsdocnso
-                     oncd jdnjvid niv  jnsdji vnsji kdncsocjnsjon dcn odj sncos ncon odcns do cnso
-                     onc djdnjvidni vjn sdjivn sji kdncs ocjnsjon dcnodj sncosncon odcnsdocnso`,
+        image: "https://res.cloudinary.com/dthlibbj7/image/upload/v1673315005/Captura_de_pantalla_679_qhe4ef.png",
+        description: `It allows users to check out products clasified into categories, select a specific product and size, add it to the shopping bag and securily checkout through Stripe payment platform.
+         Full stack application powered by django for server-side and javascript for client-side`,
         technology : [ {icon: "https://img.icons8.com/color/25/null/python--v1.png", name: "python-logo"}, 
                        {icon: "https://img.icons8.com/ios/25/null/javascript--v1.png", name: "javascript-logo"},
                        {icon: "https://img.icons8.com/color/25/null/stripe.png", name: "stripe-logo"},
@@ -33,12 +32,11 @@ export const projects = [
     //               ]
     //     },
         {
-            title: "Mindfullness & Meditation",
+            title: "Blog Mindfullness & Meditation",
             url: "https://javierbl89.github.io/Mindfulness-Portfolio-Project-Code-Institute/",
-            image: "https://res.cloudinary.com/dthlibbj7/image/upload/v1673220273/image_2_dpeiil.png",
-            description: `oncdjdnjvidnivjnsdjivnsji kdncsocjnsjon dcnodjsncosncon odcnsdocnso
-                         oncd jdnjvid niv  jnsdji vnsji kdncsocjnsjon dcn odj sncos ncon odcns do cnso
-                         onc djdnjvidni vjn sdjivn sji kdncs ocjnsjon dcnodj sncosncon odcnsdocnso`,
+            image: "https://res.cloudinary.com/dthlibbj7/image/upload/v1673315026/Captura_de_pantalla_676_lbnusq.png",
+            description: `Beautiful blog whit an excellent color pallet, rich in information and well structured in wich users can find information about mindfulness and meditation as well as techniques.
+            This project can be largely scalable adding some backend features. Build with just HTML and CSS in combination with Bootstrap for grid`,
                          technology : [ {icon: "https://img.icons8.com/color/25/null/python--v1.png", name: "python-logo"}, 
                          {icon: "https://img.icons8.com/ios/25/null/javascript--v1.png", name: "javascript-logo"},
                          {icon: "https://img.icons8.com/color/25/null/stripe.png", name: "stripe-logo"},
@@ -51,7 +49,7 @@ export const projects = [
             {
                 title: "Trivia Quizz Game",
                 url: "https://javierbl89.github.io/QUIZZ-QUIZZ-Trivia-Quizz-Game-Code-Institute-Project-2/",
-                image: "https://res.cloudinary.com/dthlibbj7/image/upload/v1673220291/image_3_wvfxgf.png",
+                image: "https://res.cloudinary.com/dthlibbj7/image/upload/v1673315624/Captura_de_pantalla_681_fwycrd.png",
                 description: `oncdjdnjvidnivjnsdjivnsji kdncsocjnsjon dcnodjsncosncon odcnsdocnso
                              oncd jdnjvid niv  jnsdji vnsji kdncsocjnsjon dcn odj sncos ncon odcns do cnso
                              onc djdnjvidni vjn sdjivn sji kdncs ocjnsjon dcnodj sncosncon odcnsdocnso`,
