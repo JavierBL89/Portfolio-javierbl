@@ -463,8 +463,8 @@ ul li{
 
 .project-img{
     /* border-radius: 10px; */
-    height: 13rem;
-    max-width: 18rem;
+    /* height: 13rem; */
+    /* max-width: 12rem; */
     /* background-image: url("../../src/images/Captura_de_pantalla_(665).png");
     background-position: center;
     background-size: cover;
@@ -477,21 +477,20 @@ ul li{
 }
 
 .screen{
-   width: 300px;
-   /* width: 390px; */
+   width: 280px;
    height: 200px;
-   height: 250px;
    border: solid 10px rgb(70, 70, 70);
    margin: 2rem auto auto;
+   border-radius: 5px;
+
 }
 
 .screen-base{
     border-radius: 5px;
-    /* width: 350px; */
     width: 270px;
     height: 10px;
     background-color: rgb(70, 70, 70);
-    margin: 1rem auto;
+    margin: 0.5rem auto;
 }
 
 .project-tech {
@@ -951,9 +950,9 @@ textarea{
 }
 
 .project-img{
-    height: 315px;
+    /* height: 315px;
     min-width: 20rem;
-    max-width: 530px;
+    max-width: 530px; */
     /* background-image: url("../../src/images/image (1).png");
     background-position: center;
     background-size: cover;
@@ -964,6 +963,21 @@ textarea{
 .project-img img{
     width: 100%;
     height: 100%;
+}
+
+.screen{
+    width: 350px;
+    height: 240px;
+    border: solid 10px rgb(70, 70, 70);
+    margin: 2rem auto auto;
+ }
+
+ .screen-base{
+    border-radius: 5px;
+    width: 330px;
+    height: 10px;
+    background-color: rgb(70, 70, 70);
+    margin: 0.5rem auto;
 }
 
 .project-tech{
@@ -1409,7 +1423,23 @@ min-height: 100vh;
     background-repeat: no-repeat;  */
 }
 
+.project-img img{
+    width: 100%;
+    height: 100%;
+}
 
+.screen{
+    width: 390px;
+    height: 250px;
+    border: solid 10px rgb(70, 70, 70);
+    margin: 2rem auto auto;
+    border-radius: 5px;
+ }
+ 
+
+ .screen-base{
+    width: 370px;
+}
 .project-tech-large{
     margin: 1rem auto 0;
     display: flex;
@@ -1437,7 +1467,7 @@ min-height: 100vh;
 
 .project-card h6{
     margin-bottom: 1.5rem;
-    font-size:1.4rem;
+    font-size: 1.4rem;
     color: #1C3879;
     /* color: rgb(252, 252, 252); */
     font-weight: 600;
@@ -1445,10 +1475,11 @@ min-height: 100vh;
 
 
 .project-description{
-    letter-spacing: 1px;
-    margin-top: 1.5rem;
-    font-weight: 600;
+    letter-spacing: 0.3px;
+    margin-top: 3rem;
+    font-weight: 400;
     color: #1C3879;
+    line-height: normal;
 }
 
 small{
@@ -1912,8 +1943,8 @@ padding: 1rem 1.5rem;
 
 .project-img{
     /* height: 230px; */
-    height:15rem;
-    max-width: 22rem;
+    /* height:15rem;
+    max-width: 22rem; */
 }
 
 .project-tech{

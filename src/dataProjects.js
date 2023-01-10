@@ -35,8 +35,8 @@ export const projects = [
             title: "Blog Mindfullness & Meditation",
             url: "https://javierbl89.github.io/Mindfulness-Portfolio-Project-Code-Institute/",
             image: "https://res.cloudinary.com/dthlibbj7/image/upload/v1673315026/Captura_de_pantalla_676_lbnusq.png",
-            description: `Beautiful blog whit an excellent color pallet, rich in information and well structured in wich users can find information about mindfulness and meditation as well as techniques.
-            This project can be largely scalable adding some backend features. Build with just HTML and CSS in combination with Bootstrap for grid`,
+            description: `Beautiful blog with an excellent color pallet, rich on information and well structured.
+            This project can be largely scalabled by adding some backend features. Build with just HTML and CSS in combination with Bootstrap for grid`,
                          technology : [ {icon: "https://img.icons8.com/color/25/null/python--v1.png", name: "python-logo"}, 
                          {icon: "https://img.icons8.com/ios/25/null/javascript--v1.png", name: "javascript-logo"},
                          {icon: "https://img.icons8.com/color/25/null/stripe.png", name: "stripe-logo"},
