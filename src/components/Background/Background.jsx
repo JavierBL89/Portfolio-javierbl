@@ -51,8 +51,8 @@ function Background(){
                                 in <a href="https://www.onepico.com/" target="blank" id="one-pico">One Pico Restaurant</a>
                                 , Dublin.
                                 </p>
-                                <p className="me-5">I am now changing career as i always wanted, and <em>building software solutions </em>
-                                  is want to do.</p>
+                                {/* <p className="me-5">I am now changing career as i always wanted, and <em>building software solutions </em>
+                                  is want to do.</p> */}
                             </div>
                         </div>
                     </div>

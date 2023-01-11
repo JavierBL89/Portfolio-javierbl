@@ -14,7 +14,7 @@ function Course(props){
             <li>{props.qualification}</li>
            </ul>
           </div>
-          <div className="col-12 ms-5 col-lg-3">
+          <div className="col-12 ms-sm-0 ms-lg-5 col-lg-3">
             <CourseDiploma
                 text="Diploma"
                 href={props.diplomaURL}
