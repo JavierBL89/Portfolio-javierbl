@@ -21,12 +21,12 @@ function Course(props){
                 className="course-diploma d-block ms-1"
                 id="course-diploma"
               />
-              <CourseContent
+              {/* <CourseContent
                 text="Skills learned"
                 href="#"
                 className="course-content d-block ms-1"
                 id="course-content"
-              />
+              /> */}
           </div>
         </div>
         </div>

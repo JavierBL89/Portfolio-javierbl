@@ -80,6 +80,11 @@ CANELA: #EAE3D2; */
     display: none;
 }
 
+.showBorder{
+
+        border-bottom: solid 1px #1C3879;
+
+}
 .show{
     animation-name: animateSection;
     transition: ease-in-out;
@@ -150,7 +155,6 @@ ul li{
      border-right: solid 2px #E6CBA8;
      padding-right: 20px;
   }
- 
  
  .course-container ul li{
      line-height: 1.3rem;
@@ -482,7 +486,6 @@ ul li{
    border: solid 10px rgb(70, 70, 70);
    margin: 2rem auto auto;
    border-radius: 5px;
-
 }
 
 .screen-base{
@@ -494,8 +497,8 @@ ul li{
 }
 
 .project-tech {
-    display: flex;
-justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .project-tech img {
@@ -509,7 +512,7 @@ justify-content: space-evenly;
 }
 
 .project-description{
-    padding: 10% 0;
+    /* padding: 10% 0; */
     margin-top: 2rem;
     color: #1C3879;
     font-weight: 400;
