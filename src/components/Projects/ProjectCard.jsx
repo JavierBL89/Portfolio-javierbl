@@ -20,7 +20,7 @@ function ProjectCard(props){
                              <h6 data-aos="fade-down-right" data-aos-once="true">{props.title}</h6>
                             <div data-aos="fade-down-right" data-aos-once="true" className="col-sm-12 col-lg-12 project-img">
                              <div className="screen" >
-                             <a href={props.url} id={"project_" + props.id} target="_blank"><img src={props.image}></img></a>
+                             <a href={props.url} id={"project_" + props.id} target="_blank" rel="noreferrer"><img src={props.image} alt={props.title}></img></a>
                              </div>
                              <div className="screen-base"></div>
                             {/* <a href={props.url} id={"project_" + props.id}><img src={props.image} alt={props.title} /></a> */}

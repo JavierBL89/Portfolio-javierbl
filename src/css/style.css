@@ -40,7 +40,8 @@ a,
 h6,
 .hobbies-container,
 .background-container, 
-#contact-form .form-control, 
+#contact-form .form-control,
+.project-card, 
 .secondary-navbar-wraper .navbar-item-box p{
     color: #1C3879;
 

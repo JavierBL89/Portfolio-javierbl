@@ -15,7 +15,6 @@ function Heading(){
                 </div> 
                 <div className="col-12 col-lg-6">
                    <div className="img-container">
-                   {/* <img src="https://res.cloudinary.com/dthlibbj7/image/upload/v1668343688/FORTALEZA_HOHENSALZBURG_20_iiqcmp.jpg" alt="javier"/> */}
                    </div>
                 </div>
               </div>
