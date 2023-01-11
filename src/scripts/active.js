@@ -20,7 +20,7 @@ function active(section){
         meSection.removeClass("hiden");
         // meSection.addClass("show");
        // active section title
-        options[0].setAttribute("style", "border: none;");
+        options[0].setAttribute("style", "font-weight: 600");
         options[1].removeAttribute("style");
         options[2].removeAttribute("style");  
 
@@ -33,7 +33,7 @@ function active(section){
         projectsSection.removeClass("hiden")
        // active section title
         options[0].removeAttribute("style");
-        options[1].setAttribute("style", "border: none;");
+        options[1].setAttribute("style", "font-weight: 600");
         options[2].removeAttribute("style");
 
     }else if(section.id === "background-link"){
@@ -45,7 +45,7 @@ function active(section){
        // active section title
         options[0].removeAttribute("style");
         options[1].removeAttribute("style");
-        options[2].setAttribute("style", "border: none;");
+        options[2].setAttribute("style", "font-weight: 600");
 
     };
     

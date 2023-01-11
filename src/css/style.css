@@ -82,9 +82,9 @@ CANELA: #EAE3D2; */
 
 .showBorder{
 
-        border-bottom: solid 1px #1C3879;
-
+    border-bottom: solid 1px #1C3879;
 }
+
 .show{
     animation-name: animateSection;
     transition: ease-in-out;
@@ -337,13 +337,17 @@ ul li{
         color: rgb(254, 250, 240);
     }
 
+    #main-navbar-container #me-link,
+    #main-navbar-container #background-link{
+        display: none;
+    }
     
     /********** NAVBAR SECTIONS *******/
     .secondary-navbar-wraper{
         position: relative;
         width: 100%;
         padding: 0;
-        margin: 0 auto 10rem;
+        margin: 1rem auto 10rem;
     }
     
     .secondary-navbar-wraper .navbar-item-box{
@@ -502,7 +506,7 @@ ul li{
 }
 
 .project-tech img {
-   opacity: 0.3;
+   opacity: 0.7;
 }
 
 .project-card-head h6{
@@ -512,16 +516,16 @@ ul li{
 }
 
 .project-description{
-    /* padding: 10% 0; */
-    margin-top: 2rem;
+    padding: 10% 0;
+    /* margin-top: 2rem; */
     color: #1C3879;
     font-weight: 400;
     /* background-color:rgb(255, 247, 228); */
 }
 
-.project-description-container img{
+/* .project-description-container img{
     opacity: 0.3;
-}
+} */
 
 .project-description small{
     font-size: 1.1em;
@@ -837,13 +841,16 @@ textarea{
 
     }
 
+    .main-navbar-container > .me-link, .background-link{
+        display: none;
+    }
     
     /********** NAVBAR SECTIONS *******/
     .secondary-navbar-wraper{
         position: relative;
         width: 100%;
         padding: 0;
-        margin: 0 auto 10rem;
+        margin: 1rem auto 10rem;
     }
     
     .secondary-navbar-wraper .navbar-item-box{
@@ -1277,9 +1284,9 @@ min-height: 100vh;
        width: 32%;
        height: 2.5rem;
        text-align: center;
-       /* border-top: solid 1px rgb(254, 250, 240); */
-       /* border-right: solid 1px rgb(254, 250, 240);
-       border-left: solid 1px rgb(254, 250, 240); */
+       border-top: solid 1px rgb(254, 250, 240); 
+       border-right: solid 1px rgb(254, 250, 240);
+       border-left: solid 1px rgb(254, 250, 240);
     }
 
     .navbar-item-box p{
@@ -1289,13 +1296,17 @@ min-height: 100vh;
         color: rgb(254, 250, 240);
     }
 
-    
+    #main-navbar #main-navbar-container #me-link, 
+    #main-navbar #main-navbar-container #background-link{
+        display: block;
+    }
+
     /********** SECONDARY NAVBAR *******/
     .secondary-navbar-wraper{
         position: relative;
         width: 100%;
         padding: 0;
-        margin: 0 auto 10rem;
+        margin: 1rem auto 10rem;
     }
     
     .secondary-navbar-wraper .navbar-item-box{
@@ -1452,7 +1463,7 @@ min-height: 100vh;
  }
 
 .project-tech-large img{
-   opacity: 0.4; 
+   opacity: 0.6; 
    width: 32px;
     height: 32px;
 }
@@ -1463,11 +1474,11 @@ min-height: 100vh;
  }
 
 
-.project-tech img{
+/* .project-tech img{
     width: 30px;
     height: 30px;
     margin: 0 auto;
- }
+ } */
 
 .project-card h6{
     margin-bottom: 2rem;
