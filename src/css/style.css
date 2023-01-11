@@ -2,7 +2,54 @@
 /* BLUE:    #1C3879
 CANELA: #EAE3D2; */
 
-/***  MODAL ***/
+
+/**** FONT STYLES */
+
+.subject, .profesion,
+.me-container > .section-content-container p
+.me-container > .section-content-container h6,
+.me-container > .section-content-container,
+.hobbies-container .row .personality-quote,
+.course-container,
+.hospitality-container-wraper > p,
+.contact-container h3{
+    font-family: 'Sarabun', sans-serif;
+}
+
+
+.profesion, .me-container > .section-content-container p,
+.me-container > .section-content-container,
+.course-container,
+.feedback-container p{
+    font-weight: 600;
+}
+
+.junior{
+    font-weight: 300;
+}
+
+.me-container > .section-content-container h6,
+.hobbies-container .row .personality-quote,
+.contact-container h3{
+font-weight: 800;
+}
+
+/********* COLORS */ 
+p, 
+a, 
+h6,
+.hobbies-container,
+.background-container, 
+#contact-form .form-control, 
+.secondary-navbar-wraper .navbar-item-box p{
+    color: #1C3879;
+
+}
+.contact-container h3{
+    color: #001253;
+ }
+
+/*******************************  MODAL ***/
 .modal-contact{
     display: none;
     background-color: #001253;
@@ -32,8 +79,8 @@ CANELA: #EAE3D2; */
 #contact-icon-1, #contact-icon-2{
     cursor: pointer;
 }
-/******* ANIMATION CLASSES */
 
+/******************************** ANIMATION CLASSES */
 .line1-heading,
 .line2-heading, 
 .separator,
@@ -110,15 +157,58 @@ CANELA: #EAE3D2; */
     border-bottom: grid;
 }
 
-/*************** CORE CSS*/
+/********************************** CORE CSS*/
 body {
     margin: 0;
     padding: 0;
     background-color: #1C3879;
 }
 
+.main-wrapper{
+    width: 100%;
+    margin: 0 auto;
+    min-height: 100%;
+}
+
+.heading-wraper{
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.social-container > a, 
+.heading-wraper *{
+    color:rgb(254, 250, 240);
+}
+
+.quote-wraper{
+    width: 100%;
+    margin: 0 auto;
+}
+
+/**************  MAIN NAVBAR ***/
+
+.main-navbar-wraper{
+    width: 100%;
+    padding: 0;
+    margin: 100% auto 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.navbar-container, .main-navbar-container{
+    display: flex;
+    flex-direction: row;
+    padding: 3px 3px 0;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
 .navbar-item-box{
     cursor: pointer;
+    width: 32%;
+    text-align: center;
 }
 
 .navbar-item-box > a{
@@ -127,25 +217,104 @@ body {
     text-decoration: none;
 }
 
-.feedback-container p{
-    margin: 0;
-    color: #1C3879;
-    font-weight: 600;
+
+/**********  SECONDARY NAVBAR ***/
+
+    .secondary-navbar-wraper{
+        position: relative;
+        width: 100%;
+        padding: 0;
+        margin: 1rem auto 10rem;
+    }
+
+    .secondary-navbar-wraper .navbar-item-box{
+        width: 32%;
+        text-align: center;
+     }
+
+     .secondary-navbar-wraper .navbar-container{
+        padding-top: 0;
+        padding-bottom: 3px;
+     }
+
+    /************* SECTIONS */
+    .section-wraper{
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .section-container{
+        position: absolute;
+        top: 0;
+        left: 0;
+    background-color:rgb(254, 250, 240);
+    }
+
+    .section-content-container{
+        width: 100%;
+        padding: 0 1.7rem 2rem;
+    }
+    /********* ME SECTION */
+
+    .me-container > .section-content-container h6{
+        text-align: center;
+        font-style: italic;
+        letter-spacing: 1px;
+    }
+
+    .me-container > .section-content-container{
+        margin: 0 auto;
+        letter-spacing: 1px;
+        text-align: left;
+  
+    }
+
+    .hobbies-container .row .personality-quote{
+        font-style: italic;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+
+    /********** PROJECTS SECTION */
+
+    .project-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+.project-tech {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .project-tech img {
+     opacity: 0.7;
+  }
+
+  /*** BACKGROUND SECTION SECTION */
+
+  .course-container{
+    margin: 2.5rem auto 2.5rem;
+    padding-right: 0;
 }
 
-.section-content-container{
-    width: 100%;
-    padding: 0 1.7rem 2rem;
+.dots{
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+}
+
+.dot{
+    width: 3px;
+    height: 3px;
+    margin: auto 3px;
+    background-color: #a3a3a3;
+    border-radius: 50%;
 }
 
 ul li{
     list-style: none;
 }
-
-.course-container a, .hospitality-container-wraper a{
-    color: #1C3879;
-}
-
 
 .course-container-wraper{
     border-left: solid 2px #E6CBA8;
@@ -156,18 +325,41 @@ ul li{
      padding-right: 20px;
   }
  
+/******** CONTACT FORM SECTION SECTION */
+
+  .contact-container h3{
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
  .course-container ul li{
      line-height: 1.3rem;
  }
 
-    .contact-wraper{
-    /* background-color: #EAE3D2; */
+.contact-wraper{
     background-color:rgb(254, 250, 240);
 }
 
  .contact-container h3{
     color: #001253;
  }
+
+ #contact-form{
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form .form-control{
+    background-color: inherit;
+    border-color: #1C3879;
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+
+#contact-form .form-control:focus{
+    border: solid 2px;
+}
 
  .form-control::placeholder{
     color: #1c387971;
@@ -176,15 +368,29 @@ ul li{
 
 }
 
+#contact-form button{
+    background-color: #001253;
+    border-color: #001253;
+    color: rgb(254, 250, 240);
+    width: 100%;
+}
+
+#contact-form button:hover{
+    background-color: rgb(254, 250, 240);
+    border-color: #001253;
+    color: #001253;
+    font-weight: 600;
+}
+
+.feedback-container p{
+    margin: 0;
+}
+
+
+/************************************* MOBILE SCREEN */
+
 @media (min-width: 320px) {
-
    
-    .main-wrapper{
-        width: 100%;
-        margin: 0 auto;
-        min-height: 100%;
-    }
-
     .social-wraper{
         width: 100%;
         margin: 12% auto auto;
@@ -201,23 +407,11 @@ ul li{
         justify-content: space-evenly;
     }
 
-    .social-container > a, .heading-wraper *{
-        /* color: #EAE3D2; */
-        color:rgb(254, 250, 240);
-    }
-
     .social-container > a{
         font-size: 1.4rem;
     }
 
-
-    /*********** HEADING *************/
-
-    .heading-wraper{
-        width: 100%;
-        margin: 0 auto;
-        justify-content: center;
-    }
+    /*********** HERO *************/
 
     .heading-container {
         max-width: 18em;
@@ -238,20 +432,13 @@ ul li{
     }
     
     .profesion{
-        font-family: 'Sarabun', sans-serif;
-        font-weight: 600;
         font-size: 1.3rem;
         margin-top: 5px;
         margin-bottom: 3px;
         margin-left: 1.5rem;
     }
     
-    .junior{
-        font-weight: 300;
-    }
-
     .subject{
-        font-family: 'Sarabun', sans-serif;
         font-size: 0.900rem;
         margin-top: 0px;
         margin-left: 10.2rem;
@@ -268,17 +455,11 @@ ul li{
 
     /******** QUOTE SECTION **********/
 
-    .quote-wraper{
-        width: 100%;
-        margin: 0 auto;
-    }
-    
     .quote-container{
         margin: 0 auto 2rem;
         max-width: 18em;
         max-height: 100px;
         text-align: center;
-        /* color: #EAE3D2; */
         color:rgb(254, 250, 240);
     }
 
@@ -290,46 +471,9 @@ ul li{
 
     /********** NAVIATION BAR **********/
 
-    /* .sections-wraper{
-        width: 100%;
-        margin: 100% auto 0;
-
-        position: absolute;
-        bottom: 0;
-        left: 0;
-    } */
-
-    .main-navbar-wraper{
-        width: 100%;
-        padding: 0;
-        margin: 100% auto 0;
-        position: absolute;
-        left: 0;
-        bottom: 0;
-    }
-
-    .navbar-container, .main-navbar-container{
-        display: flex;
-        flex-direction: row;
-        padding: 3px 3px 0;
-        width: 100%;
-        margin: 0 auto;
-        justify-content: space-evenly;
-    }
-    
     .navbar-item-box{
-       width: 32%;
        height: 2.6rem;
-       text-align: center;
-       /* border-top: solid 1px rgb(254, 250, 240); */
-       /* border-right: solid 1px rgb(254, 250, 240); */
-       /* border-left: solid 1px rgb(254, 250, 240); */
     }
-
-    /* .projects-link{
-         border-right: solid 1px rgb(254, 250, 240);
-       border-left: solid 1px rgb(254, 250, 240);
-    } */
 
     .navbar-item-box p{
         padding: 0.4rem;
@@ -343,81 +487,33 @@ ul li{
     }
     
     /********** NAVBAR SECTIONS *******/
-    .secondary-navbar-wraper{
-        position: relative;
-        width: 100%;
-        padding: 0;
-        margin: 1rem auto 10rem;
-    }
-    
-    .secondary-navbar-wraper .navbar-item-box{
-        width: 32%;
-        height: 2.6rem;
-        text-align: center;
-        /* border-bottom: solid 1px #1C3879; */
-        /* border-right: solid 1px #1C3879;
-        border-left: solid 1px #1C3879; */
-     }
 
-     .secondary-navbar-wraper .navbar-container{
-        padding-top: 0;
-        padding-bottom: 3px;
+    .secondary-navbar-wraper .navbar-item-box{
+        height: 2.6rem;
      }
 
      .secondary-navbar-wraper .navbar-item-box p{
         padding: 7px;
         font-size: 1em;
-        color: #1C3879;
     }
 
     /*********** ME SECTION ***********/
-
-    .section-wraper{
-        position: relative;
-        width: 100%;
-        margin: 0 auto;
-        background-color: #a3a3a3;
-    }
-    
     .section-container{
         padding: 0 0 4rem;
-        position: absolute;
-        top: 0;
-        left: 0;
-    /* background-color:rgb(255, 247, 228); */
-    background-color:rgb(254, 250, 240);
-
     }
 
     .me-container > .section-content-container{
-        margin: 0 auto;
-        letter-spacing: 1px;
-        text-align: left;
-        font-family: 'Sarabun', sans-serif;
-        font-weight: 600;
-        color: #1C3879;
         max-width: 470px;
-
     }
 
     .me-container > .section-content-container p{
         letter-spacing: 1px;
-        font-family: 'Sarabun', sans-serif;
-        font-weight: 600;
-        color: #1C3879;
         font-size: 1.1em;
     }
 
     .me-container > .section-content-container h6{
-        text-align: center;
-        font-style: italic;
-        margin: 3.2rem 1.2rem 2rem;
-        letter-spacing: 1px;
-        font-family: 'Sarabun', sans-serif;
-        font-weight: 800;
-        color: #1C3879;
         font-size: 1.1em;
-
+        margin: 3.2rem 1.2rem 2rem;
     }
 
     /********* HOBBIES ****/
@@ -429,13 +525,9 @@ ul li{
     }
 
     .hobbies-title{
-        color: #1C3879;  
         margin-bottom: 3rem;
     }
  
-    .hobbies-container {
-        color: #1C3879;  
-    }
 
  .hobbies-container .row {
     margin-bottom: 2rem;
@@ -446,16 +538,9 @@ ul li{
  }
 
  .hobbies-container .row .personality-quote{
-    font-style: italic;
-    text-align: center;
-    letter-spacing: 1px;
-    font-family: 'Sarabun', sans-serif;
-    font-weight: 800;
-    color: #1C3879;
     font-size: 1em;
 
 }
-
 
 /************ PROJECTS SECTION */
 
@@ -463,25 +548,11 @@ ul li{
     margin: 0 auto ;
 
 }
+
 .project-card{
     max-width: 410px;
     margin-bottom: 7rem;
     min-height: 500px;    
-}
-
-.project-img{
-    /* border-radius: 10px; */
-    /* height: 13rem; */
-    /* max-width: 12rem; */
-    /* background-image: url("../../src/images/Captura_de_pantalla_(665).png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; */
-}
-
-.project-img img {
-    width: 100%;
-    height: 100%;
 }
 
 .screen{
@@ -500,32 +571,16 @@ ul li{
     margin: 0.5rem auto;
 }
 
-.project-tech {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.project-tech img {
-   opacity: 0.7;
-}
 
 .project-card-head h6{
     font-size: 1.3em;
     margin-bottom: 1rem;
-    color: #1C3879;
 }
 
 .project-description{
     padding: 10% 0;
-    /* margin-top: 2rem; */
-    color: #1C3879;
     font-weight: 400;
-    /* background-color:rgb(255, 247, 228); */
 }
-
-/* .project-description-container img{
-    opacity: 0.3;
-} */
 
 .project-description small{
     font-size: 1.1em;
@@ -535,18 +590,10 @@ ul li{
 
 .background-container{
     max-width: 410px;
-    color: #1C3879;
 }
 
 .background-heading{
     margin-bottom: 2rem;
-}
-
-.course-container{
-    margin: 2.5rem auto 2.5rem;
-    padding-right: 0;
-    font-family: 'Sarabun', sans-serif;
-    font-weight: 600;
 }
 
 .course-container ul li{
@@ -561,8 +608,6 @@ ul li{
 
 .hospitality-container-wraper > p{
     font-size: 1.1rem;
-    font-family: 'Sarabun', sans-serif;
-    font-weight: 600;
     line-height: 1.6rem;
 }
 
@@ -570,19 +615,12 @@ ul{
     padding-left: 7px;
 }
 
-.dots{
-
-    margin-top: 6rem;
-    margin-bottom: 5rem;
-}
-
 .dot{
-    width: 3px;
-    height: 3px;
+    width: 4px;
+    height: 4px;
     margin: auto 3px;
     background-color: #a3a3a3;
 }
-
 
 /********* CONTACT SECTION ***/
 
@@ -593,7 +631,6 @@ ul{
     right: 2rem;
     display: none;
 }
-
 
 #contact-icon-1 img, #contact-icon-2 img{
     width: 3.5rem;
@@ -636,53 +673,17 @@ min-height: 100vh;
 }
 
 .contact-container h3{
-    text-align: center;
-    font-family: 'Sarabun', sans-serif;
     font-size: 1.5rem;
-    font-weight: 800;
-    letter-spacing: 2px;
 }
 
-#contact-form{
-    display: flex;
-    flex-direction: column;
-}
 
 #contact-form .form-control{
-    background-color: inherit;
-    border-color: #1C3879;
     margin-bottom: 0.7rem;
     font-size: 0.950rem;
-    letter-spacing: 1px;
-    font-weight: 400;
-    color: #1C3879;
-    box-shadow: none;
-}
-
-#contact-form .form-control:focus{
-    border: solid 2px;
 }
 
 .form-control::placeholder{
     font-size: 0.900rem;
-}
-
-#contact-form button{
-    background-color: #001253;
-    /* background-color: #1C3879; */
-    border-color: #001253;
-    /* color: rgb(255, 255, 255); */
-    color: #f1f1f1;
-    width: 100%;
-
-}
-
-#contact-form button:hover{
-    background-color: #f1f1f1;
-    border-color: #fcfcfc;
-    /* background-color: #1C3879; */
-    color: #001253;
-    font-weight: 600;
 }
 
 textarea{
@@ -690,14 +691,10 @@ textarea{
 }
 }
 
-@media (min-width: 600px) {
 
-    
-    .main-wrapper{
-        width: 100%;
-        margin: 0 auto;
-        min-height: 100%;
-    }
+/*************************************** TABLET SCREEN SIZE*/
+
+@media (min-width: 600px) {
 
     .social-wraper{
         width: 100%;
@@ -715,23 +712,12 @@ textarea{
         justify-content: space-evenly;
     }
 
-    .social-container > a, .heading-wraper *{
-        color: rgb(254, 250, 240);
-
-    }
-
     .social-container > a{
         font-size: 1.4em;
     }
 
 
-    /*********** HEADING *************/
-
-    .heading-wraper{
-        width: 100%;
-        margin: 0 auto;
-        justify-content: center;
-    }
+    /*********** HERO *************/
 
     .heading-container{
         max-width: 20em;
@@ -752,20 +738,13 @@ textarea{
     }
     
     .profesion{
-        font-family: 'Sarabun', sans-serif;
-        font-weight: 600;
         font-size: 1.4rem;
         margin-top: 5px;
         margin-bottom: 3px;
         margin-left: 2.8rem;
     }
-    
-    .junior{
-        font-weight: 300;
-    }
 
     .subject{
-        font-family: 'Sarabun', sans-serif;
         font-size: 0.900rem;
         margin-top: 0px;
         margin-left: 12.5rem;
@@ -782,12 +761,7 @@ textarea{
     }
 
     /******** QUOTE SECTION **********/
-
-    .quote-wraper{
-        width: 100%;
-        margin: 0 auto;
-    }
-    
+ 
     .quote-container{
         margin: 1rem auto 2rem;
         max-width: 18rem;
@@ -805,33 +779,12 @@ textarea{
 
     /********** NAVIATION BAR **********/
 
-    .main-navbar-wraper{
-        width: 100%;
-        padding: 0;
-        margin: 100% auto 0;
-        position: absolute;
-        left: 0;
-        bottom: 0;
-    }
-
     .navbar-container, .main-navbar-container{
-        display: flex;
-        flex-direction: row;
-        padding: 3px 3px 0;
-        width: 100%;
         max-width: 750px;
-        margin: 0 auto;
-        justify-content: space-evenly;
     }
     
     .navbar-item-box{
-       width: 32%;
        height: 2.4rem;
-       text-align: center;
-       /* border-top: solid 1px rgb(254, 250, 240); */
-       /* border-right: solid 1px rgb(254, 250, 240);
-       border-left: solid 1px rgb(254, 250, 240); */
-
     }
 
     .navbar-item-box p{
@@ -846,31 +799,14 @@ textarea{
     }
     
     /********** NAVBAR SECTIONS *******/
-    .secondary-navbar-wraper{
-        position: relative;
-        width: 100%;
-        padding: 0;
-        margin: 1rem auto 10rem;
-    }
     
     .secondary-navbar-wraper .navbar-item-box{
-        width: 32%;
         height: 2.4rem;
-        text-align: center;
-        /* border-bottom: solid 1px #1C3879; */
-        /* border-right: solid 1px #1C3879;
-        border-left: solid 1px #1C3879; */
-     }
-
-     .secondary-navbar-wraper .navbar-container{
-        padding-top: 0;
-        padding-bottom: 3px;
      }
 
      .secondary-navbar-wraper .navbar-item-box p{
         padding: 5px;
         font-size: 1.050em;
-        color: #1C3879;
     }
 
     /*********** ME SECTION ***********/
@@ -884,12 +820,6 @@ textarea{
     
     .section-container{
         padding: 0 0 4rem;
-        position: absolute;
-        top: 0;
-        left: 0;
-        /* background-color: #EAE3D2; */
-    background-color:rgb(254, 250, 240);
-
     }
 
     .me-container, .hobbies-container{
@@ -897,30 +827,17 @@ textarea{
     }
 
     .me-container > .section-content-container{
-        letter-spacing: 1px;
-        text-align: left;
-        font-family: 'Sarabun', sans-serif;
-        font-weight: 600;
-        color: #1C3879;
         max-width: 470px;
     }
 
     .me-container > .section-content-container p{
         font-size: 1.050rem;
         letter-spacing: 1px;
-        font-family: 'Sarabun', sans-serif;
-        font-weight: 600;
-        color: #1C3879;
     }
 
     .me-container > .section-content-container h6{
         font-size: 1.050rem;
-        font-style: italic;
         margin: 3.2rem 1.8rem 2rem;
-        letter-spacing: 1px;
-        font-family: 'Sarabun', sans-serif;
-        font-weight: 800;
-        color: #1C3879;
     }
     
 
@@ -933,7 +850,6 @@ textarea{
     }
 
     .hobbies-title{
-        color: #1C3879;  
         margin-bottom: 3rem;
         font-size: 1.6rem;
     }
@@ -943,12 +859,6 @@ textarea{
  }
 
  .hobbies-container .row .personality-quote{
-    font-style: italic;
-    text-align: center;
-    letter-spacing: 1px;
-    font-family: 'Sarabun', sans-serif;
-    font-weight: 800;
-    color: #1C3879;
     font-size: 1.1rem;
 }
 
@@ -957,22 +867,6 @@ textarea{
 .project-card{
     max-width: 27rem;
     margin-bottom: 8rem;
-}
-
-.project-img{
-    /* height: 315px;
-    min-width: 20rem;
-    max-width: 530px; */
-    /* background-image: url("../../src/images/image (1).png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; */
- 
-}
-
-.project-img img{
-    width: 100%;
-    height: 100%;
 }
 
 .screen{
@@ -1012,37 +906,19 @@ textarea{
 
 .background-container{
     max-width: 450px;
-    color: #1C3879;
-
 }
 
 .course-container{
     font-size: 0.975rem;
-    margin: 2.5rem auto 2.5rem;
-    font-family: 'Sarabun', sans-serif;
-    font-weight: 600;
-    padding-right: 0;
 }
-
 
 .hospitality-container-wraper > p{
     font-size: 0.975rem;
-    font-family: 'Sarabun', sans-serif;
-    font-weight: 600;
     line-height: 1.4rem;
 }
 
 ul{
     padding-left: 7px;
-}
-
-.dots{}
-
-.dot{
-    width: 3px;
-    height: 3px;
-    margin: auto 3px;
-    background-color: #a3a3a3;
 }
 
 /********* CONTACT SECTION ***/
@@ -1067,7 +943,6 @@ ul{
        }
    }
 
-
 .contact-wraper {
     position: absolute;
     top: 10%;
@@ -1077,8 +952,6 @@ ul{
     border-radius: 2%;
 }
 
-
-
 .contact-container{
 max-width: 410px;
 padding: 3rem 1.5rem;
@@ -1086,64 +959,23 @@ min-height: 100vh;
 }
 
 .contact-container h3{
-    text-align: center;
-    font-family: 'Sarabun', sans-serif;
     font-size: 1.6rem;
-    font-weight: 800;
-    letter-spacing: 2px;
-}
-
-#contact-form{
-    display: flex;
-    flex-direction: column;
 }
 
 #contact-form .form-control{
-    background-color: inherit;
-    border-color: #1C3879;
     margin-bottom: 0.7rem;
     font-size: 1rem;
-    letter-spacing: 1px;
-    font-weight: 400;
-    color: #1C3879;
-    box-shadow: none;
-}
-
-#contact-form .form-control:focus{
-    border: solid 2px;
 }
 
 .form-control::placeholder{
     font-size: 0.950rem;
-
-}
-
-#contact-form button{
-    background-color: #001253;
-    /* background-color: #1C3879; */
-    border-color: #001253;
-    /* color: rgb(255, 255, 255); */
-    color: #f1f1f1;
-    width: 100%;
-}
-
-#contact-form button:hover{
-    background-color: #f1f1f1;
-    border-color: #fcfcfc;
-    /* background-color: #1C3879; */
-    color: #001253;
-    font-weight: 600;
 }
 
 }
 
+
+/************************************** DESKTOP SCREEN SIZE */
 @media (min-width: 900px) {
-
-    .main-wrapper{
-        width: 100%;
-        margin: 0 auto;
-        min-height: 100%;
-    }
 
     .social-wraper{
         width: 100%;
@@ -1164,18 +996,7 @@ min-height: 100vh;
         font-size: 1.3rem;
     }
 
-    .social-container > a, .heading-wraper *{
-        color: rgb(254, 250, 240);
-
-    }
-
     /*********** HEADING *************/
-
-    .heading-wraper{
-        width: 100%;
-        margin: 0 auto;
-        justify-content: center;
-    }
     
     .heading-wraper .container-fluid{
         max-width: 37rem;
@@ -1194,7 +1015,6 @@ min-height: 100vh;
         margin: 3px;
     }
     
-   
     .img-container{
         width: 230px;
         height: 160px;
@@ -1205,27 +1025,19 @@ min-height: 100vh;
         background-repeat: none;
     }
     
-
     .line2-heading{
         padding-left: 1.7rem;
         margin-bottom: 0px;
     }
     
     .profesion{
-        font-family: 'Sarabun', sans-serif;
-        font-weight: 600;
         font-size: 1rem;
         margin-top: 5px;
         margin-bottom: 3px;
         margin-left: 5.5rem;
     }
     
-    .junior{
-        font-weight: 300;
-    }
-
     .subject{
-        font-family: 'Sarabun', sans-serif;
         font-size: 0.700rem;
         margin-top: 0px;
         margin-left: 12.2rem;
@@ -1238,9 +1050,7 @@ min-height: 100vh;
       height: 1px;
       width: 10rem;
       background-color: rgb(254, 250, 240);
-
     }
-    
 
     .img-container{
         margin: 7rem auto auto;
@@ -1249,18 +1059,12 @@ min-height: 100vh;
 
     /******** QUOTE SECTION **********/
 
-    .quote-wraper{
-        width: 100%;
-        margin: 0 auto;
-    }
-    
     .quote-container{
         margin: 0 auto 2rem;
         max-width: 20em;
         max-height: 100px;
         text-align: center;
         color: rgb(254, 250, 240);
-
     }
 
     .quote-container > h2{
@@ -1270,20 +1074,14 @@ min-height: 100vh;
     }
 
 /******************* MAIN NAVBAR*/
+
     .navbar-container, .main-navbar-container{
-        display: flex;
-        flex-direction: row;
-        padding: 5px 3px 0;
-        width: 100%;
+         padding: 5px 3px 0; 
         max-width: 880px;
-        margin: 0 auto;
-        justify-content: space-evenly;
     }
     
     .navbar-item-box{
-       width: 32%;
        height: 2.5rem;
-       text-align: center;
        border-top: solid 1px rgb(254, 250, 240); 
        border-right: solid 1px rgb(254, 250, 240);
        border-left: solid 1px rgb(254, 250, 240);
@@ -1302,61 +1100,27 @@ min-height: 100vh;
     }
 
     /********** SECONDARY NAVBAR *******/
-    .secondary-navbar-wraper{
-        position: relative;
-        width: 100%;
-        padding: 0;
-        margin: 1rem auto 10rem;
-    }
     
     .secondary-navbar-wraper .navbar-item-box{
-        width: 32%;
         height: 2.5rem;
-        text-align: center;
-        /* border-bottom: solid 1px #1C3879; */
-        /* border-right: solid 1px #1C3879;
-        border-left: solid 1px #1C3879; */
-     }
-
-     .secondary-navbar-wraper .navbar-container{
-        padding-top: 0;
-        padding-bottom: 3px;
      }
 
      .secondary-navbar-wraper .navbar-item-box p{
         padding: 8px;
         font-size: 1em;
-        color: #1C3879;
     }
 
     /************ ME SECTION */
 
-    .section-wraper{
-        position: relative;
-        width: 100%;
-        margin: 0 auto;
-        background-color: #a3a3a3;
-    }
-    
     .section-container{
         padding: 0 0 6rem;
-        position: absolute;
-        top: 0;
-        left: 0;
-    background-color:rgb(254, 250, 240);
     }
 
     .me-container, .hobbies-container{
         max-width: 730px;
-
     }
 
     .me-container > .section-content-container{
-        letter-spacing: 1px;
-        text-align: left;
-        font-family: 'Sarabun', sans-serif;
-        font-weight: 600;
-        color: #1C3879;
         max-width: 500px;
     }
 
@@ -1364,23 +1128,14 @@ min-height: 100vh;
         font-size: 1.1rem;
         line-height: 2rem;
         letter-spacing: 1px;
-        font-family: 'Sarabun', sans-serif;
-        font-weight: 600;
-        color: #1C3879;
     }
 
     .me-container > .section-content-container h6{
         line-height: 2rem;
         font-size: 1.1rem;
-        font-style: italic;
         margin: 3.5rem 1.8rem 2rem;
-        letter-spacing: 1px;
-        font-family: 'Sarabun', sans-serif;
-        font-weight: 800;
-        color: #1C3879;
     }
     
-
     /********* HOBBIES ****/
 
     .hobbies-title-container{
@@ -1390,7 +1145,6 @@ min-height: 100vh;
     }
 
     .hobbies-title{
-        color: #1C3879;  
         font-size: 1.6rem;
     }
 
@@ -1404,17 +1158,10 @@ min-height: 100vh;
  }
 
  .hobbies-container .row .personality-quote{
-    font-style: italic;
-    text-align: center;
-    letter-spacing: 1px;
-    font-family: 'Sarabun', sans-serif;
-    font-weight: 800;
-    color: #1C3879;
-    font-size: 1.1rem;
+      font-size: 1.1rem;
 }
 
 /************ PROJECTS SECTION */
-
 
 .projects-wraper{
     margin-top: 8rem;
@@ -1424,22 +1171,6 @@ min-height: 100vh;
     max-width: 900px;
     margin-bottom: 8rem;
     color:#1C3879;
-
-}
-
-.project-img{
-    /* height: 300px;
-    min-width: 15rem;
-    max-width: 530px; */
-     /* background-image: url("../../src/images/Captura_de_pantalla_(665).png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;  */
-}
-
-.project-img img{
-    width: 100%;
-    height: 100%;
 }
 
 .screen{
@@ -1449,7 +1180,6 @@ min-height: 100vh;
     margin: 2rem auto auto;
     border-radius: 5px;
  }
- 
 
  .screen-base{
     width: 370px;
@@ -1473,18 +1203,9 @@ min-height: 100vh;
    justify-content: space-evenly;
  }
 
-
-/* .project-tech img{
-    width: 30px;
-    height: 30px;
-    margin: 0 auto;
- } */
-
 .project-card h6{
     margin-bottom: 2rem;
     font-size: 1.4rem;
-    color: #1C3879;
-    /* color: rgb(252, 252, 252); */
     font-weight: 600;
 }
 
@@ -1493,7 +1214,6 @@ min-height: 100vh;
     letter-spacing: 0.3px;
     margin-top: 4rem;
     font-weight: 400;
-    color: #1C3879;
     line-height: normal;
 }
 
@@ -1505,16 +1225,10 @@ small{
 
 .background-container{
     max-width: 800px;
-    color: #1C3879;
-
 }
 
 .course-container{
     font-size: 1rem;
-    margin: 2.5rem auto 2.5rem;
-    font-family: 'Sarabun', sans-serif;
-    font-weight: 600;
-    padding-right: 0;
 }
 
 .course-container ul li{
@@ -1534,8 +1248,6 @@ small{
 
 .hospitality-container-wraper > p{
     font-size: 1.2rem;
-    font-family: 'Sarabun', sans-serif;
-    font-weight: 400;
     line-height: 1.8rem;
 }
 
@@ -1543,13 +1255,12 @@ ul{
     padding-left: 7px;
 }
 
-.dots{}
-
 .dot{
-    width: 3px;
-    height: 3px;
+    width: 5px;
+    height: 5px;
     margin: auto 3px;
     background-color: #a3a3a3;
+    border-radius: 50%;
 }
 
 /********* CONTACT SECTION ***/
@@ -1582,7 +1293,6 @@ animation-iteration-count: infinite;
     }
 }
 
-
 .contact-wraper{
     position: absolute;
     top: 5%;
@@ -1600,21 +1310,12 @@ animation-iteration-count: infinite;
 .contact-container{
 max-width: 25rem;
 padding: 1rem 1.5rem;
-/* min-height: 100vh; */
 }
 
 .contact-container h3{
-    text-align: center;
-    font-family: 'Sarabun', sans-serif;
     font-size: 1.9rem;
-    font-weight: 800;
-    letter-spacing: 2px;
 }
 
-#contact-form{
-    display: flex;
-    flex-direction: column;
-}
 
 #contact-form input{
     height: 2.5rem;
@@ -1625,18 +1326,8 @@ padding: 1rem 1.5rem;
 }
 
 #contact-form .form-control{
-    background-color: inherit;
-    border-color: #1C3879;
     margin-bottom: 0.8rem;
     font-size: 1rem;
-    letter-spacing: 1px;
-    font-weight: 400;
-    color: #1C3879;
-    box-shadow: none;
-}
-
-#contact-form .form-control:focus{
-    border: solid 2px;
 }
 
 .form-control::placeholder{
@@ -1644,29 +1335,13 @@ padding: 1rem 1.5rem;
 }
 
 #contact-form button{
-    background-color: #001253;
-    /* background-color: #1C3879; */
-    border-color: #001253;
-    /* color: rgb(255, 255, 255); */
-    color: rgb(254, 250, 240);
     height: 2.5rem;
-    width: 100%;
+}
 
 }
 
-#contact-form button:hover{
-    background-color: rgb(254, 250, 240);
-    border-color: #001253;
-    /* background-color: #1C3879; */
-    color: #001253;
-    font-weight: 600;
-}
-
-
-}
-
+/********************************************* LARGE SCREEN SIZE*/
 @media (min-width: 1600px) {
-
 
     html {
         font-size: clamp(100.75%, 2.2vw, 150.25%);
@@ -1675,13 +1350,6 @@ padding: 1rem 1.5rem;
            and set the maximun font size to 30px */
       }
     
-    .main-wrapper{
-        width: 100%;
-        margin: 0 auto;
-        min-height: 100%;
-        padding-top: 10%;
-    }
-
     .social-wraper{
         width: 100%;
         margin: 5% auto auto;
@@ -1701,17 +1369,8 @@ padding: 1rem 1.5rem;
         font-size: 130%;
     }
 
-    .social-container > a, .heading-wraper *{
-        color: rgb(254, 250, 240);
-    }
 
-    /*********** HEADING *************/
-
-    .heading-wraper{
-        width: 100%;
-        margin: 0 auto;
-        justify-content: center;
-    }
+    /*********** HERO *************/
     
     .heading-wraper .container-fluid{
         max-width: 40rem;
@@ -1729,7 +1388,6 @@ padding: 1rem 1.5rem;
         font-size: 4rem;
         margin: 3px;
     }
-    
    
     .img-container{
         margin: 8rem auto auto;
@@ -1743,27 +1401,19 @@ padding: 1rem 1.5rem;
         background-repeat: none;
     }
     
-
     .line2-heading{
         padding-left: 1.7rem;
         margin-bottom: 0px;
     }
     
     .profesion{
-        font-family: 'Sarabun', sans-serif;
-        font-weight: 600;
         font-size: 1.2rem;
         margin-top: 5px;
         margin-bottom: 3px;
         margin-left: 5.5rem;
     }
-    
-    .junior{
-        font-weight: 300;
-    }
 
     .subject{
-        font-family: 'Sarabun', sans-serif;
         font-size: 1em;
         margin-top: 0px;
         margin-left: 12.7rem;
@@ -1781,11 +1431,6 @@ padding: 1rem 1.5rem;
 
     /******** QUOTE SECTION **********/
 
-    .quote-wraper{
-        width: 100%;
-        margin: 0 auto;
-    }
-    
     .quote-container{
         margin: 0 auto 2rem;
         max-width: 21em;
@@ -1802,22 +1447,13 @@ padding: 1rem 1.5rem;
 
     /******************* MAIN NAVBAR*/
     .navbar-container, .main-navbar-container{
-        display: flex;
-        flex-direction: row;
-        padding: 5px 3px 0;
+        padding: 5px 3px 0; 
         width: 100%;
         max-width: 50rem;
-        margin: 0 auto;
-        justify-content: space-evenly;
     }
     
     .navbar-item-box{
-       width: 32%;
        height: 2.8rem;
-       text-align: center;
-       /* border-top: solid 1px rgb(254, 250, 240); */
-       /* border-right: solid 1px rgb(254, 250, 240);
-       border-left: solid 1px rgb(254, 250, 240); */
     }
 
     .navbar-item-box p{
@@ -1835,40 +1471,18 @@ padding: 1rem 1.5rem;
     }
     
     .secondary-navbar-wraper .navbar-item-box{
-        width: 32%;
         height: 2.8rem;
-        text-align: center;
-        /* border-bottom: solid 1px #1C3879; */
-        /* border-right: solid 1px #1C3879;
-        border-left: solid 1px #1C3879; */
-     }
-
-     .secondary-navbar-wraper .navbar-container{
-        padding-top: 0;
-        padding-bottom: 3px;
      }
 
      .secondary-navbar-wraper .navbar-item-box p{
         padding: 0.4rem;
         font-size: 1.3em;
-        color: #1C3879;
     }
 
     /************ ME SECTION */
 
-    .section-wraper{
-        position: relative;
-        width: 100%;
-        margin: 0 auto;
-        background-color: #a3a3a3;
-    }
-    
     .section-container{
         padding: 0;
-        position: absolute;
-        top: 0;
-        left: 0;
-        background-color: rgb(254, 250, 240);
     }
 
     .me-container, .hobbies-container{
@@ -1876,11 +1490,6 @@ padding: 1rem 1.5rem;
     }
 
     .me-container > .section-content-container{
-        letter-spacing: 1px;
-        text-align: left;
-        font-family: 'Sarabun', sans-serif;
-        font-weight: 600;
-        color: #1C3879;
         max-width: inherit
     }
 
@@ -1888,23 +1497,14 @@ padding: 1rem 1.5rem;
         font-size: 1.3em;
         line-height: 2rem;
         letter-spacing: 1px;
-        font-family: 'Sarabun', sans-serif;
-        font-weight: 600;
-        color: #1C3879;
     }
 
     .me-container > .section-content-container h6{
         line-height: 2rem;
         font-size: 1.3rem;
-        font-style: italic;
         margin: 3.5rem 1.8rem 2rem;
-        letter-spacing: 1px;
-        font-family: 'Sarabun', sans-serif;
-        font-weight: 800;
-        color: #1C3879;
     }
     
-
     /********* HOBBIES ****/
 
     .hobbies-title-container{
@@ -1914,7 +1514,6 @@ padding: 1rem 1.5rem;
     }
 
     .hobbies-title{
-        color: #1C3879;  
         font-size: 1.8em;
     }
 
@@ -1928,12 +1527,6 @@ padding: 1rem 1.5rem;
  }
 
  .hobbies-container .row .personality-quote{
-    font-style: italic;
-    text-align: center;
-    letter-spacing: 1px;
-    font-family: 'Sarabun', sans-serif;
-    font-weight: 800;
-    color: #1C3879;
     font-size: 1.3rem;
 }
 
@@ -1942,7 +1535,6 @@ padding: 1rem 1.5rem;
 .projects-wraper{
     margin-top: 6rem;    
     max-width: 52rem;
-
 }
 
 .projects-wraper-container{
@@ -1953,13 +1545,6 @@ padding: 1rem 1.5rem;
     max-width: 59rem;
     margin-bottom: 7rem;
     color:#1C3879;
-
-}
-
-.project-img{
-    /* height: 230px; */
-    /* height:15rem;
-    max-width: 22rem; */
 }
 
 .project-tech{
@@ -1974,8 +1559,8 @@ padding: 1rem 1.5rem;
 
  .project-tech-large {
     margin: 4rem auto 0;
-
 }
+
 .project-tech-large img{
     width: 40px;
     height: 40px;
@@ -1984,17 +1569,13 @@ padding: 1rem 1.5rem;
 
 .project-card h6{
     margin-bottom: 1.5rem;
-    color: #1C3879;
-    /* color: rgb(252, 252, 252); */
     font-weight: 800;
 }
-
 
 .project-description{
     letter-spacing: 1px;
     margin-top: 3rem;
     font-weight: 600;
-    color: #1C3879;
 }
 
 
@@ -2002,7 +1583,6 @@ padding: 1rem 1.5rem;
 
 .background-container{
     max-width: 46rem;
-    color: #1C3879;
     padding-bottom: 6rem;
 }
 
@@ -2010,13 +1590,9 @@ padding: 1rem 1.5rem;
    margin-bottom: 5rem;
 }
 
-
 .course-container{
     font-size: 1.1em;
     margin: 2.5rem auto 2.5rem;
-    font-family: 'Sarabun', sans-serif;
-    font-weight: 600;
-    padding-right: 0;
     line-height: 1.6rem;
 }
 
@@ -2038,8 +1614,6 @@ padding: 1rem 1.5rem;
 .hospitality-container-wraper > p{
     margin-top: 3rem;
     font-size: 1.3rem;
-    font-family: 'Sarabun', sans-serif;
-    font-weight: 400;
     line-height: 1.8rem;
 }
 
@@ -2047,11 +1621,9 @@ ul{
     padding-left: 7px;
 }
 
-.dots{}
-
 .dot{
-    width: 8px;
-    height: 8px;
+    width: 6px;
+    height: 6px;
     margin: 2rem 10px;
     border-radius: 50%;
     background-color: #a3a3a3;
@@ -2088,16 +1660,7 @@ min-height: 100vh;
 }
 
 .contact-container h3{
-    text-align: center;
-    font-family: 'Sarabun', sans-serif;
     font-size: 1.9rem;
-    font-weight: 800;
-    letter-spacing: 2px;
-}
-
-#contact-form{
-    display: flex;
-    flex-direction: column;
 }
 
 #contact-form input{
@@ -2109,18 +1672,8 @@ min-height: 100vh;
 }
 
 #contact-form .form-control{
-    background-color: inherit;
-    border-color: #1C3879;
     margin-bottom: 0.8rem;
     font-size: 1rem;
-    letter-spacing: 1px;
-    font-weight: 400;
-    color: #1C3879;
-    box-shadow: none;
-}
-
-#contact-form .form-control:focus{
-    border: solid 2px;
 }
 
 .form-control::placeholder{
@@ -2128,27 +1681,11 @@ min-height: 100vh;
 }
 
 #contact-form button{
-    background-color: #001253;
-    /* background-color: #1C3879; */
-    border-color: #001253;
-    /* color: rgb(255, 255, 255); */
-    color: rgb(254, 250, 240);
     height: 2.5rem;
-    width: 100%;
-}
-
-#contact-form button:hover{
-    background-color: rgb(254, 250, 240);
-    border-color: #001253;
-    /* background-color: #1C3879; */
-    color: #001253;
-    font-weight: 600;
 }
 
 .feedback-box{
     padding-top: 1rem;
 }
-
-
 
 }
