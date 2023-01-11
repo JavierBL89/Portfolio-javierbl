@@ -4,7 +4,7 @@ export const projects = [
         title: "B2C ecommerce store",
         url: "https://bastyshops.onrender.com/",
         image: "https://res.cloudinary.com/dthlibbj7/image/upload/v1673315005/Captura_de_pantalla_679_qhe4ef.png",
-        description: `It allows users to check out products clasified into categories, select a specific product and size, add it to the shopping bag and securily checkout through Stripe payment platform.
+        description: `It allows users to check out products classified into categories, select a specific product and size, add it to the shopping bag and securely checkout through Stripe payment platform.
          Full stack application powered by django for server-side and javascript for client-side`,
         technology : [ {icon: "https://img.icons8.com/color/25/null/python--v1.png", name: "python-logo"}, 
                        {icon: "https://img.icons8.com/ios/25/null/javascript--v1.png", name: "javascript-logo"},
@@ -21,7 +21,7 @@ export const projects = [
                         title: "Restaurant application",
                         url: "https://oryo-poxo.onrender.com/",
                         image: "https://res.cloudinary.com/dthlibbj7/image/upload/v1673356964/Captura_de_pantalla_683_g4dhne.png",
-                        description: `Back-end application powered by Python, class based views and django models. Jquery and AnimateCSS frameworks is used for client side. Users can make reservations and it checks for double reservations`,
+                        description: `Back-end application powered by Python, class based views and django models. Jquery and AnimateCSS frameworks are used for client side. Users can make reservations and it checks for double reservations`,
                                      technology : [ {icon: "https://img.icons8.com/color/25/null/python--v1.png", name: "python-logo"}, 
                                      {icon: "https://img.icons8.com/ios/25/null/javascript--v1.png", name: "javascript-logo"},
                                      {icon: "https://img.icons8.com/color/28/null/bootstrap.png", name: "bootstrap-logo"},
@@ -75,11 +75,11 @@ export const projects = [
         //               ]
         //     },
         {
-            title: "Blog Mindfullness & Meditation",
+            title: "Blog Mindfulness & Meditation",
             url: "https://javierbl89.github.io/Mindfulness-Portfolio-Project-Code-Institute/",
             image: "https://res.cloudinary.com/dthlibbj7/image/upload/v1673315026/Captura_de_pantalla_676_lbnusq.png",
-            description: `Beautiful blog with an excellent color pallet, rich on information and well structured.
-            This project can be largely scalabled by adding some backend features. Build with just HTML and CSS in combination with the power of Bootstrap`,
+            description: `Beautiful blog with an excellent color pallete, rich with information and well structured.
+            This project can be largely scalable by adding some backend features. Built with just HTML and CSS in combination with the power of Bootstrap`,
                          technology : [ 
                          {icon: "https://img.icons8.com/color/25/null/html-5--v1.png", name: "email-send"},
                          {icon: "https://img.icons8.com/color/25/null/css3.png", name: "email-send"},
@@ -90,7 +90,7 @@ export const projects = [
                 title: "Trivia Quizz Game",
                 url: "https://javierbl89.github.io/QUIZZ-QUIZZ-Trivia-Quizz-Game-Code-Institute-Project-2/",
                 image: "https://res.cloudinary.com/dthlibbj7/image/upload/v1673315624/Captura_de_pantalla_681_fwycrd.png",
-                description: `Classic trivia game powered by JavaScript making used of modern EJS6 features such as template literals as well as constructor functions. The game shuffle questions and moves into higher levels of difficulty as the user progresses. Application build with the basics of HTML, CSS and JavaSript `,
+                description: `Classic trivia game powered by JavaScript making used of modern EJS6 features such as template literals as well as constructor functions. The game shuffles questions and moves into higher levels of difficulty as the user progresses. Application built with the basics of HTML, CSS and JavaSript `,
                              technology : [ 
                              {icon: "https://img.icons8.com/ios/25/null/javascript--v1.png", name: "javascript-logo"},
                              {icon: "https://img.icons8.com/color/28/null/bootstrap.png", name: "bootstrap-logo"},

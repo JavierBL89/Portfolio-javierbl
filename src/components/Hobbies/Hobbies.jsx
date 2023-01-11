@@ -50,7 +50,7 @@ function Hobbies(){
                             <div className="col-6 col-lg-12">
                             <img data-aos="fade-down-left" src="https://img.icons8.com/external-avoca-kerismaker/52/null/external-Coding-Laptop-software-development-avoca-kerismaker.png" alt="programming"/>
                             <p>
-                            <i data-aos="fade-down-left" id="new-hobbie">(new hobbie)</i>
+                            <i data-aos="fade-down-left" id="new-hobbie">(new hobby)</i>
                             </p>
                             </div>
                             <div className="col-6 col-lg-12">
@@ -61,7 +61,7 @@ function Hobbies(){
                 </div>
                 <div className="row">
                             <div className="col-12 col-md-12 text-center personality-quote">
-                               Definetly a cat person type.
+                               Definetly a cat person.
                             </div>
                 </div>
             </div>
