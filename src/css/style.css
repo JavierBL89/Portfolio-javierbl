@@ -572,7 +572,9 @@ ul li{
     margin: 0.5rem auto;
 }
 
-
+.project-card{
+    color: #1c3879;
+}
 .project-card-head h6{
     font-size: 1.3em;
     margin-bottom: 1rem;
