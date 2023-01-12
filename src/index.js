@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './css/style.css';
 import './css/animate.css';
 import App from './components/App';
+import './scripts/email.js';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
