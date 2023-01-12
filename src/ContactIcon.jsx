@@ -5,7 +5,7 @@ function ContactIcon(props){
 
     return (
         <div className={props.className} id={props.id}>
-            <img src="https://img.icons8.com/clouds/80/null/add-message.png" alt="send-mesage"/>
+            <img id="puta" src="https://img.icons8.com/clouds/80/null/add-message.png" alt="send-mesage"/>
         </div>
     );
 };
