@@ -23,7 +23,7 @@ jQuery(($) => {
         
         // Close contact modal on click
         const closeForm = $("#close");
-        closeForm.on("click", function(){
+        $(closeForm).on("click", function(){
             $("#modal-contact").fadeOut("slow").css("display", "none");
         })
 
