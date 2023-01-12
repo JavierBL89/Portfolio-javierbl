@@ -23,16 +23,7 @@ function ProjectCard(props){
                              <a href={props.url} id={"project_" + props.id} target="_blank" rel="noreferrer"><img src={props.image} alt={props.title}></img></a>
                              </div>
                              <div className="screen-base"></div>
-                            {/* <a href={props.url} id={"project_" + props.id}><img src={props.image} alt={props.title} /></a> */}
-                            {/* <ReactPlayer 
-                                url={props.url}
-                                id="pita"
-                                width='100%'
-                               height='160%'
-                               
-                            /> */}
-                            {/* <iframe width="560" height="315" src={"https://www.youtube.com/embed/JMnhIXeKIXU"} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
-                        </div>
+                            </div>
                         </div>
                       </div>
                     </div>

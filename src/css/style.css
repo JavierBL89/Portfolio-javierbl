@@ -551,6 +551,7 @@ ul li{
 }
 
 .project-card{
+    color: #1c3879;
     max-width: 410px;
     margin-bottom: 7rem;
     min-height: 500px;    
@@ -572,9 +573,7 @@ ul li{
     margin: 0.5rem auto;
 }
 
-.project-card{
-    color: #1c3879;
-}
+
 .project-card-head h6{
     font-size: 1.3em;
     margin-bottom: 1rem;
@@ -586,6 +585,8 @@ ul li{
 }
 
 .project-description small{
+    color: #1c3879;
+
     font-size: 1.1em;
 }
 
