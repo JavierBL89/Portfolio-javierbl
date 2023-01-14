@@ -6,7 +6,7 @@ CANELA: #EAE3D2; */
 /**** FONT STYLES */
 
 .subject, .profesion,
-.me-container > .section-content-container p
+.me-container > .section-content-container p,
 .me-container > .section-content-container h6,
 .me-container > .section-content-container,
 .hobbies-container .row .personality-quote,
@@ -17,8 +17,7 @@ CANELA: #EAE3D2; */
 }
 
 
-.profesion, .me-container > .section-content-container p,
-.me-container > .section-content-container,
+.profesion,
 .course-container,
 .feedback-container p{
     font-weight: 600;
@@ -226,7 +225,7 @@ body {
         position: relative;
         width: 100%;
         padding: 0;
-        margin: 1rem auto 10rem;
+        margin: 1rem auto 8rem;
     }
 
     .secondary-navbar-wraper .navbar-item-box{
@@ -267,7 +266,6 @@ body {
 
     .me-container > .section-content-container{
         margin: 0 auto;
-        letter-spacing: 1px;
         text-align: left;
   
     }
@@ -509,7 +507,6 @@ ul li{
     }
 
     .me-container > .section-content-container p{
-        letter-spacing: 1px;
         font-size: 1.1em;
     }
 
