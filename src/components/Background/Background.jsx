@@ -42,14 +42,15 @@ function Background(){
                             
                             <div className="hospitality-container-wraper" data-aos="fade-up-right">
                                 <p>
+                                My working life started at the age of 16 right after graduating in Secundary School
                                     I got my very first job in a Restaurant at the age of 16,
                                     right after graduating in Secundary School.
                                 </p>
-                                <p>Since then i have worked in many restaurants on the front house,
-                                achieving to be Assistant Manager in 2 ocassions starting as a waiter.
-                                Currently i work part-time
+                                <p>I have since worked for many good restaurants on the front house, learning and developing myself profesionaly.
+                                I achieved to be Assistant Manager in 2 ocassions at different restaurants starting from the ground, gaining my managers trust and recognition.</p>
+                                <p>I currently i work part-time
                                 in <a href="https://www.onepico.com/" target="blank" id="one-pico">One Pico Restaurant</a>
-                                , Dublin.
+                                , Dublin, in combination to my part time course in <strong>Science in Computing</strong>.
                                 </p>
                             </div>
                         </div>
