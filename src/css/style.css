@@ -8,12 +8,16 @@ height: 20vh;
 
 
 #hero-wrapper{
-margin: 0;
-padding: 0;
-width: 100%;
-height: 50vh;
+    margin: 0;
+    padding: 0;
+    /* position: absolute;
+        left: 100%;
+        top: 50%; */
+    width: 100%;
+    height: 50vh;
+    
+    }
 
-}
 
 
 #contact-icon-button{
@@ -155,7 +159,11 @@ h6,
 .show{
     animation-name: animateSection;
     transition: ease-in-out;
+    -webkit-transition: ease-in-out;
+    -moz-transition: ease-in-out;
     animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
 }
 
 @keyframes animateSection {
@@ -408,12 +416,12 @@ ul li{
 
 /************************************* MOBILE SCREEN */
 
-@media (min-width: 320px) {
+@media only screen and (min-width: 320px) {
    
     .social-wraper{
         width: 100%;
         margin: 0 auto;
-        padding-top: 10%;
+        padding-top: 11%;
         height: 20vh;
 
     }
@@ -718,7 +726,7 @@ textarea{
 
 /*************************************** TABLET SCREEN SIZE*/
 
-@media (min-width: 600px) {
+@media only screen and (min-width: 600px) {
 
     .social-wraper{
         width: 100%;
@@ -1008,11 +1016,12 @@ min-height: 100vh;
 
 
 /************************************** DESKTOP SCREEN SIZE */
-@media (min-width: 900px) {
+@media only screen and (min-width: 900px) {
 
     .social-wraper{
         width: 100%;
         padding-top: 2%;
+        height: 8vh;
 
     }
 
@@ -1380,44 +1389,46 @@ padding: 1rem 1.5rem;
 @media (min-width: 1600px) {
 
     html {
-        font-size: clamp(100.75%, 2.2vw, 150.25%);
+        font-size: clamp(100.75%, 2.2vw, 130%);
         /** this says:
            set the minimun font size to around 16px
-           and set the maximun font size to 30px */
+           and set the maximun font size to 22px */
       }
     
     .social-wraper{
         width: 100%;
+        height: 8vh;
         /* margin: 5% auto auto; */
     }
 
     .social-container{
         display: flex;
         margin: 0 auto;
+        padding-top: 2%;
         flex-direction: row;
         width: 100%;
         min-width: 20rem;
-        max-width: 35rem;
+        max-width: 30%;
         justify-content: space-evenly;
     }
 
     .social-container > a {
-        font-size: 130%;
+        font-size: 115%;
     }
 
 
     /*********** HERO *************/
     
     .heading-wraper .container-fluid{
-        max-width: 40rem;
+        max-width: 34rem;
     }
 
     .heading-container {
-        max-width: 20em;
+        max-width: 55%;
         /* margin: 4em auto 3rem; */
         /* margin: 8% auto 5%; */
 
-        margin: 20% auto 10%;
+        margin: 8% auto 10%;
         /* margin: 25% auto 10%; */
 
         text-align: left;
@@ -1426,15 +1437,15 @@ padding: 1rem 1.5rem;
     }
 
     .heading-container > p{
-        font-size: 4rem;
+        font-size: 3.4rem;
         margin: 3px;
     }
    
     .img-container{
         margin: 8rem auto auto;
         text-align: center;
-        width: 85%;
-        height: 50%;
+        width: 65%;
+        height: 40%;
         border-radius: 50%;
         background-image: url("https://res.cloudinary.com/dthlibbj7/image/upload/v1668343688/FORTALEZA_HOHENSALZBURG_20_iiqcmp.jpg");
         background-size: cover;
@@ -1448,24 +1459,25 @@ padding: 1rem 1.5rem;
     }
     
     .profesion{
-        font-size: 1.2rem;
+        font-size: 1rem;
         margin-top: 5px;
         margin-bottom: 3px;
-        margin-left: 5.5rem;
+        margin-left: 4.4rem;
     }
 
     .subject{
-        font-size: 1em;
+        font-size: 0.850em;
         margin-top: 0px;
-        margin-left: 12.7rem;
+        margin-left: 9.5rem;
+        padding-left: 0.8rem;
     }
 
     .separator{
      position: relative;
      margin-top: 0;
-     left:152px;
+     left:125px;
       height: 1px;
-      width: 12rem;
+      width: 10rem;
       background-color: rgb(254, 250, 240);
     }
     
@@ -1474,7 +1486,7 @@ padding: 1rem 1.5rem;
 
     .quote-container{
         margin: 0 auto 2rem;
-        max-width: 21em;
+        max-width: 20em;
         max-height: 100px;
         text-align: center;
         color: rgb(254, 250, 240);
@@ -1482,7 +1494,7 @@ padding: 1rem 1.5rem;
 
     .quote-container > h2{
         font-family: 'Fasthand', cursive;
-        font-size: 1.8rem;
+        font-size: 1.4rem;
         font-weight: 300;
     }
 
@@ -1494,12 +1506,12 @@ padding: 1rem 1.5rem;
     }
     
     .navbar-item-box{
-       height: 2.8rem;
+       height: 2.6rem;
     }
 
     .navbar-item-box p{
-        padding: 0.4rem;
-        font-size: 1.3em;
+        padding: 0.5rem;
+        font-size: 110%;
     }
 
     
