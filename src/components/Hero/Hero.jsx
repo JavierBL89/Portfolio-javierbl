@@ -10,7 +10,7 @@ function Hero(){
         <div className="hero-wrapper" id="hero-wraper">
             <Heading />
             <Quote />
-            <ContactIcon className="contact-icon-container" id="contact-icon-1"/>
+            <ContactIcon className="contact-icon-container g-0" id="contact-icon-1"/>
         </div>
     );
 };

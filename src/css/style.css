@@ -6,10 +6,19 @@ CANELA: #EAE3D2; */
 height: 20vh;
 } */
 
-/* .hero-wrapper{
-  height: 90vh;
-} */
+#hero-wrapper{
+margin: 0;
+padding: 0;
+width: 100%;
+}
 
+
+#contact-icon-button{
+    background-color: inherit;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
 /**** FONT STYLES */
 
 .subject, .profesion,
@@ -84,9 +93,9 @@ h6,
     text-align: center;
 }
 
-#contact-icon-1, #contact-icon-2{
+/* #contact-icon-1, #contact-icon-2{
     cursor: pointer;
-}
+} */
 
 /******************************** ANIMATION CLASSES */
 .line1-heading,
@@ -174,7 +183,7 @@ body {
 
 .main-wrapper{
     width: 100%;
-    margin: 0 auto;
+    margin: 0;
     min-height: 100vh;
 }
 

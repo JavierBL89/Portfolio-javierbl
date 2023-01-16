@@ -15,7 +15,7 @@ function MainNavbar(){
     
     
     return(
-            <div className="container-fluid main-navbar-wraper" id="main-navbar">
+            <div className="container-fluid g-0 main-navbar-wraper" id="main-navbar">
                 <div className="container-fluid main-navbar-container" id="main-navbar-container">
                     <NavBarItem showSection={showSection} link="#me-section" className="nav-item me-link" id="me-link" text="ME"/>
                     <NavBarItem showSection={showSection} link="#projects-section" className="nav-item projects-link" id="projects-link" text="PROJECTS"/>
