@@ -6,10 +6,13 @@ CANELA: #EAE3D2; */
 height: 20vh;
 } */
 
+
 #hero-wrapper{
 margin: 0;
 padding: 0;
 width: 100%;
+height: 50vh;
+
 }
 
 
@@ -411,6 +414,7 @@ ul li{
         width: 100%;
         margin: 0 auto;
         padding-top: 10%;
+        height: 22vh;
 
     }
 
@@ -432,8 +436,8 @@ ul li{
 
     .heading-container {
         max-width: 18em;
-        /* margin: 2.5em auto 3em; */
-        margin: 20% auto 12%;
+        /* margin: 20% auto 12%; */
+        margin: 0 auto;
         text-align: left;
         font-family: 'Sarabun', sans-serif;
         font-weight: 300;
@@ -720,6 +724,8 @@ textarea{
         width: 100%;
         /* margin: 7% auto auto; */
         min-height: 100%;
+        height: 0;
+
     }
 
     .social-container{
