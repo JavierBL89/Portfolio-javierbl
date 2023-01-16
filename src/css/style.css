@@ -430,15 +430,60 @@ ul li{
         display: flex;
         margin: 0 auto;
         flex-direction: row;
-        width: 70%;
+        width: 90%;
         min-width: 11rem;
-        max-width: 15rem;
+        max-width: 20rem;
         justify-content: space-evenly;
     }
 
     .social-container > a{
         font-size: 1.4rem;
+
     }
+
+    .social-container > a:hover{
+        animation-name: puto;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+
+    }
+
+    @keyframes puto {
+        to{transform: rotateY(360deg);}
+    }
+
+.social-icon-wraper{
+    position: relative;
+
+    width: 45px;
+    height: 45px;
+    border: solid 1px #1C3879;  
+   border-radius: 150%;  
+   text-align: center;
+}
+
+.social-icon-wraper:hover{
+        border: solid 1px #1C3879;  
+       border-radius: 150%;  
+        animation-name: circle;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-in-out;
+}
+
+@keyframes circle {
+    from{
+    border: solid 1px #001253;  
+
+    }
+
+    to {
+    border: solid 1px rgb(254, 250, 240); 
+
+    }
+
+}
+
 
     /*********** HERO *************/
 
@@ -742,7 +787,7 @@ textarea{
         flex-direction: row;
         width: 75%;
         min-width: 12rem;
-        max-width: 16rem;
+        max-width: 20rem;
         justify-content: space-evenly;
     }
 
@@ -1021,7 +1066,7 @@ min-height: 100vh;
     .social-wraper{
         width: 100%;
         padding-top: 2%;
-        height: 8vh;
+        height: 9vh;
 
     }
 
@@ -1031,7 +1076,7 @@ min-height: 100vh;
         flex-direction: row;
         width: 60%;
         min-width: 11rem;
-        max-width: 18rem;
+        max-width: 23rem;
         justify-content: space-evenly;
     }
 
@@ -1425,12 +1470,7 @@ padding: 1rem 1.5rem;
 
     .heading-container {
         max-width: 55%;
-        /* margin: 4em auto 3rem; */
-        /* margin: 8% auto 5%; */
-
         margin: 8% auto 10%;
-        /* margin: 25% auto 10%; */
-
         text-align: left;
         font-family: 'Sarabun', sans-serif;
         font-weight: 300;
@@ -1622,15 +1662,25 @@ padding: 1rem 1.5rem;
 
 .project-card h6{
     margin-bottom: 1.5rem;
-    font-weight: 800;
+    font-weight: 600;
 }
 
 .project-description{
     letter-spacing: 1px;
     margin-top: 3rem;
-    font-weight: 600;
 }
 
+.screen{
+    width: 450px;
+    height: 270px;
+    border: solid 8px rgb(70, 70, 70);
+    margin: 2rem auto auto;
+    border-radius: 5px;
+ }
+
+ .screen-base{
+    width: 370px;
+}
 
 /******  BACKGROUND SECTION */
 
