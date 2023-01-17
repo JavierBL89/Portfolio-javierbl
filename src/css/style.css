@@ -6,6 +6,43 @@ CANELA: #EAE3D2; */
 height: 20vh;
 } */
 
+#contact-icon-1 img{
+    position: relative;
+    animation-name: grow;
+   animation-duration: 4s;
+   /* animation-duration: 1.2s; */
+   transition-timing-function: ease-in ease-out;
+   animation-iteration-count: infinite;
+   }
+
+   @keyframes grow {
+       /* from{
+           width: 90%;
+           height: 90%;
+       }
+       to{
+           width: 105%;
+           height: 105%;
+       } */
+       0% {left:-25px}
+       50% {left:25px}
+       100% {left:-25px}
+   }
+
+
+   #contact-icon-2 img{
+    position: relative;
+    animation-name: upDown;
+   animation-duration: 4.3s;
+   transition-timing-function: ease-in ease-out;
+   animation-iteration-count: infinite;
+   }
+
+   @keyframes upDown {
+       0% {bottom:-15px}
+       50% {bottom:15px}
+       100% {bottom:-15px}
+   }
 
 #hero-wrapper{
     margin: 0;
@@ -19,13 +56,6 @@ height: 20vh;
     }
 
 
-
-#contact-icon-button{
-    background-color: inherit;
-    border: none;
-    margin: 0;
-    padding: 0;
-}
 /**** FONT STYLES */
 
 .subject, .profesion,
@@ -100,9 +130,13 @@ h6,
     text-align: center;
 }
 
-/* #contact-icon-1, #contact-icon-2{
-    cursor: pointer;
-} */
+#contact-icon-button{
+    background-color: inherit;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
 
 /******************************** ANIMATION CLASSES */
 .line1-heading,
@@ -224,6 +258,7 @@ body {
     left: 0;
     bottom: 0;
 }
+
 .navbar-container, .main-navbar-container{
     display: flex;
     flex-direction: row;
@@ -244,7 +279,6 @@ body {
     margin: 0;
     text-decoration: none;
 }
-
 
 /**********  SECONDARY NAVBAR ***/
 
@@ -352,6 +386,7 @@ ul li{
      padding-right: 20px;
   }
  
+
 /******** CONTACT FORM SECTION SECTION */
 
   .contact-container h3{
@@ -422,7 +457,7 @@ ul li{
         width: 100%;
         margin: 0 auto;
         padding-top: 11%;
-        height: 20vh;
+        height: 18vh;
 
     }
 
@@ -438,46 +473,7 @@ ul li{
 
     .social-container > a{
         font-size: 1.4rem;
-
     }
-
-    /* .social-container > a:hover{
-        animation-name: puto;
-        animation-duration: 0.5s;
-        animation-fill-mode: forwards;
-    } */
-
-    @keyframes puto {
-        to{transform: rotateY(360deg);}
-    }
-
-.social-icon-wraper{
-    position: relative;
-    width: 160%;
-    height: 100%;
-    border: solid 1px #1C3879;  
-   border-radius: 150%;  
-   text-align: center;
-}
-
-.social-icon-wraper:hover{
-        border: solid 1px #1C3879;  
-       border-radius: 150%;  
-        animation-name: circle;
-        animation-duration: 0.4s;
-        animation-fill-mode: forwards;
-        animation-timing-function: ease-in-out;
-}
-
-@keyframes circle {
-  
-    to {
-    border: solid 1px rgb(254, 250, 240); 
-
-    }
-
-}
-
 
     /*********** HERO *************/
 
@@ -702,26 +698,6 @@ ul{
     right: 2rem;
     display: none;
 }
-
-#contact-icon-1 img, #contact-icon-2 img{
-    /* width: 3.5rem;
-    height: 3.5rem; */
-    animation-name: grow;
-   animation-duration: 1.2s;
-   transition-timing-function: ease-in ease-out;
-   animation-iteration-count: infinite;
-   }
-
-   @keyframes grow {
-       from{
-           width: 100%;
-           height: 100%;
-       }
-       to{
-           width: 115%;
-           height: 115%;
-       }
-   }
 
    .contact-wraper{
     position: absolute;
@@ -1003,7 +979,7 @@ ul{
 
 /********* CONTACT SECTION ***/
 
-#contact-icon-1 img, #contact-icon-2 img{
+/* #contact-icon-1 img, #contact-icon-2 img{
     width: 3.1rem;
     height: 3.1rem;
     animation-name: grow;
@@ -1021,7 +997,7 @@ ul{
            width: 3.3rem;
            height: 3.3rem;
        }
-   }
+   } */
 
 .contact-wraper {
     position: absolute;
@@ -1078,6 +1054,33 @@ min-height: 100vh;
         font-size: 1.3rem;
     }
 
+    .social-icon-wraper{
+        position: relative;
+        width: 160%;
+        height: 100%;
+        border: solid 1px #1C3879;  
+       border-radius: 150%;  
+       text-align: center;
+    }
+    
+    .social-icon-wraper:hover{
+            border: solid 1px #1C3879;  
+           border-radius: 150%;  
+            animation-name: circle;
+            animation-duration: 0.4s;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease-in-out;
+    }
+    
+    @keyframes circle {
+      
+        to {
+        border: solid 1px rgb(254, 250, 240); 
+    
+        }
+    
+    }
+    
     /*********** HEADING *************/
     
     .heading-wraper .container-fluid{
@@ -1349,6 +1352,7 @@ ul{
 
 /********* CONTACT SECTION ***/
 
+
 #contact-icon-2{
     position: fixed;
     z-index: 2;
@@ -1357,25 +1361,7 @@ ul{
     display: none;
 }
 
-#contact-icon-1 img, #contact-icon-2 img{
- width: 4rem;
- height: 4rem;
- animation-name: grow;
-animation-duration: 1s;
-transition-timing-function: ease-in ease-out;
-animation-iteration-count: infinite;
-}
 
-@keyframes grow {
-    from{
-        width: 4rem;
-        height: 4rem;
-    }
-    to{
-        width: 4.2rem;
-        height: 4.2rem;
-    }
-}
 
 .contact-wraper{
     position: absolute;
