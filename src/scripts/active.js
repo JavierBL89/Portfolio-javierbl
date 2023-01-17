@@ -21,20 +21,19 @@ function active(section){
         // meSection.addClass("show");
        // active section title
         options[0].setAttribute("style", "font-weight: 600");
-        options[1].removeAttribute("style");
-        options[2].removeAttribute("style");  
+        options[1].setAttribute("style", "font-weight: 400");;
+        options[2].setAttribute("style", "font-weight: 400");;  
 
     }else if(section.id === "projects-link"){
         // hide sections
-        meSection.addClass("hiden");
         meSection.addClass("hiden");
         backgroundSection.addClass("hiden");
        // show selected section
         projectsSection.removeClass("hiden")
        // active section title
-        options[0].removeAttribute("style");
+        options[0].setAttribute("style", "font-weight: 400");
         options[1].setAttribute("style", "font-weight: 600");
-        options[2].removeAttribute("style");
+        options[2].setAttribute("style", "font-weight: 400");
 
     }else if(section.id === "background-link"){
         // hide sections
@@ -43,8 +42,8 @@ function active(section){
        // show selected section
         backgroundSection.removeClass("hiden");
        // active section title
-        options[0].removeAttribute("style");
-        options[1].removeAttribute("style");
+        options[0].setAttribute("style", "font-weight: 400");
+        options[1].setAttribute("style", "font-weight: 400");
         options[2].setAttribute("style", "font-weight: 600");
 
     };

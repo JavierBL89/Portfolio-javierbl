@@ -29,12 +29,12 @@ function ProjectCard(props){
                     </div>
                     <div className="col-sm-12 col-lg-6">
                     <div className="project-card-body">
-                            <div className="row g-0">
-                                 <div data-aos="fade-down-right" className="col-12 project-description">
+                            <div data-aos="fade-down-right" className="row g-0">
+                                 <div  className="col-12 project-description">
                                  <small>{props.description}
                                      </small> 
                                   </div>
-                                  <div data-aos="fade-down-right" className="col-12 d-lg-none project-tech">
+                                  <div className="col-12 d-lg-none project-tech">
                                       {props.technology?.map((tech, index) => {
                                         return (<img key={index} src={tech.icon} alt={tech.name}/>)
                                       })}

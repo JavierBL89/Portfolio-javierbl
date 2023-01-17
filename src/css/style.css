@@ -767,7 +767,6 @@ textarea{
         font-size: 1.4em;
     }
 
-
     /*********** HERO *************/
 
     /* #hero-wrapper{
@@ -852,7 +851,7 @@ textarea{
 
     }
 
-    .main-navbar-container > .me-link, .background-link{
+    .main-navbar-container > .me-link, .main-navbar-container > .background-link{
         display: none;
     }
     
@@ -1354,8 +1353,6 @@ ul{
     right: 8rem;
     display: none;
 }
-
-
 
 .contact-wraper{
     position: absolute;
