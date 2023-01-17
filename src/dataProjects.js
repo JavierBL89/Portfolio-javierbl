@@ -7,7 +7,7 @@ export const projects = [
         description: `It allows users to check out products classified into categories, select a specific product and size, add it to the shopping bag and securely checkout through Stripe payment platform.
          Full stack application powered by django for server-side and javascript for client-side`,
         technology : [ {icon: "https://img.icons8.com/color/25/null/python--v1.png", name: "python-logo"}, 
-                       {icon: "https://img.icons8.com/ios/25/null/javascript--v1.png", name: "javascript-logo"},
+                       {icon: "https://img.icons8.com/fluency/25/null/javascript.png", name: "javascript-logo"},
                        {icon: "https://img.icons8.com/color/25/null/stripe.png", name: "stripe-logo"},
                        {icon: "https://img.icons8.com/color/28/null/bootstrap.png", name: "bootstrap-logo"},
                        {icon: "https://img.icons8.com/external-tal-revivo-bold-tal-revivo/24/null/external-django-a-high-level-python-web-framework-that-encourages-rapid-development-logo-bold-tal-revivo.png", name: "django-logo"},
@@ -23,7 +23,7 @@ export const projects = [
                         image: "https://res.cloudinary.com/dthlibbj7/image/upload/v1673356964/Captura_de_pantalla_683_g4dhne.png",
                         description: `Back-end application powered by Python, class based views and django models. Jquery and AnimateCSS frameworks are used for client side. Users can make reservations and it checks for double reservations`,
                                      technology : [ {icon: "https://img.icons8.com/color/25/null/python--v1.png", name: "python-logo"}, 
-                                     {icon: "https://img.icons8.com/ios/25/null/javascript--v1.png", name: "javascript-logo"},
+                                     {icon: "https://img.icons8.com/fluency/25/null/javascript.png", name: "javascript-logo"},
                                      {icon: "https://img.icons8.com/color/28/null/bootstrap.png", name: "bootstrap-logo"},
                                      {icon: "https://img.icons8.com/external-tal-revivo-bold-tal-revivo/24/null/external-django-a-high-level-python-web-framework-that-encourages-rapid-development-logo-bold-tal-revivo.png", name: "django-logo"},
                                      {icon: "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/null/external-jquery-is-a-javascript-library-designed-to-simplify-html-logo-shadow-tal-revivo.png", name: "jQuery-logo"},
@@ -92,7 +92,7 @@ export const projects = [
                 image: "https://res.cloudinary.com/dthlibbj7/image/upload/v1673315624/Captura_de_pantalla_681_fwycrd.png",
                 description: `Classic trivia game powered by JavaScript making used of modern EJS6 features such as template literals as well as constructor functions. The game shuffles questions and moves into higher levels of difficulty as the user progresses. Application built with the basics of HTML, CSS and JavaSript `,
                              technology : [ 
-                             {icon: "https://img.icons8.com/ios/25/null/javascript--v1.png", name: "javascript-logo"},
+                             {icon: "https://img.icons8.com/fluency/25/null/javascript.png", name: "javascript-logo"},
                              {icon: "https://img.icons8.com/color/28/null/bootstrap.png", name: "bootstrap-logo"},
                              {icon: "https://img.icons8.com/color/25/null/html-5--v1.png", name: "email-send"},
                              {icon: "https://img.icons8.com/color/25/null/css3.png", name: "email-send"},

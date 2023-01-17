@@ -6,43 +6,6 @@ CANELA: #EAE3D2; */
 height: 20vh;
 } */
 
-#contact-icon-1 img{
-    position: relative;
-    animation-name: grow;
-   animation-duration: 4s;
-   /* animation-duration: 1.2s; */
-   transition-timing-function: ease-in ease-out;
-   animation-iteration-count: infinite;
-   }
-
-   @keyframes grow {
-       /* from{
-           width: 90%;
-           height: 90%;
-       }
-       to{
-           width: 105%;
-           height: 105%;
-       } */
-       0% {left:-25px}
-       50% {left:25px}
-       100% {left:-25px}
-   }
-
-
-   #contact-icon-2 img{
-    position: relative;
-    animation-name: upDown;
-   animation-duration: 4.3s;
-   transition-timing-function: ease-in ease-out;
-   animation-iteration-count: infinite;
-   }
-
-   @keyframes upDown {
-       0% {bottom:-15px}
-       50% {bottom:15px}
-       100% {bottom:-15px}
-   }
 
 #hero-wrapper{
     margin: 0;
@@ -99,6 +62,7 @@ h6,
     color: #1C3879;
 
 }
+
 .contact-container h3{
     color: #001253;
  }
@@ -136,6 +100,40 @@ h6,
     margin: 0;
     padding: 0;
 }
+
+#contact-icon-1 img{
+    position: relative;
+    width: 90%;
+    height: 90%;
+    animation-name: slideRight;
+   animation-duration: 4s;
+   /* animation-duration: 1.2s; */
+   transition-timing-function: ease-in ease-out;
+   animation-iteration-count: infinite;
+   }
+
+   @keyframes slideRight {
+       0% {left:-25px}
+       50% {left:25px}
+       100% {left:-25px}
+   }
+
+
+   #contact-icon-2 img{
+    position: relative;
+    width: 90%;
+    height: 90%;
+    animation-name: slideUp;
+   animation-duration: 4.3s;
+   transition-timing-function: ease-in ease-out;
+   animation-iteration-count: infinite;
+   }
+
+   @keyframes slideUp {
+       0% {bottom:-15px}
+       50% {bottom:15px}
+       100% {bottom:-15px}
+   }
 
 
 /******************************** ANIMATION CLASSES */
@@ -442,6 +440,10 @@ ul li{
     border-color: #001253;
     color: #001253;
     font-weight: 600;
+}
+
+#close{
+    cursor: pointer;
 }
 
 .feedback-container p{
@@ -979,25 +981,12 @@ ul{
 
 /********* CONTACT SECTION ***/
 
-/* #contact-icon-1 img, #contact-icon-2 img{
-    width: 3.1rem;
-    height: 3.1rem;
-    animation-name: grow;
-   animation-duration: 1s;
-   transition-timing-function: ease-in ease-out;
-   animation-iteration-count: infinite;
+ #contact-icon-1 img, #contact-icon-2 img{
+    width: 100%;
+    height: 100%;
    }
 
-   @keyframes grow {
-       from{
-           width: 3.1rem;
-           height: 3.1rem;
-       }
-       to{
-           width: 3.3rem;
-           height: 3.3rem;
-       }
-   } */
+
 
 .contact-wraper {
     position: absolute;
@@ -1352,6 +1341,11 @@ ul{
 
 /********* CONTACT SECTION ***/
 
+#contact-icon-1 img, #contact-icon-2 img{
+    width: 105%;
+    height: 105%;
+
+   }
 
 #contact-icon-2{
     position: fixed;
