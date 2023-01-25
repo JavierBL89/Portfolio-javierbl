@@ -1,7 +1,7 @@
 export const projects = [
 
     {
-        title: "B2C ecommerce store",
+        title: "B2C Ecommerce Store",
         url: "https://bastyshops.onrender.com/",
         image: "https://res.cloudinary.com/dthlibbj7/image/upload/v1673315005/Captura_de_pantalla_679_qhe4ef.png",
         description: `It allows users to check out products classified into categories, select a specific product and size, add it to the shopping bag and securely checkout through Stripe payment platform.
@@ -18,10 +18,10 @@ export const projects = [
                     ]
                     },
                     {
-                        title: "Restaurant application",
+                        title: "Restaurant Application",
                         url: "https://oryo-poxo.onrender.com/",
                         image: "https://res.cloudinary.com/dthlibbj7/image/upload/v1673356964/Captura_de_pantalla_683_g4dhne.png",
-                        description: `Back-end application powered by Python, class based views and django models. Jquery and AnimateCSS frameworks are used for client side. Users can make reservations and it checks for double reservations`,
+                        description: `Full stack application powered by Python, class based views and django models. Jquery and AnimateCSS frameworks are used for client side. Users can make reservations and it checks for double reservations`,
                                      technology : [ {icon: "https://img.icons8.com/color/25/null/python--v1.png", name: "python-logo"}, 
                                      {icon: "https://img.icons8.com/fluency/25/null/javascript.png", name: "javascript-logo"},
                                      {icon: "https://img.icons8.com/color/28/null/bootstrap.png", name: "bootstrap-logo"},
@@ -32,20 +32,18 @@ export const projects = [
                                      {icon: "https://img.icons8.com/color/25/null/css3.png", name: "email-send"},
                                   ]
                         },
-                    // {
-                    //     title: "Blog",
-                    //     url: "https://secrets-yj3o.onrender.com/",
-                    //     image: "https://res.cloudinary.com/dthlibbj7/image/upload/v1673356964/Captura_de_pantalla_683_g4dhne.png",
-                    //     description: `Simple blog in which only registered users are allowed to submit a secret. This is a full stack application powered by node.js and javascript`,
-                    //                  technology : [ {icon: "https://img.icons8.com/color/25/null/python--v1.png", name: "python-logo"}, 
-                    //                  {icon: "https://img.icons8.com/ios/25/null/javascript--v1.png", name: "javascript-logo"},
-                    //                  {icon: "https://img.icons8.com/color/25/null/stripe.png", name: "stripe-logo"},
-                    //                  {icon: "https://img.icons8.com/color/28/null/bootstrap.png", name: "bootstrap-logo"},
-                    //                  {icon: "https://img.icons8.com/external-tal-revivo-bold-tal-revivo/24/null/external-django-a-high-level-python-web-framework-that-encourages-rapid-development-logo-bold-tal-revivo.png", name: "django-logo"},
-                    //                  {icon: "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/null/external-jquery-is-a-javascript-library-designed-to-simplify-html-logo-shadow-tal-revivo.png", name: "jQuery-logo"},
-                    //                  {icon: "https://img.icons8.com/color/25/null/amazon-web-services.png", name: "email-send"},
-                    //               ]
-                    //     },
+                    {
+                        title: "Secrets App",
+                        url: "https://secrets-yj3o.onrender.com/",
+                        image: "https://res.cloudinary.com/dthlibbj7/image/upload/v1674650865/Captura_de_pantalla_689_fqgzrb.png",
+                        description: `Full stack application powered by node.js, and express.js framework. MongoDb and mongoose are used as database. It is a simple app which allows only authenticated users read and post their secrets. express-passpor`,
+                                     technology : [ 
+                                     {icon: "https://img.icons8.com/color/25/null/nodejs.png", name: "node.js-logo"},
+                                     {icon: "https://img.icons8.com/color/25/null/express-js.png", name: "express.js-logo"},
+                                     {icon: "https://img.icons8.com/fluency/25/null/javascript.png", name: "javascript-logo"},
+                                     {icon: "https://img.icons8.com/color/28/null/bootstrap.png", name: "bootstrap-logo"},
+                                  ]
+                        },
     // {
     //     title: "Blog with authentication",
     //     url: "https://secrets-yj3o.onrender.com/",

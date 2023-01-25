@@ -2,20 +2,12 @@
 /* BLUE:    #1C3879
 CANELA: #EAE3D2; */
 
-/* .social-wraper{
-height: 20vh;
-} */
-
 
 #hero-wrapper{
     margin: 0;
     padding: 0;
-    /* position: absolute;
-        left: 100%;
-        top: 50%; */
     width: 100%;
     height: 50vh;
-    
     }
 
 
@@ -107,14 +99,13 @@ h6,
     height: 90%;
     animation-name: slideRight;
    animation-duration: 4s;
-   /* animation-duration: 1.2s; */
    transition-timing-function: ease-in ease-out;
    animation-iteration-count: infinite;
    }
 
    @keyframes slideRight {
        0% {left:-25px}
-       50% {left:25px}
+    50% {left:25px}
        100% {left:-25px}
    }
 
@@ -266,6 +257,16 @@ body {
     justify-content: space-evenly;
 }
 
+.main-navbar-container > .navbar-item-box{
+    transition: border 0.5s ease-in-out;
+
+}
+
+
+.main-navbar-container > .navbar-item-box:hover{
+border-color: #1C3879;
+}
+
 .navbar-item-box{
     cursor: pointer;
     width: 32%;
@@ -277,6 +278,7 @@ body {
     margin: 0;
     text-decoration: none;
 }
+
 
 /**********  SECONDARY NAVBAR ***/
 
@@ -1341,9 +1343,8 @@ ul{
 /********* CONTACT SECTION ***/
 
 #contact-icon-1 img, #contact-icon-2 img{
-    width: 105%;
-    height: 105%;
-
+    width: 100%;
+    height: 100%;
    }
 
 #contact-icon-2{
@@ -1414,7 +1415,6 @@ padding: 1rem 1.5rem;
     .social-wraper{
         width: 100%;
         height: 8vh;
-        /* margin: 5% auto auto; */
     }
 
     .social-container{
@@ -1704,6 +1704,11 @@ ul{
 }
 
 /********* CONTACT SECTION ***/
+
+#contact-icon-1 img, #contact-icon-2 img{
+    width: 105%;
+    height: 105%;
+   }
 
 #contact-icon-2{
     position: fixed;
