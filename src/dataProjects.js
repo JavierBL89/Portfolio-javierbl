@@ -36,7 +36,7 @@ export const projects = [
                         title: "Secrets App",
                         url: "https://secrets-yj3o.onrender.com/",
                         image: "https://res.cloudinary.com/dthlibbj7/image/upload/v1674650865/Captura_de_pantalla_689_fqgzrb.png",
-                        description: `Full stack application powered by node.js, and express.js framework. MongoDb and mongoose are used as database. It is a simple app which allows only authenticated users read and post their secrets. express-passpor`,
+                        description: `Full stack application powered by node.js, and express.js framework. MongoDb and its library mongoose is used for database. It is a simple app which allows user to authenticate with social credentials in order to read other user's secrets, and post their own. `,
                                      technology : [ 
                                      {icon: "https://img.icons8.com/color/25/null/nodejs.png", name: "node.js-logo"},
                                      {icon: "https://img.icons8.com/color/25/null/express-js.png", name: "express.js-logo"},
