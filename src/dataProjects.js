@@ -3,6 +3,7 @@ export const projects = [
     {
         title: "B2C Ecommerce Store",
         url: "https://bastyshops.onrender.com/",
+        gitHubUrl: "https://github.com/JavierBL89/Basty-Shops-Ecommerce-Code-Institute-Project",
         image: "https://res.cloudinary.com/dthlibbj7/image/upload/v1673315005/Captura_de_pantalla_679_qhe4ef.png",
         description: `Full stack application powered by python for server-side and javascript for client-side. It allows users to check out products classified into categories, select a specific product and size, add it to the shopping bag and securely checkout through Stripe payment platform.`,
         technology : [ {icon: "https://img.icons8.com/color/25/null/python--v1.png", name: "python-logo"}, 
@@ -19,6 +20,7 @@ export const projects = [
                     {
                         title: "Restaurant Application",
                         url: "https://oryo-poxo.onrender.com/",
+                        gitHubUrl: "https://github.com/JavierBL89/OP-Restaurant-Code-Inst-Project",
                         image: "https://res.cloudinary.com/dthlibbj7/image/upload/v1673356964/Captura_de_pantalla_683_g4dhne.png",
                         description: `Full stack application powered by Python, class based views and django models. Jquery and AnimateCSS frameworks are used for client side. Users can make reservations and it checks for double reservations`,
                                      technology : [ {icon: "https://img.icons8.com/color/25/null/python--v1.png", name: "python-logo"}, 
@@ -34,6 +36,7 @@ export const projects = [
                     {
                         title: "Secrets App",
                         url: "https://secrets-yj3o.onrender.com/",
+                        gitHubUrl: "https://github.com/JavierBL89/SECRETS",
                         image: "https://res.cloudinary.com/dthlibbj7/image/upload/v1674650865/Captura_de_pantalla_689_fqgzrb.png",
                         description: `Full stack application powered by node.js, and express.js framework. MongoDb and its library mongoose is used for database. It is a simple app which allows user to authenticate with social credentials in order to read other user's secrets, and post their own. `,
                                      technology : [ 
@@ -74,6 +77,7 @@ export const projects = [
         {
             title: "Blog Mindfulness & Meditation",
             url: "https://javierbl89.github.io/Mindfulness-Portfolio-Project-Code-Institute/",
+            gitHubUrl: "https://github.com/JavierBL89/Mindfulness-Portfolio-Project-Code-Institute",
             image: "https://res.cloudinary.com/dthlibbj7/image/upload/v1673315026/Captura_de_pantalla_676_lbnusq.png",
             description: `Beautiful blog with an excellent color pallete, rich with information and well structured.
             This project can be largely scalable by adding some backend features. Built with just HTML and CSS in combination with the power of Bootstrap`,
@@ -86,6 +90,7 @@ export const projects = [
             {
                 title: "Trivia Quizz Game",
                 url: "https://javierbl89.github.io/QUIZZ-QUIZZ-Trivia-Quizz-Game-Code-Institute-Project-2/",
+                gitHubUrl: "https://github.com/JavierBL89/QUIZZ-QUIZZ-Trivia-Quizz-Game-Code-Institute-Project-2",   
                 image: "https://res.cloudinary.com/dthlibbj7/image/upload/v1673315624/Captura_de_pantalla_681_fwycrd.png",
                 description: `Classic trivia game powered by JavaScript making used of modern EJS6 features such as template literals as well as constructor functions. The game shuffles questions and moves into higher levels of difficulty as the user progresses. Application built with the basics of HTML, CSS and JavaSript `,
                              technology : [ 

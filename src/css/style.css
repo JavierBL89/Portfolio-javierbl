@@ -49,6 +49,7 @@ h6,
 .background-container, 
 #contact-form .form-control,
 .project-card,
+.project-tech > .social-icon-wraper a,
 .personality-quote,
 .secondary-navbar-wraper .navbar-item-box p{
     color: #1C3879;

@@ -4,6 +4,9 @@ import "aos/dist/aos.css"
 import ReactPlayer from "react-player";
 import Collapsable from "../../Collapsable";
 import GithubIcon from   "../Social/GithubIcon.jsx";
+import {projects} from "../../dataProjects";
+
+
 function ProjectCard(props){
 
     useEffect(() => {
@@ -35,7 +38,9 @@ function ProjectCard(props){
                                      </small> 
                                   </div>
                                   <div className="col-12 d-lg-none project-tech">
-                                    <GithubIcon />
+                                        
+                                    <GithubIcon link={props.gitHubUrl}/>
+                                    {/* <GithubIcon /> */}
                                   </div>
                              </div>
                              <div className="row w-100">

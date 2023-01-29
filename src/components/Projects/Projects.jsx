@@ -16,8 +16,8 @@ function Projects(){
                      id={index}
                      title={project.title}
                      description={project.description}
-                     technology={project.technology}
                      url={project.url}
+                     gitHubUrl={project.gitHubUrl}
                      image={project.image}
                     />
                     )
