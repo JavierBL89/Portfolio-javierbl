@@ -1,9 +1,9 @@
 import React, { useEffect} from "react";
-import {projects} from "../../dataProjects";
 import AOS from "aos";
 import "aos/dist/aos.css"
 import ReactPlayer from "react-player";
-
+import Collapsable from "../../Collapsable";
+import GithubIcon from   "../Social/GithubIcon.jsx";
 function ProjectCard(props){
 
     useEffect(() => {
@@ -35,9 +35,7 @@ function ProjectCard(props){
                                      </small> 
                                   </div>
                                   <div className="col-12 d-lg-none project-tech">
-                                      {props.technology?.map((tech, index) => {
-                                        return (<img key={index} src={tech.icon} alt={tech.name}/>)
-                                      })}
+                                    <GithubIcon />
                                   </div>
                              </div>
                              <div className="row w-100">

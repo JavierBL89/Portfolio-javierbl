@@ -41,7 +41,7 @@ jQuery(function($){
        for(let section of sections2){
           if (y > 400) {
             $(section).slideDown("slow");
-            $("#contact-icon-2").css("display", "block").attr("class", "animate__animated animate__slideInDown");
+            $("#contact-icon-2").css("display", "block").attr("class", "animate__animated animate__slideInDown animate__delay-0.8s");
             $("#contact-icon-1").fadeOut("slow")
             activeSection();
           } else {

@@ -1,11 +1,12 @@
 import React from "react";
 
 
-function FacebookIcon(){
+function FacebookIcon(props){
     return (
         <div className="social-icon-wraper">
-    <i className="fa-brands fa-facebook"></i>
-
+        <a href={props.link} id="facebook" target="_blank" rel="noreferrer">
+         <i className="fa-brands fa-facebook"></i>
+        </a>
         </div>
     )
 };

@@ -8,15 +8,9 @@ function Social(){
     return(
         <div className="container-fluid social-wraper">
             <div className="container-fluid social-container">
-                <a href="https://www.linkedin.com/in/javier-bastande-198022189/" id="linkedin" target="_blank" rel="noreferrer">
-                  <LinkedlinIcon />
-                </a>
-                <a href="https://github.com/JavierBL89" id="github" target="_blank" rel="noreferrer">
-                  <GithubIcon />
-                </a>
-                <a href="https://www.facebook.com/JavierBastandeLeon" id="facebook" target="_blank" rel="noreferrer">
-                  <FacebookIcon />
-                </a>
+                  <LinkedlinIcon link="https://www.linkedin.com/in/javier-bastande-198022189/"/>
+                  <GithubIcon link="https://github.com/JavierBL89"/>
+                  <FacebookIcon link="https://www.facebook.com/JavierBastandeLeon"/>
             </div>
         </div>
     );

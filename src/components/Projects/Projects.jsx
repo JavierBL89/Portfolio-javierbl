@@ -13,6 +13,7 @@ function Projects(){
                     return (
                     <ProjectCard
                      key={index}
+                     id={index}
                      title={project.title}
                      description={project.description}
                      technology={project.technology}

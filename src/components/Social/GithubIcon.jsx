@@ -1,10 +1,12 @@
 import React from "react";
 
 
-function GithubIcon(){
+function GithubIcon(props){
     return (
         <div className="social-icon-wraper">
-<i className="fa-brands fa-github"></i>
+        <a href={props.link} id="github" target="_blank" rel="noreferrer">
+           <i className="fa-brands fa-github"></i>
+        </a>
         </div>
     )
 };
