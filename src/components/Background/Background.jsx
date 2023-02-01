@@ -13,6 +13,16 @@ function Background(){
                         <div className="container-fluid background-container hiden" id="background-container">
                             <Heading className="background-heading" text="IT"/>
                             <Course 
+                              text={<>Currently enrolled in a Certificate in Science in Computing <strong>(Software Development) </strong>
+                                at <a href="https://www.ncirl.ie/"
+                                    id="nci"
+                                    target="blank">National College of Ireland. </a> 
+                                </>
+                                }
+                              qualification={<span>NQF 8</span>}   
+                            //   diplomaURL="#"    
+                            />
+                            <Course 
                               text={<><strong>Diploma in Software Development </strong>
                                 (Ecommerce Applications)
                                 at <a href="https://codeinstitute.net/ie/"
