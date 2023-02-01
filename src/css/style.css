@@ -9,9 +9,11 @@ CANELA: rgb(254, 250, 240); */
     border: none;
 }
 
-.collapsable .fa-github{
+.collapsable .fa-github,
+.project-tech-large .fa-github{
     color: #001253;
 }
+
 
 .collapsable a {
     color: #001253;
@@ -1084,6 +1086,13 @@ min-height: 100vh;
             animation-duration: 0.4s;
             animation-fill-mode: forwards;
             animation-timing-function: ease-in-out;
+    }
+
+    .project-tech-large .social-icon-wraper{
+        border-color: rgb(254, 250, 240);
+    }
+    .project-tech-large .social-icon-wraper:hover{
+        border-color: rgb(254, 250, 240);
     }
     
     @keyframes circle {

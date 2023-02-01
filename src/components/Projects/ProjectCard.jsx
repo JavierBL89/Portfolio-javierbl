@@ -55,9 +55,7 @@ function ProjectCard(props){
                     
                 </div>
                 <div  className="col-12 d-none d-lg-flex project-tech-large">
-                    {props.technology?.map((tech, index) => {
-                        return (<img key={index} src={tech.icon} alt={tech.name}/>)
-                        })}
+                    <GithubIcon link={props.gitHubUrl}/>
                 </div>
                 <div className="project-separator"></div>
             </div>
