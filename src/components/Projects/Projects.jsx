@@ -18,6 +18,7 @@ function Projects(){
                      description={project.description}
                      url={project.url}
                      gitHubUrl={project.gitHubUrl}
+                     technology={project.technology}
                      image={project.image}
                     />
                     )

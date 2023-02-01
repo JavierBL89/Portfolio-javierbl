@@ -6,7 +6,8 @@ export const projects = [
         gitHubUrl: "https://github.com/JavierBL89/Basty-Shops-Ecommerce-Code-Institute-Project",
         image: "https://res.cloudinary.com/dthlibbj7/image/upload/v1673315005/Captura_de_pantalla_679_qhe4ef.png",
         description: `Full stack application powered by python for server-side and javascript for client-side. It allows users to check out products classified into categories, select a specific product and size, add it to the shopping bag and securely checkout through Stripe payment platform.`,
-        technology : [ {icon: "https://img.icons8.com/color/25/null/python--v1.png", name: "python-logo"}, 
+        technology : [ 
+                       {icon: "https://img.icons8.com/color/25/null/python--v1.png", name: "python-logo"}, 
                        {icon: "https://img.icons8.com/fluency/25/null/javascript.png", name: "javascript-logo"},
                        {icon: "https://img.icons8.com/color/25/null/stripe.png", name: "stripe-logo"},
                        {icon: "https://img.icons8.com/color/28/null/bootstrap.png", name: "bootstrap-logo"},
@@ -23,7 +24,8 @@ export const projects = [
                         gitHubUrl: "https://github.com/JavierBL89/OP-Restaurant-Code-Inst-Project",
                         image: "https://res.cloudinary.com/dthlibbj7/image/upload/v1673356964/Captura_de_pantalla_683_g4dhne.png",
                         description: `Full stack application powered by Python, class based views and django models. Jquery and AnimateCSS frameworks are used for client side. Users can make reservations and it checks for double reservations`,
-                                     technology : [ {icon: "https://img.icons8.com/color/25/null/python--v1.png", name: "python-logo"}, 
+                                     technology : [ 
+                                     {icon: "https://img.icons8.com/color/25/null/python--v1.png", name: "python-logo"}, 
                                      {icon: "https://img.icons8.com/fluency/25/null/javascript.png", name: "javascript-logo"},
                                      {icon: "https://img.icons8.com/color/28/null/bootstrap.png", name: "bootstrap-logo"},
                                      {icon: "https://img.icons8.com/external-tal-revivo-bold-tal-revivo/24/null/external-django-a-high-level-python-web-framework-that-encourages-rapid-development-logo-bold-tal-revivo.png", name: "django-logo"},

@@ -1,7 +1,30 @@
 
 /* BLUE:    #1C3879
-CANELA: #EAE3D2; */
+CANELA: rgb(254, 250, 240); */
 
+ .card-body{
+    background-color: rgb(254, 250, 240);
+    padding: 0;
+    margin-top: 1rem;
+    border: none;
+}
+
+.collapsable .fa-github{
+    color: #001253;
+}
+
+.collapsable a {
+    color: #001253;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.project-separator{
+    background-color: #E6CBA8;
+    height: 2px;
+    margin: 3rem auto auto;
+    width: 30%;
+}
 
 #hero-wrapper{
     margin: 0;

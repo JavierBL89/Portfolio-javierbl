@@ -4,7 +4,6 @@ import "aos/dist/aos.css"
 import ReactPlayer from "react-player";
 import Collapsable from "../../Collapsable";
 import GithubIcon from   "../Social/GithubIcon.jsx";
-import {projects} from "../../dataProjects";
 
 
 function ProjectCard(props){
@@ -32,15 +31,20 @@ function ProjectCard(props){
                     </div>
                     <div className="col-sm-12 col-lg-6">
                     <div className="project-card-body">
-                            <div data-aos="fade-down-right" className="row g-0">
-                                 <div  className="col-12 project-description">
+                            <div  className="row g-0">
+                            {/* <Collapsable 
+                              gitHubUrl={props.gitHubUrl} 
+                              projectId={props.id}
+                              description={props.description}
+                              /> */}
+
+                                 <div data-aos="fade-down-right" className="col-12 project-description">
                                  <small>{props.description}
                                      </small> 
                                   </div>
                                   <div className="col-12 d-lg-none project-tech">
                                         
                                     <GithubIcon link={props.gitHubUrl}/>
-                                    {/* <GithubIcon /> */}
                                   </div>
                              </div>
                              <div className="row w-100">
@@ -50,11 +54,12 @@ function ProjectCard(props){
                     </div>
                     
                 </div>
-                <div data-aos="fade-down-right" className="col-12 d-none d-lg-flex project-tech-large">
+                <div  className="col-12 d-none d-lg-flex project-tech-large">
                     {props.technology?.map((tech, index) => {
                         return (<img key={index} src={tech.icon} alt={tech.name}/>)
                         })}
                 </div>
+                <div className="project-separator"></div>
             </div>
 
     );
