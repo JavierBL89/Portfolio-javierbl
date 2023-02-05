@@ -35,6 +35,21 @@ export const projects = [
                                      {icon: "https://img.icons8.com/color/25/null/css3.png", name: "email-send"},
                                   ]
                         },
+                        {
+                            title: "Portfolio (React App)",
+                            // url: "https://secrets-yj3o.onrender.com/",
+                            gitHubUrl: "https://github.com/JavierBL89/Portfolio-javierbl",
+                            image: "https://res.cloudinary.com/dthlibbj7/image/upload/v1675610015/Captura_de_pantalla_17_qj2tpp.png",
+                            description: `My very first React App. React Components is the architecture of this app, passing data from parents to child components and back to parents using props. React useState method is used for updating the UI on the fly, and handleClick method to handle events.`,
+                                         technology : [ {icon: "https://img.icons8.com/color/25/null/python--v1.png", name: "python-logo"}, 
+                                         {icon: "https://img.icons8.com/ios/25/null/javascript--v1.png", name: "javascript-logo"},
+                                         {icon: "https://img.icons8.com/color/25/null/stripe.png", name: "stripe-logo"},
+                                         {icon: "https://img.icons8.com/color/28/null/bootstrap.png", name: "bootstrap-logo"},
+                                         {icon: "https://img.icons8.com/external-tal-revivo-bold-tal-revivo/24/null/external-django-a-high-level-python-web-framework-that-encourages-rapid-development-logo-bold-tal-revivo.png", name: "django-logo"},
+                                         {icon: "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/null/external-jquery-is-a-javascript-library-designed-to-simplify-html-logo-shadow-tal-revivo.png", name: "jQuery-logo"},
+                                         {icon: "https://img.icons8.com/color/25/null/amazon-web-services.png", name: "email-send"},
+                                      ]
+                            },
                     {
                         title: "Secrets App",
                         url: "https://secrets-yj3o.onrender.com/",
@@ -48,20 +63,6 @@ export const projects = [
                                      {icon: "https://img.icons8.com/color/28/null/bootstrap.png", name: "bootstrap-logo"},
                                   ]
                         },
-    // {
-    //     title: "Blog with authentication",
-    //     url: "https://secrets-yj3o.onrender.com/",
-    //     image: "https://res.cloudinary.com/dthlibbj7/image/upload/v1673344348/Captura_de_pantalla_682_aidtda.png",
-    //     description: `Simple blog in which only registered users are allowed to submit a secret. This is a full stack application powered by node.js and javascript`,
-    //                  technology : [ {icon: "https://img.icons8.com/color/25/null/python--v1.png", name: "python-logo"}, 
-    //                  {icon: "https://img.icons8.com/ios/25/null/javascript--v1.png", name: "javascript-logo"},
-    //                  {icon: "https://img.icons8.com/color/25/null/stripe.png", name: "stripe-logo"},
-    //                  {icon: "https://img.icons8.com/color/28/null/bootstrap.png", name: "bootstrap-logo"},
-    //                  {icon: "https://img.icons8.com/external-tal-revivo-bold-tal-revivo/24/null/external-django-a-high-level-python-web-framework-that-encourages-rapid-development-logo-bold-tal-revivo.png", name: "django-logo"},
-    //                  {icon: "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/null/external-jquery-is-a-javascript-library-designed-to-simplify-html-logo-shadow-tal-revivo.png", name: "jQuery-logo"},
-    //                  {icon: "https://img.icons8.com/color/25/null/amazon-web-services.png", name: "email-send"},
-    //               ]
-    //     },
         // {
         //     title: "Blog",
         //     url: "https://secrets-yj3o.onrender.com/",
