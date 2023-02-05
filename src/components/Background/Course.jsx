@@ -2,7 +2,10 @@ import React from "react";
 import CourseContent from "./CourseContent";
 import CourseDiploma from "./CourseDiploma";
 
-
+/***
+ * The Course component displays 
+ * the informations of every single course
+ */
 function Course(props){
     return(
       <div className="course-container-wraper" data-aos="fade-up-right">

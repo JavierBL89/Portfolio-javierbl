@@ -1,6 +1,6 @@
 import React from "react";
 
-
+/** Linkedlin Icon component */
 function LinkedlinIcon(props){
     return (
         <div className="social-icon-wraper">

@@ -4,6 +4,8 @@ import AOS from "aos"
 
 import "aos/dist/aos.css"
 
+
+/** This component holds hobbies section content */
 function Hobbies(){
 
     useEffect(() => {

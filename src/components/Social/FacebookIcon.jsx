@@ -1,6 +1,6 @@
 import React from "react";
 
-
+/** Facebook Icon component */
 function FacebookIcon(props){
     return (
         <div className="social-icon-wraper">

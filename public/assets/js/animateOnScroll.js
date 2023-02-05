@@ -13,8 +13,6 @@ jQuery(function($){
      for(let section of sections1){
         if (y > 400) {
           $(section).slideUp("slow")
-        } else {
-        //   myID.className = "cta hide"
         }
       }
 
@@ -22,16 +20,13 @@ jQuery(function($){
       for(let section of sections1){
         if (y < 400) {
           $(section).slideDown("slow")
-        } else {
-        //   myID.className = "cta hide"
         }
       };
-
 
       };
     
       /**
-     * Function to Show and hide SECOND NAVBAR on scroll
+     * Function to show and hide SECOND NAVBAR on scroll
      */
       const handleSecondNavbar = function() {
         const sections2 = $("#secundary-navbar-container").children();
@@ -44,9 +39,7 @@ jQuery(function($){
             $("#contact-icon-2").css("display", "block").attr("class", "animate__animated animate__slideInDown animate__delay-0.8s");
             $("#contact-icon-1").fadeOut("slow")
             activeSection();
-          } else {
-          //   myID.className = "cta hide"
-          }
+          } 
         }
 
       // Hide second navbar on scrollup
@@ -55,8 +48,6 @@ jQuery(function($){
             $(section).slideUp("slow");
             $("#contact-icon-1").slideDown("slow");
             $("#contact-icon-2").css("display", "none").fadeOut("slow");
-          } else {
-          //   myID.className = "cta hide"
           }
 
         }
@@ -86,8 +77,6 @@ jQuery(function($){
     window.addEventListener("scroll", handleMainNavbar);
     window.addEventListener("scroll", handleSecondNavbar);
     
-
-
 }, 250);
 
 });

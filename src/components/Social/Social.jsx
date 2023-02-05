@@ -3,7 +3,7 @@ import LinkedlinIcon from "./LinkedlinIcon";
 import GithubIcon from "./GithubIcon";
 import FacebookIcon from "./FacebookIcon";
 
-
+/** Social Component holds social icons */
 function Social(){
     return(
         <div className="container-fluid social-wraper">

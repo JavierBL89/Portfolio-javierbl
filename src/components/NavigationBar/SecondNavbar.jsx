@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import NavBarItem from "./NavBarItem";
-import show from "../../scripts/showSection";
 import active from "../../scripts/active";
 
+
+/** Secondary navbar component */
 function SecondNavbar(){
 
     function showSection(event) {

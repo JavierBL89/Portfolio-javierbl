@@ -1,8 +1,7 @@
 import React from "react";
 import Hobbies from "../Hobbies/Hobbies";
-import SecondNavbar from "../NavigationBar/SecondNavbar";
 
-
+/** This component holds Me section content */
 function Me(){
     return (
             <section id="me-section" >

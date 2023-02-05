@@ -1,6 +1,6 @@
 import React from "react";
 
-
+/** Textarea component used in contact form */
 function TextArea(props){
     return (
         <textarea

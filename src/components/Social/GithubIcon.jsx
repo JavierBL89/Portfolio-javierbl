@@ -1,6 +1,6 @@
 import React from "react";
 
-
+/** GitHub Icon component */
 function GithubIcon(props){
     return (
         <div className="social-icon-wraper">

@@ -1,6 +1,11 @@
+/**
+ * Show Contact modal when clicking on contact icons,
+ * and resets the submit button to original state 
+ * if this was clicked before.
+ */
+
 jQuery(($) => {
-    
-        // const contactIcon = $(".contact-icon-container img");
+      
         const contactIcon = $(".contact-icon-button");
         const contactForm = document.getElementById("contact-form");
         const feedbackContainer = document.getElementById("feedback-container");

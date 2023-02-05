@@ -1,8 +1,6 @@
 import React from "react";
 import Heading from "./Heading";
 import Course from "./Course";
-import Contact from "../Contact/Contact";
-import SecondNavbar from "../NavigationBar/SecondNavbar";
 
 
 function Background(){

@@ -1,6 +1,8 @@
 import React from "react";
 
-
+/** 
+ * Heading component to display Hero text
+ */
 function Heading(){
     return (
         <div className="container-fluid heading-wraper">

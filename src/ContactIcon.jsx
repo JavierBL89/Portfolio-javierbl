@@ -1,6 +1,6 @@
 import React from "react";
 
-
+/** Contact button icon component */
 function ContactIcon(props){
 
     return (

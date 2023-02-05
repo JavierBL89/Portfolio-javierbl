@@ -1,6 +1,6 @@
 import React from "react";
 
-
+/** Quote component to display hero section quote */
 function Quote(){
     return(
         <div className="container-fluid quote-wraper">

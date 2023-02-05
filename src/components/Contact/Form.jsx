@@ -6,11 +6,18 @@ import TextArea from "./TextArea";
 import emailjs from '@emailjs/browser';
 import {contactSucceeded, contactFailed} from "../../scripts/email";
 
+
+/** 
+ * Contact form component 
+ */
 function Form(props){
 
   const form = useRef();
 
-
+   /** 
+    * Function to display a loading image while
+    * getting a response from the emailjs API.
+    */
   const contact = async (e) => {
     e.preventDefault();
     const feedback = document.getElementById("feedback-container");
@@ -24,15 +31,18 @@ function Form(props){
   sendEmail(e);
 };
 
+    /** 
+    * Function to send contact form data entered to emailjs API
+    *
+    */
   const sendEmail = (e) => {
     emailjs.sendForm("service_jfve60n", "template_4e5hfpl", form.current, 'OZrs4ez3UyYpOI5wC')
     .then((result) => {
-          console.log(result.text);
-          console.log(result);
           if(result.status === 200){
-            console.log("puta");
+            // Call this function if success
             contactSucceeded();
           }else{
+            // Call this function if fails
             contactFailed();
           }
       }, (error) => {

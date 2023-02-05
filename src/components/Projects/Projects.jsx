@@ -1,8 +1,12 @@
 import React from "react";
-import SecondNavbar from "../NavigationBar/SecondNavbar";
 import {projects} from "../../dataProjects";
 import ProjectCard from "./ProjectCard";
 
+/** 
+ * Project Component holds the projects section
+ * and create a project card for every project 
+ * document in dataProjects.js file.
+ */
 function Projects(){
 
     return (

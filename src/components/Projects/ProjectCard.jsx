@@ -1,11 +1,12 @@
 import React, { useEffect} from "react";
 import AOS from "aos";
 import "aos/dist/aos.css"
-import ReactPlayer from "react-player";
-import Collapsable from "../../Collapsable";
+import Collapsable from "../Collapsable";
 import GithubIcon from   "../Social/GithubIcon.jsx";
 
-
+/** This Component creates a card for every single project
+ * with their information.
+ */
 function ProjectCard(props){
 
     useEffect(() => {
@@ -54,7 +55,7 @@ function ProjectCard(props){
                     </div>
                     
                 </div>
-                <div  className="col-12 d-none d-lg-flex project-tech-large">
+                <div className="col-12 d-none d-lg-flex project-tech-large">
                     <GithubIcon link={props.gitHubUrl}/>
                 </div>
                 <div className="project-separator"></div>

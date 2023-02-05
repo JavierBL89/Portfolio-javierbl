@@ -1,6 +1,9 @@
 //jshint:ES6
-// alert("pp")
 
+/**
+ * Function to display a successful message to 
+ * the user when submiting a contact form.
+ */
 function contactSucceeded(){
 
     const feedback = document.getElementById("feedback-container");
@@ -26,6 +29,10 @@ function contactSucceeded(){
 
 };
 
+/**
+ * Function to display a failure message to 
+ * the user if something went wrong when submiting a contact form.
+ */
 function contactFailed(){
 
     const feedback = document.getElementById("feedback-container");

@@ -1,8 +1,10 @@
 import React from "react";
 
+/** Navbar items Coomponent */
 function NavBarItem(props){
 
-    
+    /** Function to pass in the selected section when 
+     * clicked to showSection() */
     function handleClick(e) {
         props.showSection(e);
     };

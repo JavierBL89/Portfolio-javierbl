@@ -1,11 +1,12 @@
 import React from "react";
-import H1 from "../H1";
 import H3 from "../H3";
 import Form from "./Form";
 
-
+/**
+ * This Component is the Contact modal shown
+ * when clicking on the contact icons.
+ */
 function Contact(){
-
 
     return(
         <section id="contact">

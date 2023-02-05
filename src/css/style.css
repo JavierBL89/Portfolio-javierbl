@@ -1,39 +1,8 @@
 
-/* BLUE:    #1C3879
-CANELA: rgb(254, 250, 240); */
+/******** THEME COLOR PALLETE */
 
- .card-body{
-    background-color: rgb(254, 250, 240);
-    padding: 0;
-    margin-top: 1rem;
-    border: none;
-}
-
-.collapsable .fa-github,
-.project-tech-large .fa-github{
-    color: #001253;
-}
-
-
-.collapsable a {
-    color: #001253;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-.project-separator{
-    background-color: #E6CBA8;
-    height: 2px;
-    margin: 3rem auto auto;
-    width: 30%;
-}
-
-#hero-wrapper{
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 50vh;
-    }
+/* Blue:    #1C3879
+Vanilla: rgb(254, 250, 240); */
 
 
 /**** FONT STYLES */
@@ -48,7 +17,6 @@ CANELA: rgb(254, 250, 240); */
 .contact-container h3{
     font-family: 'Sarabun', sans-serif;
 }
-
 
 .profesion,
 .course-container,
@@ -247,6 +215,13 @@ body {
     min-height: 100vh;
 }
 
+#hero-wrapper{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50vh;
+    }
+
 .heading-wraper{
     width: 100%;
     margin: 0 auto;
@@ -325,7 +300,7 @@ border-color: #1C3879;
         padding-bottom: 3px;
      }
 
-    /************* SECTIONS */
+    /******************* SECTIONS */
     .section-wraper{
         position: relative;
         width: 100%;
@@ -343,8 +318,8 @@ border-color: #1C3879;
         width: 100%;
         padding: 0 1.7rem 2rem;
     }
-    /********* ME SECTION */
 
+    /********* ME SECTION */
     .me-container > .section-content-container h6{
         text-align: center;
         font-style: italic;
@@ -378,6 +353,13 @@ border-color: #1C3879;
   .project-tech img {
      opacity: 0.7;
   }
+
+  .project-separator{
+    background-color: #E6CBA8;
+    height: 2px;
+    margin: 3rem auto auto;
+    width: 30%;
+}
 
   /*** BACKGROUND SECTION SECTION */
 
@@ -478,6 +460,26 @@ ul li{
     margin: 0;
 }
 
+/************* COLLAPSE*/
+.card-body{
+    background-color: rgb(254, 250, 240);
+    padding: 0;
+    margin-top: 1rem;
+    border: none;
+}
+
+.collapsable .fa-github,
+.project-tech-large .fa-github{
+    color: #001253;
+}
+
+
+.collapsable a {
+    color: #001253;
+    font-weight: 600;
+    text-decoration: none;
+}
+
 
 /************************************* MOBILE SCREEN */
 
@@ -574,6 +576,8 @@ ul li{
         padding: 0.4rem;
         font-size: 1em;
         color: rgb(254, 250, 240);
+        letter-spacing: 2px;
+
     }
 
     #main-navbar-container #me-link,
@@ -590,6 +594,8 @@ ul li{
      .secondary-navbar-wraper .navbar-item-box p{
         padding: 7px;
         font-size: 1em;
+        letter-spacing: 1px;
+
     }
 
     /*********** ME SECTION ***********/
@@ -892,6 +898,8 @@ textarea{
      .secondary-navbar-wraper .navbar-item-box p{
         padding: 5px;
         font-size: 1.050em;
+        letter-spacing: 2px;
+
     }
 
     /*********** ME SECTION ***********/

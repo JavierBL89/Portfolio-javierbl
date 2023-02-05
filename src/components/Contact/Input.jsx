@@ -1,6 +1,6 @@
 import React from "react";
 
-
+/** Input component used in contact form */
 function Input(props){
     return (
         <input

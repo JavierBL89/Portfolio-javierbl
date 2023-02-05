@@ -1,5 +1,5 @@
 import React from "react";
-import GithubIcon from "./components/Social/GithubIcon";
+import GithubIcon from "./Social/GithubIcon";
 
 
 function Collapsable(props){

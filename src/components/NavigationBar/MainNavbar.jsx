@@ -3,6 +3,7 @@ import NavBarItem from "./NavBarItem";
 import Section from "../Section";
 import show from "../../scripts/showSection";
 
+/** Main navbar component */
 function MainNavbar(){
 
     const [section, setSection] = useState(false);
@@ -12,7 +13,6 @@ function MainNavbar(){
         setSection(true);
         
     };
-    
     
     return(
             <div className="container-fluid g-0 main-navbar-wraper" id="main-navbar">
