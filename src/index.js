@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './css/style.css';
 import './css/animate.css';
+import './css/aos.css';
 import App from './components/App';
 import './scripts/email.js';
 
