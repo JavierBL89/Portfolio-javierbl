@@ -589,6 +589,8 @@ ul li{
 
     .secondary-navbar-wraper .navbar-item-box{
         height: 2.6rem;
+        justify-content: center;
+        margin: 0 auto;
      }
 
      .secondary-navbar-wraper .navbar-item-box p{

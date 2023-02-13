@@ -6,7 +6,7 @@ import $ from "jquery"
  */
 function active(section){
 
-    const options = $("#secundary-navbar-container").children();
+    const options = $("#secundary-navbar-container > .row").children();
     
     const meSection = $("#me-section .me-container");
     const projectsSection = $("#projects-section .projects-container");
