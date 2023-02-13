@@ -290,9 +290,10 @@ border-color: #1C3879;
         margin: 1rem auto 7rem;
     }
 
-    .secondary-navbar-wraper .navbar-item-box{
-        width: 32%;
+    #secondary-navbar #secundary-navbar-container .row .navbar-item-box{
         text-align: center;
+        width: 100%;
+
      }
 
      .secondary-navbar-wraper .navbar-container{
@@ -590,7 +591,6 @@ ul li{
     .secondary-navbar-wraper .navbar-item-box{
         height: 2.6rem;
         justify-content: center;
-        margin: 0 auto;
      }
 
      .secondary-navbar-wraper .navbar-item-box p{
