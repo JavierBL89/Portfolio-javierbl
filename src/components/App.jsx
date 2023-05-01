@@ -12,9 +12,7 @@ function App(){
         <>
         <div className="container-fluid main-wraper">
         <Social />
-        <Hero />
-        {/* <Heading /> */}
-           {/* <Quote/> */}
+        <Hero /> 
         <MainNavbar />
         <ContactIcon className="contact-icon-container" id="contact-icon-2"/>
         </div>

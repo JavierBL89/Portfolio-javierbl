@@ -29,7 +29,7 @@ jQuery(function($){
      * Function to show and hide SECOND NAVBAR on scroll
      */
       const handleSecondNavbar = function() {
-        const sections2 = $("#secundary-navbar-container").children();
+        const sections2 = $("#secondary-navbar #secundary-navbar-container .row").children();
         var y = window.scrollY;
 
       // Show second navbar on scrolldown
